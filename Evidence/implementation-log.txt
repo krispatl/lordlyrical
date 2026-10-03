@@ -1,0 +1,33 @@
+2026-10-03 — implementation and verification record
+
+Inventoried the supplied Drive folder recursively and inspected the production
+plan, newer PDFs, audio, avatar turnarounds, videos and chamber SPZ. Inspected
+local Unity projects and the exact installed NetSync SDK before implementation.
+Created a separate Unity 6000.3.9f1 project and an initial Git checkpoint.
+
+Implemented the venue authority, atomic shared state, stable ten-slot registry,
+DSP clock synchronization, scheduled audio, deterministic cue reconstruction,
+tracked avatars, XR rig, procedural encounters, pooled VFX, operator UI and reset.
+
+Resolved compile/API differences against NetSync 0.17.4, shader errors, URP
+preview rendering, mirrored text, a remote-avatar initialization race and audio
+clock reacquisition after suspension or output-device changes. Added cue retiming
+for continuous choreography and guarded heartbeat freshness against cached state.
+
+Ran authority tests, Unity core tests, official simulator, two full ten-client
+wire sessions, two full Editor playback sessions, real remote avatar pose checks,
+FullCast gating and repeated visual checkpoint review. Test-specific details and
+measurements are in the JSON files and TEST_REPORT.md.
+
+Generated a Meshy Orc candidate using existing credits. Chrome blocked the FBX
+export; no imported model is claimed. The experimental reduced chamber scan
+failed visual review and was disabled. Procedural substitutes remain explicit.
+
+Built Android ARM64 IL2CPP and Windows desktop players. Removed the unused Meta
+XR dependency after desktop startup revealed feature serialization warnings.
+The first hidden-window screen captures were black and were rejected as rendering
+evidence. The final player test explicitly renders URP into a 1280x720 buffer on
+every frame and captures that buffer; it also terminates/relaunches the player.
+
+Validated the delivered venue launcher's environment installation, stop and
+restart path. Physical PICO validation is pending because no headset is attached.

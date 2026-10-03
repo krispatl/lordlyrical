@@ -1,0 +1,18 @@
+# Project assumptions and source decisions
+
+- The production plan is the sequence authority. Newer Drive PDFs describe Daniel's private Unity 6000.5.9f1 / Quest work and unfinished features, but contain no runnable project. The user explicitly targets PICO. A separate Unity 6000.3.9f1 project preserves all existing local projects.
+- Discovery uses UDP 49999 on both sides. Stable NetSync 0.17.4 otherwise defaults to 9999; the develop branch documentation differs here.
+- One LAN computer runs NetSync plus the show-authority companion. Its monotonic clock is the network epoch; each client's scheduled master-track samples drive visuals. The operator owns mode and countdown. Software drift excludes speaker, audio driver and wireless output latency.
+- Exact supplied track length is 121.733333 seconds. The required 121-second show fades from 120 to 121 and stops, without modifying the source MP3.
+- Break accents at 64.673, 65.152 and 66.309 seconds were chosen from the supplied audio's onset envelope. These are explicit editable cues, not randomized events. Final creative listening approval is still needed.
+- Adaptive mode is the default. Missing keys remain as choreographed spectral representations. Physical tracked presence and cinematic role positions are separate. Venue-specific shared spatial registration is not inferred from networking.
+- Naming uses Discordant. Chord Barrage uses E and G. D is saturated amber; A is pale gold. G and A remain involved in support, formation and the ten-key climax. Lord Lyrical is the eleventh, full-spectrum presence and has no allocated participant slot.
+- The supplied Jeru files are ten 2D turnarounds, not a rigged 3D character. A source portrait hologram and procedural Founder mantle represent him. No voice clone was made. In-world calls use text, glyphs and musical accents until separately approved VO is supplied.
+- The chamber SPZ has 1,920,000 splats. A derived, bounded surfel mesh is retained for experimentation but disabled by default: its tested reduction did not preserve enough source detail. It is not a full Gaussian renderer. Original source data remains untouched. The reviewed procedural chamber is the active presentation and controls floor/wall phase transitions.
+- The source reference video shows music production/score material, not a complete animated storyboard. The opening concept guides moving spectral geometry while the viewer's physical camera remains stable.
+- Sculpted procedural role characters, Orcs and Dragon are replaceable proxies. Meshy generated a candidate Orc using 20 existing credits; its FBX download was blocked by Chrome. The generated high-density model remains in the user's Meshy workspace and is not claimed as imported.
+- PICO model could not be identified because ADB reports no attached devices. The selected SDK supports PICO 4, Neo 3 and PICO 4 Ultra profiles. A 72 Hz request is the initial tuning target; native refresh, visual quality and thermal behavior require the actual headset.
+- Server device IDs reserve slots in memory across reset and reconnect. A full authority-process restart intentionally creates a new boot epoch and returns the show to Ready; it does not preserve prior slot reservations.
+- The show is operator-led. Audience buttons cannot fire unsynchronized story events. Rehearsal seeks are exposed only in the local operator interface. Reconstructed persistent effects do not replay historical haptics or impact audio.
+
+Source folder: [Lord Lyrical Drive materials](https://drive.google.com/drive/folders/1Me9poG6WnSXoIU2yi0R9xGiZFkX5knqM). The extracted production-plan text is included for traceability.

@@ -1,0 +1,458 @@
+{
+  "2": {
+    "count": 37,
+    "max_error_ms": 21.0,
+    "cues": [
+      {
+        "id": "vortex",
+        "expected": 0.0,
+        "actual": 0.001,
+        "errorMs": 1.3
+      },
+      {
+        "id": "well-pull",
+        "expected": 20.0,
+        "actual": 20.018,
+        "errorMs": 18.3
+      },
+      {
+        "id": "landing",
+        "expected": 21.0,
+        "actual": 21.021,
+        "errorMs": 21.0
+      },
+      {
+        "id": "formation",
+        "expected": 23.0,
+        "actual": 23.005,
+        "errorMs": 5.2
+      },
+      {
+        "id": "orc-emerge",
+        "expected": 26.0,
+        "actual": 26.013,
+        "errorMs": 13.2
+      },
+      {
+        "id": "floor-colour",
+        "expected": 29.0,
+        "actual": 29.0,
+        "errorMs": 0.1
+      },
+      {
+        "id": "seeker-map",
+        "expected": 31.0,
+        "actual": 31.006,
+        "errorMs": 5.6
+      },
+      {
+        "id": "counter-call",
+        "expected": 34.0,
+        "actual": 34.014,
+        "errorMs": 13.7
+      },
+      {
+        "id": "cantors-front",
+        "expected": 36.0,
+        "actual": 36.019,
+        "errorMs": 19.1
+      },
+      {
+        "id": "resonance-shatter",
+        "expected": 39.0,
+        "actual": 39.006,
+        "errorMs": 5.8
+      },
+      {
+        "id": "amplitude-strike",
+        "expected": 42.0,
+        "actual": 42.014,
+        "errorMs": 13.9
+      },
+      {
+        "id": "infrasound-dread",
+        "expected": 45.0,
+        "actual": 45.0,
+        "errorMs": 0.5
+      },
+      {
+        "id": "orc-stomp",
+        "expected": 47.0,
+        "actual": 47.006,
+        "errorMs": 5.9
+      },
+      {
+        "id": "cacophony",
+        "expected": 50.0,
+        "actual": 50.014,
+        "errorMs": 14.0
+      },
+      {
+        "id": "floor-rebuild",
+        "expected": 52.0,
+        "actual": 52.019,
+        "errorMs": 19.3
+      },
+      {
+        "id": "wide-sonar",
+        "expected": 55.0,
+        "actual": 55.006,
+        "errorMs": 5.6
+      },
+      {
+        "id": "sphere-scan",
+        "expected": 59.0,
+        "actual": 59.016,
+        "errorMs": 15.8
+      },
+      {
+        "id": "scan-hold",
+        "expected": 61.0,
+        "actual": 61.021,
+        "errorMs": 20.9
+      },
+      {
+        "id": "dragon-reveal",
+        "expected": 63.0,
+        "actual": 63.005,
+        "errorMs": 4.7
+      },
+      {
+        "id": "wings-open",
+        "expected": 64.673,
+        "actual": 64.69,
+        "errorMs": 17.0
+      },
+      {
+        "id": "eyes-open",
+        "expected": 65.152,
+        "actual": 65.159,
+        "errorMs": 7.3
+      },
+      {
+        "id": "dragon-roar",
+        "expected": 66.309,
+        "actual": 66.311,
+        "errorMs": 2.2
+      },
+      {
+        "id": "breath-beam",
+        "expected": 69.0,
+        "actual": 69.021,
+        "errorMs": 20.6
+      },
+      {
+        "id": "healer-maximum",
+        "expected": 70.0,
+        "actual": 70.002,
+        "errorMs": 1.9
+      },
+      {
+        "id": "breath-sweep",
+        "expected": 74.0,
+        "actual": 74.013,
+        "errorMs": 12.7
+      },
+      {
+        "id": "lyrical-circles",
+        "expected": 76.0,
+        "actual": 76.018,
+        "errorMs": 18.1
+      },
+      {
+        "id": "full-spectrum",
+        "expected": 81.0,
+        "actual": 81.01,
+        "errorMs": 10.3
+      },
+      {
+        "id": "deep-sonar",
+        "expected": 83.0,
+        "actual": 83.016,
+        "errorMs": 15.7
+      },
+      {
+        "id": "identify-discordant",
+        "expected": 87.0,
+        "actual": 87.005,
+        "errorMs": 5.3
+      },
+      {
+        "id": "anti-frequency",
+        "expected": 90.0,
+        "actual": 90.014,
+        "errorMs": 13.8
+      },
+      {
+        "id": "amplitude-rise",
+        "expected": 92.0,
+        "actual": 92.019,
+        "errorMs": 19.4
+      },
+      {
+        "id": "ten-key-lock",
+        "expected": 96.0,
+        "actual": 96.009,
+        "errorMs": 9.2
+      },
+      {
+        "id": "the-word",
+        "expected": 98.0,
+        "actual": 98.015,
+        "errorMs": 14.6
+      },
+      {
+        "id": "art-pulse",
+        "expected": 101.0,
+        "actual": 101.002,
+        "errorMs": 1.8
+      },
+      {
+        "id": "art-hold",
+        "expected": 106.0,
+        "actual": 106.016,
+        "errorMs": 15.8
+      },
+      {
+        "id": "title-assembly",
+        "expected": 111.0,
+        "actual": 111.008,
+        "errorMs": 8.3
+      },
+      {
+        "id": "complete",
+        "expected": 121.0,
+        "actual": 121.0,
+        "errorMs": 0.0
+      }
+    ]
+  },
+  "4": {
+    "count": 37,
+    "max_error_ms": 21.3,
+    "cues": [
+      {
+        "id": "vortex",
+        "expected": 0.0,
+        "actual": 0.013,
+        "errorMs": 12.8
+      },
+      {
+        "id": "well-pull",
+        "expected": 20.0,
+        "actual": 20.0,
+        "errorMs": 0.5
+      },
+      {
+        "id": "landing",
+        "expected": 21.0,
+        "actual": 21.003,
+        "errorMs": 3.1
+      },
+      {
+        "id": "formation",
+        "expected": 23.0,
+        "actual": 23.008,
+        "errorMs": 8.4
+      },
+      {
+        "id": "orc-emerge",
+        "expected": 26.0,
+        "actual": 26.016,
+        "errorMs": 16.5
+      },
+      {
+        "id": "floor-colour",
+        "expected": 29.0,
+        "actual": 29.004,
+        "errorMs": 3.8
+      },
+      {
+        "id": "seeker-map",
+        "expected": 31.0,
+        "actual": 31.01,
+        "errorMs": 9.6
+      },
+      {
+        "id": "counter-call",
+        "expected": 34.0,
+        "actual": 34.018,
+        "errorMs": 18.1
+      },
+      {
+        "id": "cantors-front",
+        "expected": 36.0,
+        "actual": 36.002,
+        "errorMs": 2.4
+      },
+      {
+        "id": "resonance-shatter",
+        "expected": 39.0,
+        "actual": 39.011,
+        "errorMs": 10.7
+      },
+      {
+        "id": "amplitude-strike",
+        "expected": 42.0,
+        "actual": 42.019,
+        "errorMs": 19.0
+      },
+      {
+        "id": "infrasound-dread",
+        "expected": 45.0,
+        "actual": 45.006,
+        "errorMs": 5.7
+      },
+      {
+        "id": "orc-stomp",
+        "expected": 47.0,
+        "actual": 47.011,
+        "errorMs": 10.9
+      },
+      {
+        "id": "cacophony",
+        "expected": 50.0,
+        "actual": 50.019,
+        "errorMs": 18.8
+      },
+      {
+        "id": "floor-rebuild",
+        "expected": 52.0,
+        "actual": 52.003,
+        "errorMs": 2.7
+      },
+      {
+        "id": "wide-sonar",
+        "expected": 55.0,
+        "actual": 55.011,
+        "errorMs": 10.7
+      },
+      {
+        "id": "sphere-scan",
+        "expected": 59.0,
+        "actual": 59.021,
+        "errorMs": 21.3
+      },
+      {
+        "id": "scan-hold",
+        "expected": 61.0,
+        "actual": 61.005,
+        "errorMs": 5.0
+      },
+      {
+        "id": "dragon-reveal",
+        "expected": 63.0,
+        "actual": 63.01,
+        "errorMs": 10.0
+      },
+      {
+        "id": "wings-open",
+        "expected": 64.673,
+        "actual": 64.674,
+        "errorMs": 0.7
+      },
+      {
+        "id": "eyes-open",
+        "expected": 65.152,
+        "actual": 65.164,
+        "errorMs": 12.2
+      },
+      {
+        "id": "dragon-roar",
+        "expected": 66.309,
+        "actual": 66.316,
+        "errorMs": 7.0
+      },
+      {
+        "id": "breath-beam",
+        "expected": 69.0,
+        "actual": 69.004,
+        "errorMs": 3.6
+      },
+      {
+        "id": "healer-maximum",
+        "expected": 70.0,
+        "actual": 70.006,
+        "errorMs": 6.2
+      },
+      {
+        "id": "breath-sweep",
+        "expected": 74.0,
+        "actual": 74.016,
+        "errorMs": 16.4
+      },
+      {
+        "id": "lyrical-circles",
+        "expected": 76.0,
+        "actual": 76.0,
+        "errorMs": 0.2
+      },
+      {
+        "id": "full-spectrum",
+        "expected": 81.0,
+        "actual": 81.013,
+        "errorMs": 12.9
+      },
+      {
+        "id": "deep-sonar",
+        "expected": 83.0,
+        "actual": 83.018,
+        "errorMs": 18.1
+      },
+      {
+        "id": "identify-discordant",
+        "expected": 87.0,
+        "actual": 87.007,
+        "errorMs": 7.2
+      },
+      {
+        "id": "anti-frequency",
+        "expected": 90.0,
+        "actual": 90.015,
+        "errorMs": 15.0
+      },
+      {
+        "id": "amplitude-rise",
+        "expected": 92.0,
+        "actual": 92.02,
+        "errorMs": 20.3
+      },
+      {
+        "id": "ten-key-lock",
+        "expected": 96.0,
+        "actual": 96.01,
+        "errorMs": 10.2
+      },
+      {
+        "id": "the-word",
+        "expected": 98.0,
+        "actual": 98.016,
+        "errorMs": 16.0
+      },
+      {
+        "id": "art-pulse",
+        "expected": 101.0,
+        "actual": 101.003,
+        "errorMs": 2.8
+      },
+      {
+        "id": "art-hold",
+        "expected": 106.0,
+        "actual": 106.015,
+        "errorMs": 15.3
+      },
+      {
+        "id": "title-assembly",
+        "expected": 111.0,
+        "actual": 111.007,
+        "errorMs": 6.7
+      },
+      {
+        "id": "complete",
+        "expected": 121.0,
+        "actual": 121.0,
+        "errorMs": 0.0
+      }
+    ]
+  }
+}

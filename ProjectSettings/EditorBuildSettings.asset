@@ -4,6 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LordLyrical/Scenes/Experience.unity
+    guid: 9cf6194cdd14a5549b27d0e2409e25ea
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5a28e5bb3a120df4487a34466a7406ef, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f657254c59c51f248a95a4d0f9f6ec45, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c7ec6e25790fc614aa5cb01a917dad47, type: 2}
   m_UseUCBPForAssetBundles: 0

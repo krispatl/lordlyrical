@@ -1,0 +1,230 @@
+{
+  "runId": 4,
+  "count": 37,
+  "max_dispatch_error_ms": 20.4,
+  "passed": true,
+  "cues": [
+    {
+      "id": "vortex",
+      "expected": 0.0,
+      "actual": 0.014,
+      "errorMs": 14.1
+    },
+    {
+      "id": "well-pull",
+      "expected": 20.0,
+      "actual": 20.016,
+      "errorMs": 15.7
+    },
+    {
+      "id": "landing",
+      "expected": 21.0,
+      "actual": 21.018,
+      "errorMs": 18.0
+    },
+    {
+      "id": "formation",
+      "expected": 23.0,
+      "actual": 23.002,
+      "errorMs": 1.6
+    },
+    {
+      "id": "orc-emerge",
+      "expected": 26.0,
+      "actual": 26.009,
+      "errorMs": 8.9
+    },
+    {
+      "id": "floor-colour",
+      "expected": 29.0,
+      "actual": 29.016,
+      "errorMs": 16.5
+    },
+    {
+      "id": "seeker-map",
+      "expected": 31.0,
+      "actual": 31.0,
+      "errorMs": 0.2
+    },
+    {
+      "id": "counter-call",
+      "expected": 34.0,
+      "actual": 34.008,
+      "errorMs": 8.0
+    },
+    {
+      "id": "cantors-front",
+      "expected": 36.0,
+      "actual": 36.013,
+      "errorMs": 13.4
+    },
+    {
+      "id": "resonance-shatter",
+      "expected": 39.0,
+      "actual": 39.001,
+      "errorMs": 0.8
+    },
+    {
+      "id": "amplitude-strike",
+      "expected": 42.0,
+      "actual": 42.009,
+      "errorMs": 9.4
+    },
+    {
+      "id": "infrasound-dread",
+      "expected": 45.0,
+      "actual": 45.018,
+      "errorMs": 18.3
+    },
+    {
+      "id": "orc-stomp",
+      "expected": 47.0,
+      "actual": 47.003,
+      "errorMs": 2.8
+    },
+    {
+      "id": "cacophony",
+      "expected": 50.0,
+      "actual": 50.011,
+      "errorMs": 10.6
+    },
+    {
+      "id": "floor-rebuild",
+      "expected": 52.0,
+      "actual": 52.016,
+      "errorMs": 16.2
+    },
+    {
+      "id": "wide-sonar",
+      "expected": 55.0,
+      "actual": 55.003,
+      "errorMs": 3.5
+    },
+    {
+      "id": "sphere-scan",
+      "expected": 59.0,
+      "actual": 59.015,
+      "errorMs": 14.8
+    },
+    {
+      "id": "scan-hold",
+      "expected": 61.0,
+      "actual": 61.02,
+      "errorMs": 20.4
+    },
+    {
+      "id": "dragon-reveal",
+      "expected": 63.0,
+      "actual": 63.005,
+      "errorMs": 4.6
+    },
+    {
+      "id": "wings-open",
+      "expected": 64.673,
+      "actual": 64.69,
+      "errorMs": 16.9
+    },
+    {
+      "id": "eyes-open",
+      "expected": 65.152,
+      "actual": 65.159,
+      "errorMs": 7.2
+    },
+    {
+      "id": "dragon-roar",
+      "expected": 66.309,
+      "actual": 66.311,
+      "errorMs": 2.1
+    },
+    {
+      "id": "breath-beam",
+      "expected": 69.0,
+      "actual": 69.02,
+      "errorMs": 20.3
+    },
+    {
+      "id": "healer-maximum",
+      "expected": 70.0,
+      "actual": 70.002,
+      "errorMs": 1.6
+    },
+    {
+      "id": "breath-sweep",
+      "expected": 74.0,
+      "actual": 74.012,
+      "errorMs": 12.2
+    },
+    {
+      "id": "lyrical-circles",
+      "expected": 76.0,
+      "actual": 76.017,
+      "errorMs": 17.5
+    },
+    {
+      "id": "full-spectrum",
+      "expected": 81.0,
+      "actual": 81.009,
+      "errorMs": 8.9
+    },
+    {
+      "id": "deep-sonar",
+      "expected": 83.0,
+      "actual": 83.014,
+      "errorMs": 14.2
+    },
+    {
+      "id": "identify-discordant",
+      "expected": 87.0,
+      "actual": 87.004,
+      "errorMs": 3.8
+    },
+    {
+      "id": "anti-frequency",
+      "expected": 90.0,
+      "actual": 90.012,
+      "errorMs": 12.0
+    },
+    {
+      "id": "amplitude-rise",
+      "expected": 92.0,
+      "actual": 92.017,
+      "errorMs": 17.4
+    },
+    {
+      "id": "ten-key-lock",
+      "expected": 96.0,
+      "actual": 96.007,
+      "errorMs": 7.0
+    },
+    {
+      "id": "the-word",
+      "expected": 98.0,
+      "actual": 98.013,
+      "errorMs": 12.9
+    },
+    {
+      "id": "art-pulse",
+      "expected": 101.0,
+      "actual": 101.0,
+      "errorMs": 0.5
+    },
+    {
+      "id": "art-hold",
+      "expected": 106.0,
+      "actual": 106.015,
+      "errorMs": 14.9
+    },
+    {
+      "id": "title-assembly",
+      "expected": 111.0,
+      "actual": 111.007,
+      "errorMs": 7.4
+    },
+    {
+      "id": "complete",
+      "expected": 121.0,
+      "actual": 121.0,
+      "errorMs": 0.0
+    }
+  ]
+}

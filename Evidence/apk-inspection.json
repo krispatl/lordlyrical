@@ -1,0 +1,29 @@
+{
+  "artifact": "LordLyrical-PICO.apk",
+  "bytes": 96709251,
+  "sha256": "5cf5d5b11d85da8d749a23abded4202f5d446c2db0eb3fcc6d644b3fac906303",
+  "package": "com.fifthyang.lordlyrical",
+  "abis": [
+    "arm64-v8a"
+  ],
+  "nativeLibraries": [
+    "lib/arm64-v8a/libCameraRenderingPlugin.so",
+    "lib/arm64-v8a/libPICO_TOBAPI.so",
+    "lib/arm64-v8a/libUnityOpenXR.so",
+    "lib/arm64-v8a/libUnityOpenXRHands.so",
+    "lib/arm64-v8a/libc++_shared.so",
+    "lib/arm64-v8a/libgame.so",
+    "lib/arm64-v8a/libmain.so",
+    "lib/arm64-v8a/libopenxr_loader.so",
+    "lib/arm64-v8a/libopenxr_pico.so",
+    "lib/arm64-v8a/libpvrcapturelib.so",
+    "lib/arm64-v8a/libpxrplatformloader.so",
+    "lib/arm64-v8a/libswappywrapper.so",
+    "lib/arm64-v8a/lib_burst_generated.so",
+    "lib/arm64-v8a/libil2cpp.so",
+    "lib/arm64-v8a/libunity.so"
+  ],
+  "signatureVerified": true,
+  "developmentBuild": true,
+  "physicalDeviceTested": false
+}

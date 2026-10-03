@@ -1,0 +1,28 @@
+{
+  "sdk": "0.17.4",
+  "protocol": 8,
+  "clients": 10,
+  "cycles": [
+    {
+      "runId": 1,
+      "duration": 121,
+      "all_completed": true
+    },
+    {
+      "runId": 3,
+      "duration": 121,
+      "all_completed": true
+    }
+  ],
+  "checks": [
+    "Ten distinct client identities and stable unique slots",
+    "Disconnect at 78s and same-device rejoin at 85s recovered slot and epoch",
+    "Two full start, completion and reset cycles; no protocol mismatch"
+  ],
+  "clock_roundtrip_ms": {
+    "samples": 2441,
+    "max": 140.00000013038516,
+    "mean": 36.03932819974375
+  },
+  "passed": true
+}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e66b59722eaffa4ea675d5d3bee98db, type: 3}
+  m_Name: Experience
+  m_EditorClassIdentifier: Assembly-CSharp::LordLyrical.ExperienceConfiguration
+  roomId: lord-lyrical
+  serverOverride: 
+  autoDiscovery: 1
+  operatorMode: 0
+  debugLogging: 1
+  spatialAccents: 1
+  useSourceChamber: 0
+  showMode: Adaptive
+  targetHeadsetProfile: PICO OpenXR / 72 Hz
+  requiredParticipants: 10
+  targetRefreshRate: 72
+  vfxQuality: 1
+  countdownDuration: 5
+  sequenceDuration: 121
+  track: {fileID: 8300000, guid: a0bc8accf091a5b478f0c65bb883028b, type: 3}
+  cueJson: {fileID: 4900000, guid: 33fbf8be76d2fab4eafb9591a5dcc43d, type: 3}
+  orcModel: {fileID: 0}
+  dragonModel: {fileID: 0}
+  lordModel: {fileID: 0}
+  lordPortrait: {fileID: 2800000, guid: 603b62afd43ee144e93ea94ce2214791, type: 3}

@@ -1,0 +1,1138 @@
+Mono path[0] = 'C:/Users/kris/Documents/Codex/2026-10-03/als/outputs/LordLyrical/Builds/Desktop/LordLyrical_Data/Managed'
+Mono config path = 'C:/Users/kris/Documents/Codex/2026-10-03/als/outputs/LordLyrical/Builds/Desktop/MonoBleedingEdge/etc'
+Found 2 interfaces on host : 0) 192.168.1.21 1) 100.91.179.18
+Player connection [32224]  Target information:
+
+Player connection [32224]  * "[IP] 192.168.1.21 [Port] 55000 [Flags] 2 [Guid] 1177309349 [EditorId] 3991777475 [Version] 1048832 [Id] WindowsPlayer(2,EsproXR) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Lord Lyrical - The Resonant Realm" 
+
+Player connection [32224]  * "[IP] 100.91.179.18 [Port] 55000 [Flags] 2 [Guid] 1177309349 [EditorId] 3991777475 [Version] 1048832 [Id] WindowsPlayer(2,EsproXR) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Lord Lyrical - The Resonant Realm" 
+
+Player connection [32224] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Users/kris/Documents/Codex/2026-10-03/als/outputs/LordLyrical/Builds/Desktop/LordLyrical_Data/UnitySubsystems
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5060
+[D3D12 Device Filter] Driver Version: 32.0.15.7688
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7807 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:          NVIDIA
+    VRAM:            7807 MB
+    App VRAM Budget: 7039 MB
+    Driver:          32.0.15.7688
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.126 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+[PoxrUnity]  FrameID=0>>>>>>RegisterDescriptor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Unity.XR.OpenXR.Features.PICOSupport.PLog:i (string,string) (at ./Library/PackageCache/com.unity.xr.openxr.picoxr@3aa3e62bff41/Runtime/Features/Utils/PLog.cs:83)
+PXR_HumanBodySubsystem:RegisterDescriptor () (at ./Library/PackageCache/com.unity.xr.openxr.picoxr@3aa3e62bff41/Runtime/Subsystem/PXR_HumanBodySubsystem.cs:156)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 0.593600 ms
+[NetSyncManager] STYLY-NetSync Version: 0.17.4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.NetSyncManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1478)
+Styly.NetSync.NetSyncManager:Awake () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:639)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[DeviceIdResolver] Using Device-ID-Provider: e83f73ce-b73c-4932-add2-768bf8ceb5a4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.Internal.DeviceIdResolver:Log (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/DeviceIdResolver.cs:186)
+Styly.NetSync.Internal.DeviceIdResolver:ResolveWithDeviceIdProvider () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/DeviceIdResolver.cs:156)
+Styly.NetSync.Internal.DeviceIdResolver:ResolveRuntime () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/DeviceIdResolver.cs:79)
+Styly.NetSync.Internal.DeviceIdResolver:Resolve () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/DeviceIdResolver.cs:46)
+Styly.NetSync.NetSyncManager:Awake () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:652)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetSyncManager] Device ID: e83f73ce-b73c-4932-add2-768bf8ceb5a4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.NetSyncManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1478)
+Styly.NetSync.NetSyncManager:CompleteDeviceIdResolution () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:895)
+Styly.NetSync.NetSyncManager:Awake () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:656)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[AvatarManager] Local avatar initialized with ID: e83f73ce-b73c-4932-add2-768bf8ceb5a4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.AvatarManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/AvatarManager.cs:334)
+Styly.NetSync.AvatarManager:InitializeLocalAvatar (UnityEngine.GameObject,string,Styly.NetSync.NetSyncManager) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/AvatarManager.cs:76)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:687)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Discovery socket bound to 100.91.179.18
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager:StartUdpBroadcastDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:93)
+Styly.NetSync.ServerDiscoveryManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:66)
+Styly.NetSync.ConnectionManager:StartDiscovery (Styly.NetSync.ServerDiscoveryManager,string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:707)
+Styly.NetSync.NetSyncManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1234)
+Styly.NetSync.NetSyncManager:StartNetworking () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1215)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:688)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Discovery socket bound to 192.168.1.21
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager:StartUdpBroadcastDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:93)
+Styly.NetSync.ServerDiscoveryManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:66)
+Styly.NetSync.ConnectionManager:StartDiscovery (Styly.NetSync.ServerDiscoveryManager,string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:707)
+Styly.NetSync.NetSyncManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1234)
+Styly.NetSync.NetSyncManager:StartNetworking () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1215)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:688)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Started UDP discovery on port 49999 (2 interfaces)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager:StartUdpBroadcastDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:219)
+Styly.NetSync.ServerDiscoveryManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:66)
+Styly.NetSync.ConnectionManager:StartDiscovery (Styly.NetSync.ServerDiscoveryManager,string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:707)
+Styly.NetSync.NetSyncManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1234)
+Styly.NetSync.NetSyncManager:StartNetworking () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1215)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:688)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ConnectionManager] Server discovery started
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ConnectionManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:723)
+Styly.NetSync.ConnectionManager:StartDiscovery (Styly.NetSync.ServerDiscoveryManager,string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:708)
+Styly.NetSync.NetSyncManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1234)
+Styly.NetSync.NetSyncManager:StartNetworking () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1215)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:688)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Attempting to discover server on localhost via TCP...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager/<>c__DisplayClass41_0:<StartUdpBroadcastDiscovery>b__0 () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:117)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Camera "Tracked Head" does not use a Tracked Pose Driver (Input System), so its transform will not be updated by an XR device.  In order for this to be updated, please add a Tracked Pose Driver (Input System) with bindings for position and rotation of the center eye.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:216)
+Unity.XR.CoreUtils.XROrigin:Awake () (at ./Library/PackageCache/com.unity.xr.core-utils@f0450cbac8d6/Runtime/XROrigin.cs:554)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 216)
+
+[NetSyncManager] Application gained focus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.NetSyncManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1478)
+Styly.NetSync.NetSyncManager:OnApplicationFocus (bool) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:774)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Discovered server 'STYLY-NetSync-Server
+' at tcp://127.0.0.1 (control:5555, transform:5557, sub:5556, rest:8800)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager:ProcessDiscoveryResponse (byte[],System.Net.IPEndPoint) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:589)
+Styly.NetSync.ServerDiscoveryManager:TryTcpDiscovery (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:382)
+Styly.NetSync.ServerDiscoveryManager/<>c__DisplayClass41_0:<StartUdpBroadcastDiscovery>b__0 () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:118)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetSyncManager] Server discovered: tcp://127.0.0.1 (control:5555, transform:5557, sub:5556, rest:8800)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.NetSyncManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1478)
+Styly.NetSync.NetSyncManager:OnServerDiscovered (string,int,int,int,int) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1199)
+Styly.NetSync.ServerDiscoveryManager:ProcessDiscoveryResponse (byte[],System.Net.IPEndPoint) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:593)
+Styly.NetSync.ServerDiscoveryManager:TryTcpDiscovery (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:382)
+Styly.NetSync.ServerDiscoveryManager/<>c__DisplayClass41_0:<StartUdpBroadcastDiscovery>b__0 () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:118)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Server discovered on localhost via TCP.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager/<>c__DisplayClass41_0:<StartUdpBroadcastDiscovery>b__0 () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:120)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[HandPoseNormalizer] Could not find R_Wrist under XROrigin.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:LogWarning (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:213)
+Styly.NetSync.Internal.HandPoseNormalizer:FindHandTransform () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/HandPoseNormalizer.cs:602)
+Styly.NetSync.Internal.HandPoseNormalizer:Start () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/HandPoseNormalizer.cs:136)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 213)
+
+[HandPoseNormalizer] Could not find L_Wrist under XROrigin.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:LogWarning (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:213)
+Styly.NetSync.Internal.HandPoseNormalizer:FindHandTransform () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/HandPoseNormalizer.cs:602)
+Styly.NetSync.Internal.HandPoseNormalizer:Start () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/HandPoseNormalizer.cs:136)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 213)
+
+LL boot: track=121.809s, DSP buffer=1024x4, target=72Hz
+[ServerDiscovery] Cached server IP: 127.0.0.1
+[ConnectionManager] Network thread started
+[ConnectionManager] [Thread] CONTROL DEALER connected → tcp://127.0.0.1:5555
+[ConnectionManager] [Thread] TRANSFORM DEALER connected → tcp://127.0.0.1:5557
+[ConnectionManager] [Thread] SUB connected    → tcp://127.0.0.1:5556
+[NetSyncManager] Connection established successfully
+[NetSyncManager] Local client number assigned: 2
+[NetSyncManager] Global Variable Changed - Name: ll.roster, Old: null, New: {"participants":[{"slot":0,"deviceId":"e83f73ce-b73c-4932-add2-768bf8ceb5a4","clientNo":2,"key":"D","connected":false},{"slot":1,"deviceId":"","clientNo":0,"key":"C","connected":false},{"slot":2,"deviceId":"","clientNo":0,"key":"E","connected":false},{"slot":3,"deviceId":"","clientNo":0,"key":"G","connected":false},{"slot":4,"deviceId":"","clientNo":0,"key":"F","connected":false},{"slot":5,"deviceId":"","clientNo":0,"key":"B","connected":false},{"slot":6,"deviceId":"","clientNo":0,"key":"C#","connected":false},{"slot":7,"deviceId":"","clientNo":0,"key":"F#","connected":false},{"slot":8,"deviceId":"","clientNo":0,"key":"Bb","connected":false},{"slot":9,"deviceId":"","clientNo":0,"key":"A","connected":false}]}
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: null, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":64,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] Client Variable Changed - Client#2, Name: BatteryLevel, Old: null, New: N/A
+[NetSyncManager] Client Variable Changed - Client#2, Name: ll.slot, Old: null, New: 0
+[NetSyncManager] Local client number assigned: 2
+[NetSyncManager] Battery level updated: N/A
+[NetSyncManager] NetSyncManager is now Ready (connected, handshaken, and network variables synced)
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [3.6906666666666665]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [3.7333333333333334]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [3.6906666666666665, 1598794.0, 1598794.0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [3.7333333333333334, 1598794.0, 1598794.0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.roster, Old: {"participants":[{"slot":0,"deviceId":"e83f73ce-b73c-4932-add2-768bf8ceb5a4","clientNo":2,"key":"D","connected":false},{"slot":1,"deviceId":"","clientNo":0,"key":"C","connected":false},{"slot":2,"deviceId":"","clientNo":0,"key":"E","connected":false},{"slot":3,"deviceId":"","clientNo":0,"key":"G","connected":false},{"slot":4,"deviceId":"","clientNo":0,"key":"F","connected":false},{"slot":5,"deviceId":"","clientNo":0,"key":"B","connected":false},{"slot":6,"deviceId":"","clientNo":0,"key":"C#","connected":false},{"slot":7,"deviceId":"","clientNo":0,"key":"F#","connected":false},{"slot":8,"deviceId":"","clientNo":0,"key":"Bb","connected":false},{"slot":9,"deviceId":"","clientNo":0,"key":"A","connected":false}]}, New: {"participants":[{"slot":0,"deviceId":"e83f73ce-b73c-4932-add2-768bf8ceb5a4","clientNo":2,"key":"D","connected":true},{"slot":1,"deviceId":"","clientNo":0,"key":"C","connected":false},{"slot":2,"deviceId":"","clientNo":0,"key":"E","connected":false},{"slot":3,"deviceId":"","clientNo":0,"key":"G","connected":false},{"slot":4,"deviceId":"","clientNo":0,"key":"F","connected":false},{"slot":5,"deviceId":"","clientNo":0,"key":"B","connected":false},{"slot":6,"deviceId":"","clientNo":0,"key":"C#","connected":false},{"slot":7,"deviceId":"","clientNo":0,"key":"F#","connected":false},{"slot":8,"deviceId":"","clientNo":0,"key":"Bb","connected":false},{"slot":9,"deviceId":"","clientNo":0,"key":"A","connected":false}]}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [3.904]
+[NetSyncManager] Local client number assigned: 2
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [3.904, 1598794.171, 1598794.171, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [4.0746666666666664]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [4.0746666666666664, 1598794.343, 1598794.343, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [4.245333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [4.245333333333333, 1598794.5, 1598794.5, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [4.416]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [4.416, 1598794.671, 1598794.671, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":65,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [4.5866666666666669]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":64,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":65,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [4.5866666666666669, 1598794.859, 1598794.859, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [4.7573333333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [4.7573333333333334, 1598795.015, 1598795.015, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [4.928]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [4.928, 1598795.203, 1598795.203, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [5.0986666666666665]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [5.0986666666666665, 1598795.343, 1598795.343, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [5.269333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [5.269333333333333, 1598795.531, 1598795.531, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL reconstructed run=2 at 91.406s slot=1
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.9998550415039,"battery":-1.0,"driftMs":0.0,"rttMs":0.0,"memoryMb":102.14691638946533,"time":91.46999999997206,"phase":"Running","cue":"anti-frequency","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [5.44]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [5.44, 1598795.703, 1598795.703, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE amplitude-rise expected=92.000 actual=92.003 errorMs=3.3
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [6.4426666666666668]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [6.4426666666666668, 1598796.718, 1598796.718, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":66,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":65,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":66,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99935913085938,"battery":-1.0,"driftMs":-18.281179264363347,"rttMs":0.0,"memoryMb":102.24461364746094,"time":93.47838548752834,"phase":"Running","cue":"amplitude-rise","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [7.4453333333333331]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [7.4453333333333331, 1598797.703, 1598797.703, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [8.448]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [8.448, 1598798.703, 1598798.703, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":67,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":66,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":67,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99994659423828,"battery":-1.0,"driftMs":-14.852607787361194,"rttMs":0.0,"memoryMb":102.24464225769043,"time":95.48714739229026,"phase":"Running","cue":"amplitude-rise","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [9.4506666666666668]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [9.4506666666666668, 1598799.718, 1598799.718, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE ten-key-lock expected=96.000 actual=96.021 errorMs=21.2
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [10.453333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [10.453333333333333, 1598800.703, 1598800.703, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":68,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":67,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":68,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.98922729492188,"battery":-1.0,"driftMs":-12.081632682239274,"rttMs":0.0,"memoryMb":102.24870109558106,"time":97.49525170068027,"phase":"Running","cue":"ten-key-lock","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [11.456]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [11.456, 1598801.718, 1598801.718, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE the-word expected=98.000 actual=98.008 errorMs=7.9
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [12.458666666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [12.458666666666666, 1598802.703, 1598802.703, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":69,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":68,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":69,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":69.04685974121094,"battery":-1.0,"driftMs":-9.809523790281105,"rttMs":0.0,"memoryMb":102.25563716888428,"time":99.50259863945579,"phase":"Running","cue":"the-word","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [13.461333333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [13.461333333333334, 1598803.734, 1598803.734, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [14.464]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [14.464, 1598804.718, 1598804.718, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":70,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":69,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":70,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE art-pulse expected=101.000 actual=101.019 errorMs=18.7
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99996948242188,"battery":-1.0,"driftMs":-8.181406008688441,"rttMs":0.0,"memoryMb":102.25020790100098,"time":101.50981859410432,"phase":"Running","cue":"art-pulse","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [15.466666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [15.466666666666667, 1598805.734, 1598805.734, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [16.469333333333335]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [16.469333333333335, 1598806.718, 1598806.718, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":71,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":70,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":71,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99433898925781,"battery":-1.0,"driftMs":-4.798299437197784,"rttMs":0.0,"memoryMb":102.25119018554688,"time":103.5165850340136,"phase":"Running","cue":"art-pulse","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [17.472]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [17.472, 1598807.718, 1598807.718, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [18.474666666666668]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [18.474666666666668, 1598808.734, 1598808.734, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":72,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":71,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":72,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99845886230469,"battery":-1.0,"driftMs":-3.9094104998866898,"rttMs":0.0,"memoryMb":102.25125885009766,"time":105.52280725623582,"phase":"Running","cue":"art-pulse","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [19.477333333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [19.477333333333334, 1598809.75, 1598809.75, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE art-hold expected=106.000 actual=106.014 errorMs=13.7
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [20.48]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [20.48, 1598810.734, 1598810.734, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":73,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":72,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":73,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993133544922,"battery":-1.0,"driftMs":-2.3671030686358565,"rttMs":0.0,"memoryMb":102.25174713134766,"time":107.5288253968254,"phase":"Running","cue":"art-hold","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [21.482666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [21.482666666666667, 1598811.734, 1598811.734, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [22.485333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [22.485333333333333, 1598812.75, 1598812.75, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":74,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":73,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":74,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99974060058594,"battery":-1.0,"driftMs":-1.931729103375801,"rttMs":0.0,"memoryMb":102.25181579589844,"time":109.53459410430838,"phase":"Running","cue":"art-hold","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [23.488]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [23.488, 1598813.734, 1598813.734, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [24.490666666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [24.490666666666666, 1598814.75, 1598814.75, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":75,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":74,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":75,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE title-assembly expected=111.000 actual=111.007 errorMs=6.8
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99981689453125,"battery":-1.0,"driftMs":-1.5643821161717142,"rttMs":0.0,"memoryMb":102.27927875518799,"time":111.5402947845805,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [25.493333333333332]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [25.493333333333332, 1598815.75, 1598815.75, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [26.496]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [26.496, 1598816.765, 1598816.765, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":76,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":75,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":76,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99476623535156,"battery":-1.0,"driftMs":-1.2968083194380143,"rttMs":0.0,"memoryMb":102.28026294708252,"time":113.54589569160999,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [27.498666666666665]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [27.498666666666665, 1598817.75, 1598817.75, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [28.501333333333335]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [28.501333333333335, 1598818.765, 1598818.765, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":77,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":76,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":77,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993133544922,"battery":-1.0,"driftMs":-1.0655157540071514,"rttMs":0.0,"memoryMb":102.32398891448975,"time":115.55146031746031,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [29.504]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [29.504, 1598819.765, 1598819.765, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [30.506666666666668]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [30.506666666666668, 1598820.765, 1598820.765, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":78,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":77,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":78,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":69.12750244140625,"battery":-1.0,"driftMs":-0.8568991583643992,"rttMs":0.0,"memoryMb":102.31214714050293,"time":117.5570022675737,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [31.509333333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [31.509333333333334, 1598821.765, 1598821.765, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [32.512]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [32.512, 1598822.781, 1598822.781, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":79,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":78,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":79,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99951934814453,"battery":-1.0,"driftMs":-0.6936338038059375,"rttMs":0.0,"memoryMb":102.28781700134278,"time":119.56249886621316,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [33.514666666666663]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [33.514666666666663, 1598823.781, 1598823.781, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [34.517333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [34.517333333333333, 1598824.781, 1598824.781, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":80,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":81,"runId":2,"phase":"Complete","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL CUE complete expected=121.000 actual=121.000 errorMs=0.0
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":79,"runId":2,"phase":"Running","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":81,"runId":2,"phase":"Complete","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993896484375,"battery":-1.0,"driftMs":-0.5938604084434473,"rttMs":0.0,"memoryMb":102.28716659545899,"time":121.0,"phase":"Complete","cue":"complete","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":82,"runId":3,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [35.52]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [35.52, 1598825.796, 1598825.796, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":81,"runId":2,"phase":"Complete","epoch":1598704.125,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":82,"runId":3,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [36.522666666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [36.522666666666666, 1598826.796, 1598826.796, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99966430664063,"battery":-1.0,"driftMs":-0.5938604084434473,"rttMs":21.333333333330985,"memoryMb":102.28681945800781,"time":0.0,"phase":"Ready","cue":"","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":83,"runId":3,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [37.525333333333336]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [37.525333333333336, 1598827.796, 1598827.796, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":82,"runId":3,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":83,"runId":3,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [38.528]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":84,"runId":4,"phase":"Countdown","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL reconstructed run=4 at 0.000s slot=1
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [38.528, 1598828.781, 1598828.781, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":83,"runId":3,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":84,"runId":4,"phase":"Countdown","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.9995346069336,"battery":-1.0,"driftMs":-0.5938604084434473,"rttMs":21.33333333333809,"memoryMb":102.29371070861817,"time":0.0,"phase":"Countdown","cue":"","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [39.530666666666669]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [39.530666666666669, 1598829.796, 1598829.796, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":85,"runId":4,"phase":"Countdown","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [40.533333333333331]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [40.533333333333331, 1598830.812, 1598830.812, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":84,"runId":4,"phase":"Countdown","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":85,"runId":4,"phase":"Countdown","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99992370605469,"battery":-1.0,"driftMs":-0.5938604084434473,"rttMs":21.333333333330985,"memoryMb":102.28740692138672,"time":0.0,"phase":"Countdown","cue":"","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [41.536]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [41.536, 1598831.796, 1598831.796, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [42.538666666666664]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [42.538666666666664, 1598832.796, 1598832.796, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":86,"runId":4,"phase":"Countdown","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":85,"runId":4,"phase":"Countdown","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":86,"runId":4,"phase":"Countdown","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.996826171875,"battery":-1.0,"driftMs":-0.5938604084434473,"rttMs":21.33333333333809,"memoryMb":102.28860664367676,"time":0.0,"phase":"Countdown","cue":"","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":87,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL CUE vortex expected=0.000 actual=0.014 errorMs=14.1
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":86,"runId":4,"phase":"Countdown","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":87,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [43.541333333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [43.541333333333334, 1598833.796, 1598833.796, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [44.544]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [44.544, 1598834.812, 1598834.812, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99994659423828,"battery":-1.0,"driftMs":4.96241435089706,"rttMs":21.33333333333809,"memoryMb":102.2941837310791,"time":1.9544807256235877,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":88,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [45.546666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [45.546666666666667, 1598835.796, 1598835.796, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":87,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":88,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [46.549333333333337]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [46.549333333333337, 1598836.812, 1598836.812, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993133544922,"battery":-1.0,"driftMs":4.19231500016215,"rttMs":21.333333333330985,"memoryMb":102.2962121963501,"time":3.95886621315193,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":89,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [47.552]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [47.552, 1598837.812, 1598837.812, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":88,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":89,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [48.55466666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [48.55466666666667, 1598838.812, 1598838.812, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99951934814453,"battery":-1.0,"driftMs":4.6639759778397409,"rttMs":21.333333333330985,"memoryMb":102.28755760192871,"time":5.9632517006802729,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [49.557333333333332]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":90,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [49.557333333333332, 1598839.812, 1598839.812, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":89,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":90,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [50.56]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [50.56, 1598840.796, 1598840.796, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99922180175781,"battery":-1.0,"driftMs":6.749614883243993,"rttMs":0.0,"memoryMb":102.28845691680908,"time":7.967365079365077,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":91,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [51.562666666666665]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [51.562666666666665, 1598841.828, 1598841.828, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":90,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":91,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [52.565333333333335]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [52.565333333333335, 1598842.812, 1598842.812, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99995422363281,"battery":-1.0,"driftMs":5.633968725323513,"rttMs":0.0,"memoryMb":102.2881908416748,"time":9.971582766439913,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [53.568]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [53.568, 1598843.828, 1598843.828, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":92,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":91,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":92,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [54.570666666666668]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [54.570666666666668, 1598844.843, 1598844.843, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99994659423828,"battery":-1.0,"driftMs":4.572744051126065,"rttMs":0.0,"memoryMb":102.48228549957276,"time":11.975854875283448,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [55.573333333333331]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [55.573333333333331, 1598845.828, 1598845.828, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":93,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":92,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":93,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [56.576]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [56.576, 1598846.828, 1598846.828, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993133544922,"battery":-1.0,"driftMs":3.715601242411992,"rttMs":0.0,"memoryMb":102.4819746017456,"time":13.980331065759636,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [57.578666666666663]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [57.578666666666663, 1598847.828, 1598847.828, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":94,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":93,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":94,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [58.581333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [58.581333333333333, 1598848.859, 1598848.859, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993896484375,"battery":-1.0,"driftMs":3.017188592426834,"rttMs":0.0,"memoryMb":102.48757266998291,"time":15.984965986394553,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [59.584]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [59.584, 1598849.843, 1598849.843, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":95,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":94,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":95,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [60.586666666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [60.586666666666666, 1598850.843, 1598850.843, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99994659423828,"battery":-1.0,"driftMs":2.4548303642113469,"rttMs":0.0,"memoryMb":102.4822940826416,"time":17.989736961451248,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [61.589333333333336]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [61.589333333333336, 1598851.828, 1598851.828, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":96,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":95,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":96,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [62.592]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [62.592, 1598852.843, 1598852.843, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE well-pull expected=20.000 actual=20.016 errorMs=15.7
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.98362731933594,"battery":-1.0,"driftMs":3.1987374277626658,"rttMs":0.0,"memoryMb":102.48760414123535,"time":19.994371882086168,"phase":"Running","cue":"vortex","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [63.594666666666669]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [63.594666666666669, 1598853.859, 1598853.859, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":97,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Battery level updated: N/A
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":96,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":97,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE landing expected=21.000 actual=21.018 errorMs=18.0
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [64.597333333333339]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [64.597333333333339, 1598854.859, 1598854.859, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":70.288330078125,"battery":-1.0,"driftMs":2.672660198008714,"rttMs":0.0,"memoryMb":102.55329036712647,"time":21.999179138322,"phase":"Running","cue":"landing","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [65.6]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [65.6, 1598855.859, 1598855.859, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":98,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":97,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":98,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE formation expected=23.000 actual=23.002 errorMs=1.6
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [66.602666666666664]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [66.602666666666664, 1598856.859, 1598856.859, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99995422363281,"battery":-1.0,"driftMs":2.178329180676286,"rttMs":0.0,"memoryMb":102.55532264709473,"time":24.00401814058956,"phase":"Running","cue":"formation","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [67.605333333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [67.605333333333334, 1598857.875, 1598857.875, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":99,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":98,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":99,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [68.608]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [68.608, 1598858.875, 1598858.875, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE orc-emerge expected=26.000 actual=26.009 errorMs=8.9
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99995422363281,"battery":-1.0,"driftMs":1.7520253742304704,"rttMs":0.0,"memoryMb":102.65167427062988,"time":26.008925170068026,"phase":"Running","cue":"orc-emerge","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [69.61066666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [69.61066666666666, 1598859.89, 1598859.89, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":100,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":99,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":100,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [70.61333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [70.61333333333333, 1598860.875, 1598860.875, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99987030029297,"battery":-1.0,"driftMs":1.4391000197591098,"rttMs":0.0,"memoryMb":103.1316089630127,"time":28.01394557823128,"phase":"Running","cue":"orc-emerge","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [71.616]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [71.616, 1598861.89, 1598861.89, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":101,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":100,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":101,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE floor-colour expected=29.000 actual=29.016 errorMs=16.5
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [72.61866666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [72.61866666666667, 1598862.875, 1598862.875, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.9999771118164,"battery":-1.0,"driftMs":1.171526372043985,"rttMs":0.0,"memoryMb":103.1257209777832,"time":30.019011337868489,"phase":"Running","cue":"floor-colour","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [73.62133333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [73.62133333333334, 1598863.89, 1598863.89, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":102,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":101,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":102,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE seeker-map expected=31.000 actual=31.000 errorMs=0.2
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [74.624]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [74.624, 1598864.89, 1598864.89, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.98922729492188,"battery":-1.0,"driftMs":0.9493041982508998,"rttMs":0.0,"memoryMb":103.13603210449219,"time":32.02412244897959,"phase":"Running","cue":"seeker-map","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [75.626666666666665]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [75.626666666666665, 1598865.906, 1598865.906, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":103,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":102,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":103,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [76.629333333333335]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [76.629333333333335, 1598866.89, 1598866.89, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE counter-call expected=34.000 actual=34.008 errorMs=8.0
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99988555908203,"battery":-1.0,"driftMs":0.33468644035394848,"rttMs":21.333333333330985,"memoryMb":103.567946434021,"time":34.029315192743769,"phase":"Running","cue":"counter-call","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [77.632]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [77.632, 1598867.89, 1598867.89, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":104,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":103,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":104,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [78.634666666666661]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [78.634666666666661, 1598868.906, 1598868.906, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE cantors-front expected=36.000 actual=36.013 errorMs=13.4
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993896484375,"battery":-1.0,"driftMs":-1.6208365720729035,"rttMs":21.333333333345196,"memoryMb":103.55702877044678,"time":36.03469841269842,"phase":"Running","cue":"cantors-front","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [79.637333333333331]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [79.637333333333331, 1598869.906, 1598869.906, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":105,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":104,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":105,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [80.64]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [80.64, 1598870.906, 1598870.906, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993896484375,"battery":-1.0,"driftMs":-3.103667854389869,"rttMs":21.333333333330985,"memoryMb":103.56016635894776,"time":38.04055782312925,"phase":"Running","cue":"cantors-front","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [81.64266666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [81.64266666666667, 1598871.89, 1598871.89, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":106,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":105,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":106,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE resonance-shatter expected=39.000 actual=39.001 errorMs=0.8
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [82.64533333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [82.64533333333334, 1598872.906, 1598872.906, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":69.8192138671875,"battery":-1.0,"driftMs":-0.6504758212813044,"rttMs":21.333333333330985,"memoryMb":103.58186340332031,"time":40.04614512471655,"phase":"Running","cue":"resonance-shatter","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [83.648]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [83.648, 1598873.921, 1598873.921, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":107,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":106,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":107,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [84.650666666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [84.650666666666666, 1598874.921, 1598874.921, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE amplitude-strike expected=42.000 actual=42.009 errorMs=9.4
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99994659423828,"battery":-1.0,"driftMs":-3.3659438354902706,"rttMs":21.333333333330985,"memoryMb":103.58950710296631,"time":42.05202721088435,"phase":"Running","cue":"amplitude-strike","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [85.653333333333336]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [85.653333333333336, 1598875.921, 1598875.921, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":108,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":107,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":108,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [86.656]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [86.656, 1598876.921, 1598876.921, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99981689453125,"battery":-1.0,"driftMs":-3.3041362348100735,"rttMs":21.333333333330985,"memoryMb":103.5798225402832,"time":44.0581133786848,"phase":"Running","cue":"amplitude-strike","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [87.658666666666662]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [87.658666666666662, 1598877.921, 1598877.921, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":109,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":108,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":109,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE infrasound-dread expected=45.000 actual=45.018 errorMs=18.3
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [88.661333333333332]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [88.661333333333332, 1598878.921, 1598878.921, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99995422363281,"battery":-1.0,"driftMs":-2.0164448947639359,"rttMs":21.333333333330985,"memoryMb":103.58355331420899,"time":46.0639410430839,"phase":"Running","cue":"infrasound-dread","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [89.664]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [89.664, 1598879.921, 1598879.921, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":110,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":109,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":110,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE orc-stomp expected=47.000 actual=47.003 errorMs=2.8
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [90.666666666666671]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [90.666666666666671, 1598880.921, 1598880.921, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993133544922,"battery":-1.0,"driftMs":0.22269902514437946,"rttMs":21.333333333330985,"memoryMb":103.62791347503662,"time":48.069460317460329,"phase":"Running","cue":"orc-stomp","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [91.669333333333327]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [91.669333333333327, 1598881.921, 1598881.921, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":111,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":110,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":111,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [92.672]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [92.672, 1598882.937, 1598882.937, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE cacophony expected=50.000 actual=50.011 errorMs=10.6
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.9998779296875,"battery":-1.0,"driftMs":0.5865915700837832,"rttMs":21.333333333330985,"memoryMb":103.59688568115235,"time":50.07459410430839,"phase":"Running","cue":"cacophony","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [93.674666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [93.674666666666667, 1598883.953, 1598883.953, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":112,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":111,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":112,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [94.677333333333337]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [94.677333333333337, 1598884.937, 1598884.937, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE floor-rebuild expected=52.000 actual=52.016 errorMs=16.2
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.98564910888672,"battery":-1.0,"driftMs":-1.835637560276382,"rttMs":21.333333333330985,"memoryMb":103.60750770568848,"time":52.08020408163266,"phase":"Running","cue":"floor-rebuild","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [95.68]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [95.68, 1598885.937, 1598885.937, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":113,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":112,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":113,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [96.682666666666663]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [96.682666666666663, 1598886.937, 1598886.937, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99893951416016,"battery":-1.0,"driftMs":-2.0716299297589559,"rttMs":0.0,"memoryMb":103.61822414398194,"time":54.0859954648526,"phase":"Running","cue":"floor-rebuild","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [97.685333333333332]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [97.685333333333332, 1598887.953, 1598887.953, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":114,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":113,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":114,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE wide-sonar expected=55.000 actual=55.003 errorMs=3.5
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [98.688]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [98.688, 1598888.937, 1598888.937, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99211883544922,"battery":-1.0,"driftMs":-1.6816072055974019,"rttMs":0.0,"memoryMb":103.48959350585938,"time":56.09171882086167,"phase":"Running","cue":"wide-sonar","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [99.690666666666672]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [99.690666666666672, 1598889.937, 1598889.937, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":115,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":114,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":115,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [100.69333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [100.69333333333333, 1598890.968, 1598890.968, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99990844726563,"battery":-1.0,"driftMs":-1.4140334088637019,"rttMs":0.0,"memoryMb":103.48889350891113,"time":58.09731972789115,"phase":"Running","cue":"wide-sonar","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [101.696]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [101.696, 1598891.953, 1598891.953, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":116,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":115,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":116,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE sphere-scan expected=59.000 actual=59.015 errorMs=14.8
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [102.69866666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [102.69866666666667, 1598892.953, 1598892.953, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99201965332031,"battery":-1.0,"driftMs":-1.1373896023414432,"rttMs":0.0,"memoryMb":103.49061107635498,"time":60.10292970521541,"phase":"Running","cue":"sphere-scan","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [103.70133333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [103.70133333333334, 1598893.953, 1598893.953, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":117,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":116,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":117,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE scan-hold expected=61.000 actual=61.020 errorMs=20.4
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [104.704]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [104.704, 1598894.968, 1598894.968, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99977111816406,"battery":-1.0,"driftMs":-0.9287727738609419,"rttMs":0.0,"memoryMb":103.48973941802979,"time":62.10847165532881,"phase":"Running","cue":"scan-hold","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [105.70666666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [105.70666666666666, 1598895.968, 1598895.968, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":118,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":117,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":118,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE dragon-reveal expected=63.000 actual=63.005 errorMs=4.6
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [106.70933333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [106.70933333333333, 1598896.953, 1598896.953, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99995422363281,"battery":-1.0,"driftMs":0.553853920322922,"rttMs":0.0,"memoryMb":103.48973941802979,"time":64.11387755102041,"phase":"Running","cue":"dragon-reveal","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [107.712]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [107.712, 1598897.968, 1598897.968, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":119,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":118,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":119,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE wings-open expected=64.673 actual=64.690 errorMs=16.9
+LL CUE eyes-open expected=65.152 actual=65.159 errorMs=7.2
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [108.71466666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [108.71466666666667, 1598898.968, 1598898.968, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99391174316406,"battery":-1.0,"driftMs":0.4450104313349357,"rttMs":0.0,"memoryMb":103.49541759490967,"time":66.11910204081633,"phase":"Running","cue":"eyes-open","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [109.71733333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [109.71733333333333, 1598899.984, 1598899.984, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE dragon-roar expected=66.309 actual=66.311 errorMs=2.1
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":120,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":119,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":120,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [110.72]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [110.72, 1598900.968, 1598900.968, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99994659423828,"battery":-1.0,"driftMs":0.35884267931862726,"rttMs":0.0,"memoryMb":103.51382827758789,"time":68.12434920634921,"phase":"Running","cue":"dragon-roar","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [111.72266666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [111.72266666666667, 1598901.984, 1598901.984, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":121,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":120,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":121,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE breath-beam expected=69.000 actual=69.020 errorMs=20.3
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [112.72533333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [112.72533333333334, 1598902.984, 1598902.984, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE healer-maximum expected=70.000 actual=70.002 errorMs=1.6
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99915313720703,"battery":-1.0,"driftMs":0.30895592574609057,"rttMs":0.0,"memoryMb":103.51553916931153,"time":70.12963265306122,"phase":"Running","cue":"healer-maximum","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [113.728]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [113.728, 1598903.984, 1598903.984, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":122,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":121,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":122,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [114.73066666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [114.73066666666666, 1598904.984, 1598904.984, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993896484375,"battery":-1.0,"driftMs":0.0166941940307197,"rttMs":0.0,"memoryMb":103.51883506774903,"time":72.13492517006802,"phase":"Running","cue":"healer-maximum","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [115.73333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [115.73333333333333, 1598905.984, 1598905.984, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":123,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":122,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":123,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [116.736]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [116.736, 1598907.0, 1598907.0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE breath-sweep expected=74.000 actual=74.012 errorMs=12.2
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99516296386719,"battery":-1.0,"driftMs":0.16214918294110704,"rttMs":0.0,"memoryMb":103.5212926864624,"time":74.14021768707483,"phase":"Running","cue":"breath-sweep","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [117.73866666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [117.73866666666666, 1598907.984, 1598907.984, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":124,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":123,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":124,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [118.74133333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [118.74133333333333, 1598908.984, 1598908.984, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE lyrical-circles expected=76.000 actual=76.017 errorMs=17.5
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99345397949219,"battery":-1.0,"driftMs":1.388960672443318,"rttMs":0.0,"memoryMb":103.51648330688477,"time":76.14541950113378,"phase":"Running","cue":"lyrical-circles","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [119.744]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [119.744, 1598910.0, 1598910.0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":125,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":124,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":125,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [120.74666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [120.74666666666667, 1598911.015, 1598911.015, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99917602539063,"battery":-1.0,"driftMs":1.1213867918939969,"rttMs":0.0,"memoryMb":103.51990127563477,"time":78.15048526077098,"phase":"Running","cue":"lyrical-circles","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [121.74933333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [121.74933333333334, 1598912.0, 1598912.0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":126,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":125,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":126,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [122.752]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [122.752, 1598913.0, 1598913.0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Battery level updated: N/A
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99994659423828,"battery":-1.0,"driftMs":0.8764213829124401,"rttMs":0.0,"memoryMb":103.52081203460694,"time":80.15561904761904,"phase":"Running","cue":"lyrical-circles","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [123.75466666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [123.75466666666667, 1598914.015, 1598914.015, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":127,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":126,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":127,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE full-spectrum expected=81.000 actual=81.009 errorMs=8.9
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [124.75733333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [124.75733333333334, 1598915.015, 1598915.015, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99916076660156,"battery":-1.0,"driftMs":-0.30742257257543317,"rttMs":0.0,"memoryMb":103.51756477355957,"time":82.16085714285714,"phase":"Running","cue":"full-spectrum","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [125.76]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [125.76, 1598916.015, 1598916.015, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":128,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":127,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":128,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE deep-sonar expected=83.000 actual=83.014 errorMs=14.2
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [126.76266666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [126.76266666666666, 1598917.015, 1598917.015, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99614715576172,"battery":-1.0,"driftMs":-0.692148247154023,"rttMs":0.0,"memoryMb":103.51804065704346,"time":84.16633106575965,"phase":"Running","cue":"deep-sonar","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [127.76533333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [127.76533333333333, 1598918.031, 1598918.031, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":129,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":128,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":129,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [128.768]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [128.768, 1598919.015, 1598919.015, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":70.0714340209961,"battery":-1.0,"driftMs":-0.5515588623978829,"rttMs":0.0,"memoryMb":103.54508781433106,"time":86.17180498866215,"phase":"Running","cue":"deep-sonar","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [129.77066666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [129.77066666666667, 1598920.031, 1598920.031, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":130,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":129,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":130,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE identify-discordant expected=87.000 actual=87.004 errorMs=3.8
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [130.77333333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [130.77333333333334, 1598921.031, 1598921.031, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99925994873047,"battery":-1.0,"driftMs":-0.45632071874024407,"rttMs":0.0,"memoryMb":103.54136371612549,"time":88.17723356009069,"phase":"Running","cue":"identify-discordant","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [131.776]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [131.776, 1598922.046, 1598922.046, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":131,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":130,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":131,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [132.77866666666668]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [132.77866666666668, 1598923.031, 1598923.031, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE anti-frequency expected=90.000 actual=90.012 errorMs=12.0
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99993133544922,"battery":-1.0,"driftMs":-0.36108257506839439,"rttMs":0.0,"memoryMb":103.54123401641846,"time":90.18266213151927,"phase":"Running","cue":"anti-frequency","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [133.78133333333332]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [133.78133333333332, 1598924.046, 1598924.046, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":132,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":131,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":132,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [134.784]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [134.784, 1598925.046, 1598925.046, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE amplitude-rise expected=92.000 actual=92.017 errorMs=17.4
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99888610839844,"battery":-1.0,"driftMs":-0.31119590532568966,"rttMs":0.0,"memoryMb":103.54423809051514,"time":92.18804535147392,"phase":"Running","cue":"amplitude-rise","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [135.78666666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [135.78666666666666, 1598926.031, 1598926.031, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":133,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":132,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":133,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [136.78933333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [136.78933333333333, 1598927.046, 1598927.046, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99992370605469,"battery":-1.0,"driftMs":-0.9215462298755028,"rttMs":0.0,"memoryMb":103.5293960571289,"time":94.19346485260772,"phase":"Running","cue":"amplitude-rise","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [137.792]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [137.792, 1598928.062, 1598928.062, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":134,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":133,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":134,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [138.79466666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [138.79466666666667, 1598929.062, 1598929.062, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE ten-key-lock expected=96.000 actual=96.007 errorMs=7.0
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99994659423828,"battery":-1.0,"driftMs":-2.814266660422504,"rttMs":0.0,"memoryMb":103.52995109558106,"time":96.19909750566892,"phase":"Running","cue":"ten-key-lock","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [139.79733333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [139.79733333333334, 1598930.046, 1598930.046, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":135,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":134,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":135,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [140.8]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [140.8, 1598931.062, 1598931.062, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE the-word expected=98.000 actual=98.013 errorMs=12.9
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99641418457031,"battery":-1.0,"driftMs":-3.3060722133342326,"rttMs":0.0,"memoryMb":103.53007698059082,"time":98.20500226757368,"phase":"Running","cue":"the-word","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [141.80266666666665]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [141.80266666666665, 1598932.062, 1598932.062, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":136,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":135,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":136,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [142.80533333333332]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [142.80533333333332, 1598933.062, 1598933.062, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99991607666016,"battery":-1.0,"driftMs":-2.765830341530773,"rttMs":0.0,"memoryMb":103.53430271148682,"time":100.21097959183672,"phase":"Running","cue":"the-word","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [143.808]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [143.808, 1598934.062, 1598934.062, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":137,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":136,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":137,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE art-pulse expected=101.000 actual=101.000 errorMs=0.5
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [144.81066666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [144.81066666666666, 1598935.062, 1598935.062, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.9861831665039,"battery":-1.0,"driftMs":-1.9959673220597552,"rttMs":0.0,"memoryMb":103.52513313293457,"time":102.21677097505669,"phase":"Running","cue":"art-pulse","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [145.81333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [145.81333333333333, 1598936.078, 1598936.078, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":138,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":137,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":138,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [146.816]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [146.816, 1598937.078, 1598937.078, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":72.0000228881836,"battery":-1.0,"driftMs":-2.495551814760688,"rttMs":0.0,"memoryMb":103.5285415649414,"time":104.22248526077098,"phase":"Running","cue":"art-pulse","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [147.81866666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [147.81866666666667, 1598938.062, 1598938.062, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":139,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":138,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":139,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [148.82133333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [148.82133333333334, 1598939.078, 1598939.078, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE art-hold expected=106.000 actual=106.015 errorMs=14.9
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.98574829101563,"battery":-1.0,"driftMs":-2.069247859296297,"rttMs":0.0,"memoryMb":103.52497482299805,"time":106.2282993197279,"phase":"Running","cue":"art-hold","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [149.824]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [149.824, 1598940.078, 1598940.078, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":140,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":139,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":140,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [150.82666666666665]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [150.82666666666665, 1598941.078, 1598941.078, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.9990463256836,"battery":-1.0,"driftMs":-1.3419673042420755,"rttMs":0.0,"memoryMb":103.52510452270508,"time":108.23395464852608,"phase":"Running","cue":"art-hold","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [151.82933333333332]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [151.82933333333332, 1598942.078, 1598942.078, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":141,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":140,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":141,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [152.832]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [152.832, 1598943.093, 1598943.093, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99995422363281,"battery":-1.0,"driftMs":-0.10223709317358498,"rttMs":0.0,"memoryMb":103.52516555786133,"time":110.23938321995466,"phase":"Running","cue":"art-hold","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [153.83466666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [153.83466666666666, 1598944.109, 1598944.109, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":142,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":141,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":142,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+LL CUE title-assembly expected=111.000 actual=111.007 errorMs=7.4
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [154.83733333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [154.83733333333333, 1598945.093, 1598945.093, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99909210205078,"battery":-1.0,"driftMs":-0.09770189734581436,"rttMs":0.0,"memoryMb":103.55016231536865,"time":112.2447210884354,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [155.84]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [155.84, 1598946.093, 1598946.093, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":143,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":142,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":143,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [156.84266666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [156.84266666666667, 1598947.109, 1598947.109, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.98797607421875,"battery":-1.0,"driftMs":-0.07049096457478754,"rttMs":0.0,"memoryMb":103.5500841140747,"time":114.25008163265305,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [157.84533333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [157.84533333333334, 1598948.093, 1598948.093, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":144,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":143,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":144,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [158.848]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [158.848, 1598949.109, 1598949.109, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99992370605469,"battery":-1.0,"driftMs":-0.06595576874701692,"rttMs":0.0,"memoryMb":103.56194019317627,"time":116.25541950113379,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [159.85066666666665]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [159.85066666666665, 1598950.109, 1598950.109, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":145,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":144,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":145,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [160.85333333333332]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [160.85333333333332, 1598951.125, 1598951.125, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":69.5582275390625,"battery":-1.0,"driftMs":-0.04328016838428539,"rttMs":0.0,"memoryMb":103.56474494934082,"time":118.26077551020409,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [161.856]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [161.856, 1598952.125, 1598952.125, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":146,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":145,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":146,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [162.85866666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [162.85866666666666, 1598953.125, 1598953.125, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.98931884765625,"battery":-1.0,"driftMs":-0.03874497255651477,"rttMs":0.0,"memoryMb":103.54022407531738,"time":120.26611337868482,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [163.86133333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [163.86133333333333, 1598954.109, 1598954.109, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":147,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":146,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":147,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":148,"runId":4,"phase":"Complete","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL CUE complete expected=121.000 actual=121.000 errorMs=0.0
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":147,"runId":4,"phase":"Running","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":148,"runId":4,"phase":"Complete","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [164.864]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [164.864, 1598955.125, 1598955.125, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99097442626953,"battery":-1.0,"driftMs":-0.03420974880441463,"rttMs":0.0,"memoryMb":103.53911781311035,"time":121.0,"phase":"Complete","cue":"complete","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [165.86666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [165.86666666666667, 1598956.109, 1598956.109, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":149,"runId":5,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":148,"runId":4,"phase":"Complete","epoch":1598833.765,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":149,"runId":5,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [166.86933333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [166.86933333333334, 1598957.125, 1598957.125, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":71.99995422363281,"battery":-1.0,"driftMs":-0.03420974880441463,"rttMs":21.333333333330985,"memoryMb":103.54545402526856,"time":0.0,"phase":"Ready","cue":"","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [167.872]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [167.872, 1598958.14, 1598958.14, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":150,"runId":5,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":149,"runId":5,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":150,"runId":5,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [168.87466666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [168.87466666666666, 1598959.14, 1598959.14, 6200af47-dca8-4603-9898-e6b4583b7d2f]

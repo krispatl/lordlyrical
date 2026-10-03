@@ -1,0 +1,103 @@
+{
+  "bootId": "9e54c5fb-9bda-47b6-a2d5-e1c9b8f9a10d",
+  "revision": 772,
+  "runId": 6,
+  "phase": "Running",
+  "epoch": 1597094.14,
+  "duration": 121.0,
+  "mode": "FullCast",
+  "authorityClientNo": 1,
+  "protocol": 8,
+  "sdk": "0.17.4",
+  "connected": true,
+  "room": "lord-lyrical",
+  "time": 15.406000000191852,
+  "countdown": 0,
+  "participants": [
+    {
+      "slot": 0,
+      "deviceId": "5409b8e6-ba69-4e1a-94d8-b19e7b3b6f4c",
+      "clientNo": 2,
+      "key": "D",
+      "connected": true
+    },
+    {
+      "slot": 1,
+      "deviceId": "f95caceb-47d0-4df6-84f1-52455201e65c",
+      "clientNo": 13,
+      "key": "C",
+      "connected": true
+    },
+    {
+      "slot": 2,
+      "deviceId": "310a3c69-1107-491e-b279-95db3bd89f6c",
+      "clientNo": 15,
+      "key": "E",
+      "connected": true
+    },
+    {
+      "slot": 3,
+      "deviceId": "b2cfcbc9-5942-4391-8869-116998ce5b1c",
+      "clientNo": 12,
+      "key": "G",
+      "connected": true
+    },
+    {
+      "slot": 4,
+      "deviceId": "9dd096ab-7eea-46f9-aa38-8b006386ce30",
+      "clientNo": 14,
+      "key": "F",
+      "connected": true
+    },
+    {
+      "slot": 5,
+      "deviceId": "aff2af1a-a903-40c2-91f0-6adbf5a6852b",
+      "clientNo": 16,
+      "key": "B",
+      "connected": true
+    },
+    {
+      "slot": 6,
+      "deviceId": "a37f516f-5ac6-4e40-a8cf-bb4265498a86",
+      "clientNo": 17,
+      "key": "C#",
+      "connected": true
+    },
+    {
+      "slot": 7,
+      "deviceId": "bb0400dc-4c23-4493-840f-36f9cc4a8f7f",
+      "clientNo": 19,
+      "key": "F#",
+      "connected": true
+    },
+    {
+      "slot": 8,
+      "deviceId": "85ede443-8200-47db-8264-42fa1ab1a40b",
+      "clientNo": 20,
+      "key": "Bb",
+      "connected": true
+    },
+    {
+      "slot": 9,
+      "deviceId": "ee900d85-7b63-40c0-b85e-9e43a929a9e2",
+      "clientNo": 18,
+      "key": "A",
+      "connected": true
+    }
+  ],
+  "telemetry": {
+    "2": {
+      "fps": 71.9685287475586,
+      "battery": -1.0,
+      "driftMs": -2.228001046169936,
+      "rttMs": 0.0,
+      "memoryMb": 978.8345956802368,
+      "time": 14.911097505668899,
+      "phase": "Running",
+      "cue": "vortex",
+      "error": "",
+      "received": 1597109.078
+    }
+  },
+  "error": ""
+}

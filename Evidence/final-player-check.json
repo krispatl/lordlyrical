@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Final built player connected",
+    "Reconstructed six chamber, Orc, Dragon, Sonar, Word and credits checkpoints",
+    "Rendered six nonblank images",
+    "Reset to Ready"
+  ]
+}

@@ -1,0 +1,272 @@
+package: name='com.fifthyang.lordlyrical' versionCode='1' versionName='1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+install-location:'preferExternal'
+sdkVersion:'29'
+targetSdkVersion:'36'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='com.pvr.tobactivate.permission.AUTH_CHECK'
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE' maxSdkVersion='32'
+uses-permission: name='android.permission.READ_MEDIA_IMAGES'
+uses-permission: name='com.fifthyang.lordlyrical.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+application-label:'Lord Lyrical - The Resonant Realm'
+application-label-af:'Lord Lyrical - The Resonant Realm'
+application-label-am:'Lord Lyrical - The Resonant Realm'
+application-label-ar:'Lord Lyrical - The Resonant Realm'
+application-label-as:'Lord Lyrical - The Resonant Realm'
+application-label-az:'Lord Lyrical - The Resonant Realm'
+application-label-be:'Lord Lyrical - The Resonant Realm'
+application-label-bg:'Lord Lyrical - The Resonant Realm'
+application-label-bn:'Lord Lyrical - The Resonant Realm'
+application-label-bs:'Lord Lyrical - The Resonant Realm'
+application-label-ca:'Lord Lyrical - The Resonant Realm'
+application-label-cs:'Lord Lyrical - The Resonant Realm'
+application-label-da:'Lord Lyrical - The Resonant Realm'
+application-label-de:'Lord Lyrical - The Resonant Realm'
+application-label-el:'Lord Lyrical - The Resonant Realm'
+application-label-en-AU:'Lord Lyrical - The Resonant Realm'
+application-label-en-CA:'Lord Lyrical - The Resonant Realm'
+application-label-en-GB:'Lord Lyrical - The Resonant Realm'
+application-label-en-IN:'Lord Lyrical - The Resonant Realm'
+application-label-en-XC:'Lord Lyrical - The Resonant Realm'
+application-label-es:'Lord Lyrical - The Resonant Realm'
+application-label-es-US:'Lord Lyrical - The Resonant Realm'
+application-label-et:'Lord Lyrical - The Resonant Realm'
+application-label-eu:'Lord Lyrical - The Resonant Realm'
+application-label-fa:'Lord Lyrical - The Resonant Realm'
+application-label-fi:'Lord Lyrical - The Resonant Realm'
+application-label-fr:'Lord Lyrical - The Resonant Realm'
+application-label-fr-CA:'Lord Lyrical - The Resonant Realm'
+application-label-gl:'Lord Lyrical - The Resonant Realm'
+application-label-gu:'Lord Lyrical - The Resonant Realm'
+application-label-hi:'Lord Lyrical - The Resonant Realm'
+application-label-hr:'Lord Lyrical - The Resonant Realm'
+application-label-hu:'Lord Lyrical - The Resonant Realm'
+application-label-hy:'Lord Lyrical - The Resonant Realm'
+application-label-in:'Lord Lyrical - The Resonant Realm'
+application-label-is:'Lord Lyrical - The Resonant Realm'
+application-label-it:'Lord Lyrical - The Resonant Realm'
+application-label-iw:'Lord Lyrical - The Resonant Realm'
+application-label-ja:'Lord Lyrical - The Resonant Realm'
+application-label-ka:'Lord Lyrical - The Resonant Realm'
+application-label-kk:'Lord Lyrical - The Resonant Realm'
+application-label-km:'Lord Lyrical - The Resonant Realm'
+application-label-kn:'Lord Lyrical - The Resonant Realm'
+application-label-ko:'Lord Lyrical - The Resonant Realm'
+application-label-ky:'Lord Lyrical - The Resonant Realm'
+application-label-lo:'Lord Lyrical - The Resonant Realm'
+application-label-lt:'Lord Lyrical - The Resonant Realm'
+application-label-lv:'Lord Lyrical - The Resonant Realm'
+application-label-mk:'Lord Lyrical - The Resonant Realm'
+application-label-ml:'Lord Lyrical - The Resonant Realm'
+application-label-mn:'Lord Lyrical - The Resonant Realm'
+application-label-mr:'Lord Lyrical - The Resonant Realm'
+application-label-ms:'Lord Lyrical - The Resonant Realm'
+application-label-my:'Lord Lyrical - The Resonant Realm'
+application-label-nb:'Lord Lyrical - The Resonant Realm'
+application-label-ne:'Lord Lyrical - The Resonant Realm'
+application-label-nl:'Lord Lyrical - The Resonant Realm'
+application-label-or:'Lord Lyrical - The Resonant Realm'
+application-label-pa:'Lord Lyrical - The Resonant Realm'
+application-label-pl:'Lord Lyrical - The Resonant Realm'
+application-label-pt:'Lord Lyrical - The Resonant Realm'
+application-label-pt-BR:'Lord Lyrical - The Resonant Realm'
+application-label-pt-PT:'Lord Lyrical - The Resonant Realm'
+application-label-ro:'Lord Lyrical - The Resonant Realm'
+application-label-ru:'Lord Lyrical - The Resonant Realm'
+application-label-si:'Lord Lyrical - The Resonant Realm'
+application-label-sk:'Lord Lyrical - The Resonant Realm'
+application-label-sl:'Lord Lyrical - The Resonant Realm'
+application-label-sq:'Lord Lyrical - The Resonant Realm'
+application-label-sr:'Lord Lyrical - The Resonant Realm'
+application-label-sr-Latn:'Lord Lyrical - The Resonant Realm'
+application-label-sv:'Lord Lyrical - The Resonant Realm'
+application-label-sw:'Lord Lyrical - The Resonant Realm'
+application-label-ta:'Lord Lyrical - The Resonant Realm'
+application-label-te:'Lord Lyrical - The Resonant Realm'
+application-label-th:'Lord Lyrical - The Resonant Realm'
+application-label-tl:'Lord Lyrical - The Resonant Realm'
+application-label-tr:'Lord Lyrical - The Resonant Realm'
+application-label-uk:'Lord Lyrical - The Resonant Realm'
+application-label-ur:'Lord Lyrical - The Resonant Realm'
+application-label-uz:'Lord Lyrical - The Resonant Realm'
+application-label-vi:'Lord Lyrical - The Resonant Realm'
+application-label-zh-CN:'Lord Lyrical - The Resonant Realm'
+application-label-zh-HK:'Lord Lyrical - The Resonant Realm'
+application-label-zh-TW:'Lord Lyrical - The Resonant Realm'
+application-label-zu:'Lord Lyrical - The Resonant Realm'
+application-icon-160:'res/mipmap-anydpi-v26/app_icon.xml'
+application-icon-240:'res/mipmap-anydpi-v26/app_icon.xml'
+application-icon-320:'res/mipmap-anydpi-v26/app_icon.xml'
+application-icon-480:'res/mipmap-anydpi-v26/app_icon.xml'
+application-icon-640:'res/mipmap-anydpi-v26/app_icon.xml'
+application-icon-65534:'res/mipmap-anydpi-v26/app_icon.xml'
+application: label='Lord Lyrical - The Resonant Realm' icon='res/mipmap-anydpi-v26/app_icon.xml'
+application-debuggable
+launchable-activity: name='com.unity3d.player.UnityPlayerGameActivity'  label='' icon=''
+feature-group: label=''
+  uses-gl-es: '0x30000'
+  uses-feature-not-required: name='android.hardware.touchscreen'
+  uses-feature-not-required: name='android.hardware.touchscreen.multitouch'
+  uses-feature-not-required: name='android.hardware.touchscreen.multitouch.distinct'
+  uses-feature: name='android.hardware.screen.landscape'
+  uses-implied-feature: name='android.hardware.screen.landscape' reason='one or more activities have specified a landscape orientation'
+main
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
+densities: '160' '240' '320' '480' '640' '65534'
+native-code: 'arm64-v8a'
+
+SIGNATURE
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+Signer #1 certificate SHA-256 digest: 19e54770200a5991cb1e4b9d24a69c165e4ce6c105600efda9577867422b9338
+Signer #1 certificate SHA-1 digest: 969a044cf4f77b86c657b85167c5eeef946b3508
+Signer #1 certificate MD5 digest: 6bdfe2352e12aa648abcc9b17707d261
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 97d831ccfdfdc7a2d04d83abff9e1b7bdb127a335ee1f9a0ca7d3f28dee87d6a
+Signer #1 public key SHA-1 digest: 9217354b4d6092488d759a8a20729fda054dd6cd
+Signer #1 public key MD5 digest: 030eeb2867f032cbdb7704014a2edc6d
+
+MANIFEST
+N: android=http://schemas.android.com/apk/res/android
+  E: manifest (line=2)
+    A: android:versionCode(0x0101021b)=(type 0x10)0x1
+    A: android:versionName(0x0101021c)="1.0" (Raw: "1.0")
+    A: android:installLocation(0x010102b7)=(type 0x10)0x2
+    A: android:compileSdkVersion(0x01010572)=(type 0x10)0x24
+    A: android:compileSdkVersionCodename(0x01010573)="16" (Raw: "16")
+    A: package="com.fifthyang.lordlyrical" (Raw: "com.fifthyang.lordlyrical")
+    A: platformBuildVersionCode=(type 0x10)0x24
+    A: platformBuildVersionName=(type 0x10)0x10
+    E: uses-sdk (line=8)
+      A: android:minSdkVersion(0x0101020c)=(type 0x10)0x1d
+      A: android:targetSdkVersion(0x01010270)=(type 0x10)0x24
+    E: supports-screens (line=12)
+      A: android:anyDensity(0x0101026c)=(type 0x12)0xffffffff
+      A: android:smallScreens(0x01010284)=(type 0x12)0xffffffff
+      A: android:normalScreens(0x01010285)=(type 0x12)0xffffffff
+      A: android:largeScreens(0x01010286)=(type 0x12)0xffffffff
+      A: android:xlargeScreens(0x010102bf)=(type 0x12)0xffffffff
+    E: uses-permission (line=19)
+      A: android:name(0x01010003)="android.permission.INTERNET" (Raw: "android.permission.INTERNET")
+    E: uses-feature (line=21)
+      A: android:glEsVersion(0x01010281)=(type 0x11)0x30000
+    E: uses-feature (line=22)
+      A: android:name(0x01010003)="android.hardware.touchscreen" (Raw: "android.hardware.touchscreen")
+      A: android:required(0x0101028e)=(type 0x12)0x0
+    E: uses-feature (line=25)
+      A: android:name(0x01010003)="android.hardware.touchscreen.multitouch" (Raw: "android.hardware.touchscreen.multitouch")
+      A: android:required(0x0101028e)=(type 0x12)0x0
+    E: uses-feature (line=28)
+      A: android:name(0x01010003)="android.hardware.touchscreen.multitouch.distinct" (Raw: "android.hardware.touchscreen.multitouch.distinct")
+      A: android:required(0x0101028e)=(type 0x12)0x0
+    E: uses-permission (line=32)
+      A: android:name(0x01010003)="com.pvr.tobactivate.permission.AUTH_CHECK" (Raw: "com.pvr.tobactivate.permission.AUTH_CHECK")
+    E: uses-permission (line=33)
+      A: android:name(0x01010003)="android.permission.READ_EXTERNAL_STORAGE" (Raw: "android.permission.READ_EXTERNAL_STORAGE")
+      A: android:maxSdkVersion(0x01010271)=(type 0x10)0x20
+    E: uses-permission (line=36)
+      A: android:name(0x01010003)="android.permission.READ_MEDIA_IMAGES" (Raw: "android.permission.READ_MEDIA_IMAGES")
+    E: permission (line=38)
+      A: android:name(0x01010003)="com.fifthyang.lordlyrical.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" (Raw: "com.fifthyang.lordlyrical.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION")
+      A: android:protectionLevel(0x01010009)=(type 0x11)0x2
+    E: uses-permission (line=42)
+      A: android:name(0x01010003)="com.fifthyang.lordlyrical.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" (Raw: "com.fifthyang.lordlyrical.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION")
+    E: application (line=44)
+      A: android:label(0x01010001)=@0x7f0d0021
+      A: android:icon(0x01010002)=@0x7f0c0000
+      A: android:debuggable(0x0101000f)=(type 0x12)0xffffffff
+      A: android:extractNativeLibs(0x010104ea)=(type 0x12)0xffffffff
+      A: android:appCategory(0x01010545)=(type 0x10)0x0
+      A: android:appComponentFactory(0x0101057a)="androidx.core.app.CoreComponentFactory" (Raw: "androidx.core.app.CoreComponentFactory")
+      A: android:enableOnBackInvokedCallback(0x0101066c)=(type 0x12)0xffffffff
+      E: meta-data (line=52)
+        A: android:name(0x01010003)="unity.splash-mode" (Raw: "unity.splash-mode")
+        A: android:value(0x01010024)=(type 0x10)0x0
+      E: meta-data (line=55)
+        A: android:name(0x01010003)="unity.splash-enable" (Raw: "unity.splash-enable")
+        A: android:value(0x01010024)=(type 0x12)0xffffffff
+      E: meta-data (line=58)
+        A: android:name(0x01010003)="unity.launch-fullscreen" (Raw: "unity.launch-fullscreen")
+        A: android:value(0x01010024)=(type 0x12)0xffffffff
+      E: meta-data (line=61)
+        A: android:name(0x01010003)="unity.render-outside-safearea" (Raw: "unity.render-outside-safearea")
+        A: android:value(0x01010024)=(type 0x12)0xffffffff
+      E: meta-data (line=64)
+        A: android:name(0x01010003)="notch.config" (Raw: "notch.config")
+        A: android:value(0x01010024)="portrait|landscape" (Raw: "portrait|landscape")
+      E: meta-data (line=67)
+        A: android:name(0x01010003)="unity.auto-report-fully-drawn" (Raw: "unity.auto-report-fully-drawn")
+        A: android:value(0x01010024)=(type 0x12)0xffffffff
+      E: meta-data (line=70)
+        A: android:name(0x01010003)="unity.strip-engine-code" (Raw: "unity.strip-engine-code")
+        A: android:value(0x01010024)=(type 0x12)0xffffffff
+      E: meta-data (line=73)
+        A: android:name(0x01010003)="unity.auto-set-game-state" (Raw: "unity.auto-set-game-state")
+        A: android:value(0x01010024)=(type 0x12)0xffffffff
+      E: activity (line=77)
+        A: android:theme(0x01010000)=@0x7f0e00a1
+        A: android:name(0x01010003)="com.unity3d.player.UnityPlayerGameActivity" (Raw: "com.unity3d.player.UnityPlayerGameActivity")
+        A: android:enabled(0x0101000e)=(type 0x12)0xffffffff
+        A: android:exported(0x01010010)=(type 0x12)0xffffffff
+        A: android:launchMode(0x0101001d)=(type 0x10)0x2
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x0
+        A: android:configChanges(0x0101001f)=(type 0x11)0x40003fff
+        A: android:hardwareAccelerated(0x010102d3)=(type 0x12)0x0
+        A: android:resizeableActivity(0x010104f6)=(type 0x12)0xffffffff
+        E: intent-filter (line=87)
+          E: category (line=88)
+            A: android:name(0x01010003)="android.intent.category.LAUNCHER" (Raw: "android.intent.category.LAUNCHER")
+          E: action (line=90)
+            A: android:name(0x01010003)="android.intent.action.MAIN" (Raw: "android.intent.action.MAIN")
+        E: meta-data (line=93)
+          A: android:name(0x01010003)="unityplayer.UnityActivity" (Raw: "unityplayer.UnityActivity")
+          A: android:value(0x01010024)=(type 0x12)0xffffffff
+        E: meta-data (line=96)
+          A: android:name(0x01010003)="android.app.lib_name" (Raw: "android.app.lib_name")
+          A: android:value(0x01010024)="game" (Raw: "game")
+        E: meta-data (line=99)
+          A: android:name(0x01010003)="WindowManagerPreference:FreeformWindowSize" (Raw: "WindowManagerPreference:FreeformWindowSize")
+          A: android:value(0x01010024)=@0x7f0d0002
+        E: meta-data (line=102)
+          A: android:name(0x01010003)="WindowManagerPreference:FreeformWindowOrientation" (Raw: "WindowManagerPreference:FreeformWindowOrientation")
+          A: android:value(0x01010024)=@0x7f0d0000
+        E: meta-data (line=105)
+          A: android:name(0x01010003)="notch_support" (Raw: "notch_support")
+          A: android:value(0x01010024)=(type 0x12)0xffffffff
+        E: layout (line=109)
+          A: android:minWidth(0x0101013f)=(type 0x5)0x19000
+          A: android:minHeight(0x01010140)=(type 0x5)0x12c00
+      E: meta-data (line=114)
+        A: android:name(0x01010003)="pvr.app.type" (Raw: "pvr.app.type")
+        A: android:value(0x01010024)="vr" (Raw: "vr")
+      E: meta-data (line=117)
+        A: android:name(0x01010003)="pvr.sdk.version" (Raw: "pvr.sdk.version")
+        A: android:value(0x01010024)="Unity OpenXR 1.4.1" (Raw: "Unity OpenXR 1.4.1")
+      E: meta-data (line=120)
+        A: android:name(0x01010003)="pxr.sdk.version_code" (Raw: "pxr.sdk.version_code")
+        A: android:value(0x01010024)=(type 0x10)0x13f6
+      E: meta-data (line=123)
+        A: android:name(0x01010003)="controller" (Raw: "controller")
+        A: android:value(0x01010024)=(type 0x10)0x1
+      E: meta-data (line=126)
+        A: android:name(0x01010003)="pvr.app.splash" (Raw: "pvr.app.splash")
+        A: android:value(0x01010024)=(type 0x10)0x0
+      E: provider (line=130)
+        A: android:name(0x01010003)="androidx.startup.InitializationProvider" (Raw: "androidx.startup.InitializationProvider")
+        A: android:exported(0x01010010)=(type 0x12)0x0
+        A: android:authorities(0x01010018)="com.fifthyang.lordlyrical.androidx-startup" (Raw: "com.fifthyang.lordlyrical.androidx-startup")
+        E: meta-data (line=134)
+          A: android:name(0x01010003)="androidx.emoji2.text.EmojiCompatInitializer" (Raw: "androidx.emoji2.text.EmojiCompatInitializer")
+          A: android:value(0x01010024)="androidx.startup" (Raw: "androidx.startup")
+        E: meta-data (line=137)
+          A: android:name(0x01010003)="androidx.lifecycle.ProcessLifecycleInitializer" (Raw: "androidx.lifecycle.ProcessLifecycleInitializer")
+          A: android:value(0x01010024)="androidx.startup" (Raw: "androidx.startup")

@@ -12,7 +12,6 @@
     "com.unity.timeline": "1.8.10",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.9",
-    "com.unity.xr.meta-openxr": "2.3.0",
     "com.unity.xr.openxr.picoxr": "https://github.com/Pico-Developer/PICO-Unity-OpenXR-SDK.git#release_1.4.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
@@ -48,7 +47,7 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
-    "com.gamelovers.mcp-unity": "file:C:/Users/kris/Desktop/UnityMCP/mcp-unity"
+    "com.gamelovers.mcp-unity": "https://github.com/CoderGamester/mcp-unity.git#bbfb1c0681519ced5b357ce7cc3c1ee68c9dc64e"
   },
   "scopedRegistries": [
     {
@@ -72,3 +71,4 @@
     }
   ]
 }
+

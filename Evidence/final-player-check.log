@@ -1,0 +1,450 @@
+Mono path[0] = 'C:/Users/kris/Documents/Codex/2026-10-03/als/outputs/LordLyrical/Builds/Desktop/LordLyrical_Data/Managed'
+Mono config path = 'C:/Users/kris/Documents/Codex/2026-10-03/als/outputs/LordLyrical/Builds/Desktop/MonoBleedingEdge/etc'
+Found 2 interfaces on host : 0) 192.168.1.21 1) 100.91.179.18
+Player connection [46244]  Target information:
+
+Player connection [46244]  * "[IP] 192.168.1.21 [Port] 55000 [Flags] 2 [Guid] 2644974749 [EditorId] 1196650206 [Version] 1048832 [Id] WindowsPlayer(2,EsproXR) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Lord Lyrical - The Resonant Realm" 
+
+Player connection [46244]  * "[IP] 100.91.179.18 [Port] 55000 [Flags] 2 [Guid] 2644974749 [EditorId] 1196650206 [Version] 1048832 [Id] WindowsPlayer(2,EsproXR) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Lord Lyrical - The Resonant Realm" 
+
+Player connection [46244] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Users/kris/Documents/Codex/2026-10-03/als/outputs/LordLyrical/Builds/Desktop/LordLyrical_Data/UnitySubsystems
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5060
+[D3D12 Device Filter] Driver Version: 32.0.15.7688
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 7807 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:          NVIDIA
+    VRAM:            7807 MB
+    App VRAM Budget: 7039 MB
+    Driver:          32.0.15.7688
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.351 seconds
+- Finished resetting the current domain, in  0.007 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+[PoxrUnity]  FrameID=0>>>>>>RegisterDescriptor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Unity.XR.OpenXR.Features.PICOSupport.PLog:i (string,string) (at ./Library/PackageCache/com.unity.xr.openxr.picoxr@3aa3e62bff41/Runtime/Features/Utils/PLog.cs:83)
+PXR_HumanBodySubsystem:RegisterDescriptor () (at ./Library/PackageCache/com.unity.xr.openxr.picoxr@3aa3e62bff41/Runtime/Subsystem/PXR_HumanBodySubsystem.cs:156)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 1.117900 ms
+[NetSyncManager] STYLY-NetSync Version: 0.17.4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.NetSyncManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1478)
+Styly.NetSync.NetSyncManager:Awake () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:639)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[DeviceIdResolver] Using Device-ID-Provider: e83f73ce-b73c-4932-add2-768bf8ceb5a4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.Internal.DeviceIdResolver:Log (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/DeviceIdResolver.cs:186)
+Styly.NetSync.Internal.DeviceIdResolver:ResolveWithDeviceIdProvider () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/DeviceIdResolver.cs:156)
+Styly.NetSync.Internal.DeviceIdResolver:ResolveRuntime () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/DeviceIdResolver.cs:79)
+Styly.NetSync.Internal.DeviceIdResolver:Resolve () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/DeviceIdResolver.cs:46)
+Styly.NetSync.NetSyncManager:Awake () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:652)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetSyncManager] Device ID: e83f73ce-b73c-4932-add2-768bf8ceb5a4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.NetSyncManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1478)
+Styly.NetSync.NetSyncManager:CompleteDeviceIdResolution () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:895)
+Styly.NetSync.NetSyncManager:Awake () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:656)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[AvatarManager] Local avatar initialized with ID: e83f73ce-b73c-4932-add2-768bf8ceb5a4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.AvatarManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/AvatarManager.cs:334)
+Styly.NetSync.AvatarManager:InitializeLocalAvatar (UnityEngine.GameObject,string,Styly.NetSync.NetSyncManager) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/AvatarManager.cs:76)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:687)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Discovery socket bound to 100.91.179.18
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager:StartUdpBroadcastDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:93)
+Styly.NetSync.ServerDiscoveryManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:66)
+Styly.NetSync.ConnectionManager:StartDiscovery (Styly.NetSync.ServerDiscoveryManager,string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:707)
+Styly.NetSync.NetSyncManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1234)
+Styly.NetSync.NetSyncManager:StartNetworking () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1215)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:688)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Discovery socket bound to 192.168.1.21
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager:StartUdpBroadcastDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:93)
+Styly.NetSync.ServerDiscoveryManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:66)
+Styly.NetSync.ConnectionManager:StartDiscovery (Styly.NetSync.ServerDiscoveryManager,string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:707)
+Styly.NetSync.NetSyncManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1234)
+Styly.NetSync.NetSyncManager:StartNetworking () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1215)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:688)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Started UDP discovery on port 49999 (2 interfaces)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager:StartUdpBroadcastDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:219)
+Styly.NetSync.ServerDiscoveryManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:66)
+Styly.NetSync.ConnectionManager:StartDiscovery (Styly.NetSync.ServerDiscoveryManager,string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:707)
+Styly.NetSync.NetSyncManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1234)
+Styly.NetSync.NetSyncManager:StartNetworking () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1215)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:688)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ConnectionManager] Server discovery started
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ConnectionManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:723)
+Styly.NetSync.ConnectionManager:StartDiscovery (Styly.NetSync.ServerDiscoveryManager,string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ConnectionManager.cs:708)
+Styly.NetSync.NetSyncManager:StartDiscovery () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1234)
+Styly.NetSync.NetSyncManager:StartNetworking () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1215)
+Styly.NetSync.NetSyncManager:OnEnable () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:688)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Camera "Tracked Head" does not use a Tracked Pose Driver (Input System), so its transform will not be updated by an XR device.  In order for this to be updated, please add a Tracked Pose Driver (Input System) with bindings for position and rotation of the center eye.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:216)
+Unity.XR.CoreUtils.XROrigin:Awake () (at ./Library/PackageCache/com.unity.xr.core-utils@f0450cbac8d6/Runtime/XROrigin.cs:554)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 216)
+
+[ServerDiscovery] Attempting to discover server on localhost via TCP...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager/<>c__DisplayClass41_0:<StartUdpBroadcastDiscovery>b__0 () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:117)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetSyncManager] Application gained focus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.NetSyncManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1478)
+Styly.NetSync.NetSyncManager:OnApplicationFocus (bool) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:774)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Discovered server 'STYLY-NetSync-Server
+' at tcp://127.0.0.1 (control:5555, transform:5557, sub:5556, rest:8800)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager:ProcessDiscoveryResponse (byte[],System.Net.IPEndPoint) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:589)
+Styly.NetSync.ServerDiscoveryManager:TryTcpDiscovery (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:382)
+Styly.NetSync.ServerDiscoveryManager/<>c__DisplayClass41_0:<StartUdpBroadcastDiscovery>b__0 () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:118)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[NetSyncManager] Server discovered: tcp://127.0.0.1 (control:5555, transform:5557, sub:5556, rest:8800)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.NetSyncManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1478)
+Styly.NetSync.NetSyncManager:OnServerDiscovered (string,int,int,int,int) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/NetSyncManager.cs:1199)
+Styly.NetSync.ServerDiscoveryManager:ProcessDiscoveryResponse (byte[],System.Net.IPEndPoint) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:593)
+Styly.NetSync.ServerDiscoveryManager:TryTcpDiscovery (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:382)
+Styly.NetSync.ServerDiscoveryManager/<>c__DisplayClass41_0:<StartUdpBroadcastDiscovery>b__0 () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:118)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[ServerDiscovery] Server discovered on localhost via TCP.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+Styly.NetSync.ServerDiscoveryManager:DebugLog (string) (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:630)
+Styly.NetSync.ServerDiscoveryManager/<>c__DisplayClass41_0:<StartUdpBroadcastDiscovery>b__0 () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/ServerDiscoveryManager.cs:120)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+[HandPoseNormalizer] Could not find R_Wrist under XROrigin.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:LogWarning (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:213)
+Styly.NetSync.Internal.HandPoseNormalizer:FindHandTransform () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/HandPoseNormalizer.cs:602)
+Styly.NetSync.Internal.HandPoseNormalizer:Start () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/HandPoseNormalizer.cs:136)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 213)
+
+[HandPoseNormalizer] Could not find L_Wrist under XROrigin.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:LogWarning (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:213)
+Styly.NetSync.Internal.HandPoseNormalizer:FindHandTransform () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/HandPoseNormalizer.cs:602)
+Styly.NetSync.Internal.HandPoseNormalizer:Start () (at ./Library/PackageCache/com.styly.styly-netsync@8ee92598896b/Runtime/Internal Scripts/HandPoseNormalizer.cs:136)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 213)
+
+LL boot: track=121.809s, DSP buffer=1024x4, target=72Hz
+[ServerDiscovery] Cached server IP: 127.0.0.1
+[ConnectionManager] Network thread started
+[ConnectionManager] [Thread] CONTROL DEALER connected → tcp://127.0.0.1:5555
+[ConnectionManager] [Thread] TRANSFORM DEALER connected → tcp://127.0.0.1:5557
+[ConnectionManager] [Thread] SUB connected    → tcp://127.0.0.1:5556
+[NetSyncManager] Connection established successfully
+[NetSyncManager] Local client number assigned: 2
+[NetSyncManager] Global Variable Changed - Name: ll.roster, Old: null, New: {"participants":[{"slot":0,"deviceId":"","clientNo":0,"key":"D","connected":false},{"slot":1,"deviceId":"","clientNo":0,"key":"C","connected":false},{"slot":2,"deviceId":"","clientNo":0,"key":"E","connected":false},{"slot":3,"deviceId":"","clientNo":0,"key":"G","connected":false},{"slot":4,"deviceId":"","clientNo":0,"key":"F","connected":false},{"slot":5,"deviceId":"","clientNo":0,"key":"B","connected":false},{"slot":6,"deviceId":"","clientNo":0,"key":"C#","connected":false},{"slot":7,"deviceId":"","clientNo":0,"key":"F#","connected":false},{"slot":8,"deviceId":"","clientNo":0,"key":"Bb","connected":false},{"slot":9,"deviceId":"","clientNo":0,"key":"A","connected":false}]}
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: null, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":257,"runId":10,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] Client Variable Changed - Client#2, Name: BatteryLevel, Old: null, New: N/A
+[NetSyncManager] Client Variable Changed - Client#2, Name: ll.slot, Old: null, New: 0
+[NetSyncManager] Local client number assigned: 2
+[NetSyncManager] Battery level updated: N/A
+[NetSyncManager] NetSyncManager is now Ready (connected, handshaken, and network variables synced)
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [5.376]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [5.4613333333333332]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [5.376, 1599169.031, 1599169.031, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [5.4613333333333332, 1599169.062, 1599169.062, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.roster, Old: {"participants":[{"slot":0,"deviceId":"","clientNo":0,"key":"D","connected":false},{"slot":1,"deviceId":"","clientNo":0,"key":"C","connected":false},{"slot":2,"deviceId":"","clientNo":0,"key":"E","connected":false},{"slot":3,"deviceId":"","clientNo":0,"key":"G","connected":false},{"slot":4,"deviceId":"","clientNo":0,"key":"F","connected":false},{"slot":5,"deviceId":"","clientNo":0,"key":"B","connected":false},{"slot":6,"deviceId":"","clientNo":0,"key":"C#","connected":false},{"slot":7,"deviceId":"","clientNo":0,"key":"F#","connected":false},{"slot":8,"deviceId":"","clientNo":0,"key":"Bb","connected":false},{"slot":9,"deviceId":"","clientNo":0,"key":"A","connected":false}]}, New: {"participants":[{"slot":0,"deviceId":"e83f73ce-b73c-4932-add2-768bf8ceb5a4","clientNo":2,"key":"D","connected":true},{"slot":1,"deviceId":"","clientNo":0,"key":"C","connected":false},{"slot":2,"deviceId":"","clientNo":0,"key":"E","connected":false},{"slot":3,"deviceId":"","clientNo":0,"key":"G","connected":false},{"slot":4,"deviceId":"","clientNo":0,"key":"F","connected":false},{"slot":5,"deviceId":"","clientNo":0,"key":"B","connected":false},{"slot":6,"deviceId":"","clientNo":0,"key":"C#","connected":false},{"slot":7,"deviceId":"","clientNo":0,"key":"F#","connected":false},{"slot":8,"deviceId":"","clientNo":0,"key":"Bb","connected":false},{"slot":9,"deviceId":"","clientNo":0,"key":"A","connected":false}]}
+[NetSyncManager] Local client number assigned: 2
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":258,"runId":10,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":257,"runId":10,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":258,"runId":10,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [5.632]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [5.632, 1599169.203, 1599169.203, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [5.8026666666666671]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [5.8026666666666671, 1599169.375, 1599169.375, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":63.60507583618164,"battery":-1.0,"driftMs":0.0,"rttMs":21.33333333333276,"memoryMb":101.6465654373169,"time":0.0,"phase":"Ready","cue":"","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":259,"runId":11,"phase":"Running","epoch":1599149.14,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL reconstructed run=11 at 21.034s slot=1
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":258,"runId":10,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":259,"runId":11,"phase":"Running","epoch":1599149.14,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [6.8053333333333335]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [6.8053333333333335, 1599170.375, 1599170.375, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [7.808]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [7.808, 1599171.375, 1599171.375, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":70.04914093017578,"battery":-1.0,"driftMs":0.590997473221222,"rttMs":21.33333333333365,"memoryMb":102.33584880828858,"time":22.953827664399094,"phase":"Running","cue":"landing","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":260,"runId":11,"phase":"Running","epoch":1599149.14,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL CUE formation expected=23.000 actual=23.018 errorMs=17.8
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":259,"runId":11,"phase":"Running","epoch":1599149.14,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":260,"runId":11,"phase":"Running","epoch":1599149.14,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [8.8106666666666662]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [8.8106666666666662, 1599172.375, 1599172.375, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":261,"runId":12,"phase":"Running","epoch":1599134.203,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL reconstructed run=12 at 39.021s slot=1
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":260,"runId":11,"phase":"Running","epoch":1599149.14,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":261,"runId":12,"phase":"Running","epoch":1599134.203,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [9.8133333333333326]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [9.8133333333333326, 1599173.39, 1599173.39, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":65.00057220458985,"battery":-1.0,"driftMs":-0.9289446638689469,"rttMs":21.333333333334538,"memoryMb":102.67450904846192,"time":39.89555555555555,"phase":"Running","cue":"resonance-shatter","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [10.816]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [10.816, 1599174.39, 1599174.39, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":262,"runId":12,"phase":"Running","epoch":1599134.203,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":261,"runId":12,"phase":"Running","epoch":1599134.203,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":262,"runId":12,"phase":"Running","epoch":1599134.203,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [11.818666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [11.818666666666667, 1599175.406, 1599175.406, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":70.6089096069336,"battery":-1.0,"driftMs":-0.7430035723530182,"rttMs":21.333333333334538,"memoryMb":102.66075134277344,"time":41.90107482993198,"phase":"Running","cue":"resonance-shatter","error":""}]
+LL CUE amplitude-strike expected=42.000 actual=42.008 errorMs=7.8
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":263,"runId":13,"phase":"Running","epoch":1599110.281,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL reconstructed run=13 at 66.016s slot=1
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":262,"runId":12,"phase":"Running","epoch":1599134.203,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":263,"runId":13,"phase":"Running","epoch":1599110.281,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [12.821333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [12.821333333333333, 1599176.406, 1599176.406, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE dragon-roar expected=66.309 actual=66.314 errorMs=5.5
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [13.824]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [13.824, 1599177.406, 1599177.406, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":70.51243591308594,"battery":-1.0,"driftMs":-1.7679475434704273,"rttMs":21.33333333333276,"memoryMb":102.73515605926514,"time":67.82936054421769,"phase":"Running","cue":"dragon-roar","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":264,"runId":13,"phase":"Running","epoch":1599110.281,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":263,"runId":13,"phase":"Running","epoch":1599110.281,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":264,"runId":13,"phase":"Running","epoch":1599110.281,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [14.826666666666666]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [14.826666666666666, 1599178.406, 1599178.406, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE breath-beam expected=69.000 actual=69.003 errorMs=2.9
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":265,"runId":14,"phase":"Running","epoch":1599094.312,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL reconstructed run=14 at 85.016s slot=1
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":264,"runId":13,"phase":"Running","epoch":1599110.281,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":265,"runId":14,"phase":"Running","epoch":1599094.312,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [15.829333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [15.829333333333333, 1599179.406, 1599179.406, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":63.996849060058597,"battery":-1.0,"driftMs":-0.024183587825632459,"rttMs":21.33333333333276,"memoryMb":102.75494289398194,"time":85.80543764172336,"phase":"Running","cue":"deep-sonar","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [16.832]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [16.832, 1599180.421, 1599180.421, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE identify-discordant expected=87.000 actual=87.000 errorMs=0.1
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":266,"runId":14,"phase":"Running","epoch":1599094.312,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [17.834666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [17.834666666666667, 1599181.421, 1599181.421, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":265,"runId":14,"phase":"Running","epoch":1599094.312,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":266,"runId":14,"phase":"Running","epoch":1599094.312,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":68.69252014160156,"battery":-1.0,"driftMs":-0.01964839201207269,"rttMs":21.33333333333276,"memoryMb":103.04086208343506,"time":87.81077551020408,"phase":"Running","cue":"identify-discordant","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [18.837333333333333]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":267,"runId":15,"phase":"Running","epoch":1599084.39,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL reconstructed run=15 at 98.031s slot=1
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [18.837333333333333, 1599182.406, 1599182.406, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":266,"runId":14,"phase":"Running","epoch":1599094.312,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":267,"runId":15,"phase":"Running","epoch":1599084.39,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [19.84]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [19.84, 1599183.406, 1599183.406, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":65.61264038085938,"battery":-1.0,"driftMs":0.6134575268532672,"rttMs":21.333333333334538,"memoryMb":102.74278831481934,"time":99.71668934240363,"phase":"Running","cue":"the-word","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":268,"runId":15,"phase":"Running","epoch":1599084.39,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [20.842666666666666]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":267,"runId":15,"phase":"Running","epoch":1599084.39,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":268,"runId":15,"phase":"Running","epoch":1599084.39,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [20.842666666666666, 1599184.421, 1599184.421, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+LL CUE art-pulse expected=101.000 actual=101.039 errorMs=39.3
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [21.866666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [21.866666666666667, 1599185.437, 1599185.437, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":269,"runId":16,"phase":"Running","epoch":1599069.453,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+LL reconstructed run=16 at 116.019s slot=1
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":268,"runId":15,"phase":"Running","epoch":1599084.39,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":269,"runId":16,"phase":"Running","epoch":1599069.453,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":69.1355209350586,"battery":-1.0,"driftMs":-0.036951050191191828,"rttMs":21.333333333334538,"memoryMb":102.89387893676758,"time":116.68054421768707,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [22.869333333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [22.869333333333334, 1599186.453, 1599186.453, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [23.872]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [23.872, 1599187.437, 1599187.437, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":270,"runId":16,"phase":"Running","epoch":1599069.453,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":269,"runId":16,"phase":"Running","epoch":1599069.453,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":270,"runId":16,"phase":"Running","epoch":1599069.453,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":68.39617156982422,"battery":-1.0,"driftMs":1.2230132756485546,"rttMs":21.333333333334538,"memoryMb":102.78846073150635,"time":118.68585034013606,"phase":"Ending","cue":"title-assembly","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [24.896]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [24.896, 1599188.484, 1599188.484, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":271,"runId":17,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":270,"runId":16,"phase":"Running","epoch":1599069.453,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":271,"runId":17,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [25.898666666666667]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [25.898666666666667, 1599189.484, 1599189.484, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.telemetry, Args: [{"fps":68.69800567626953,"battery":-1.0,"driftMs":1.154986188936391,"rttMs":21.333333333334538,"memoryMb":102.73854923248291,"time":0.0,"phase":"Ready","cue":"","error":""}]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [26.901333333333334]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [26.901333333333334, 1599190.5, 1599190.5, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.state, Args: [{"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":272,"runId":17,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}]
+[NetSyncManager] Global Variable Changed - Name: ll.show, Old: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":271,"runId":17,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}, New: {"bootId":"6200af47-dca8-4603-9898-e6b4583b7d2f","revision":272,"runId":17,"phase":"Ready","epoch":0.0,"duration":121.0,"mode":"Adaptive","authorityClientNo":1,"protocol":8,"sdk":"0.17.4"}
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.join, Args: [none]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.assignment, Args: [0, 6200af47-dca8-4603-9898-e6b4583b7d2f]
+[NetSyncManager] RPC Received - Sender: Client#2, Function: ll.clock, Args: [27.904]
+[NetSyncManager] RPC Received - Sender: Client#1, Function: ll.clock.reply, Args: [27.904, 1599191.484, 1599191.484, 6200af47-dca8-4603-9898-e6b4583b7d2f]

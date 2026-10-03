@@ -9,3 +9,8 @@ Builds/
 .vs/
 Tools/.venv/
 Tools/runtime/
+
+.venv/
+__pycache__/
+.pytest_cache/
+.utmp/
