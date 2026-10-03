@@ -1,0 +1,11 @@
+Library/
+Temp/
+Logs/
+UserSettings/
+obj/
+Builds/
+*.csproj
+*.sln
+.vs/
+Tools/.venv/
+Tools/runtime/

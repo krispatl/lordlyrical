@@ -1,0 +1,640 @@
+LORD LYRICAL: THE RESONANT REALM
+VR Dungeon Sequence
+Production Plan and Shot Sequence
+Version 1.0  |  22 August 2026  |  Distribution: Jeru, Daniel, Matt, Kris
+Compiled from: Lord Lyrical VR Pitch Sequence (5th Yang LLC, 2026) and Lord Lyrical VR Project Workflow.
+Cue convention: every beat is referenced by track timecode and verse line number (V1 L3 = Verse 1, third lyric line in the pitch document). Where an action fires on a specific word, that word is given. Lyric text is not reproduced in this document; paste lines from the pitch document into the Cue column if required.
+1. Project Summary
+2. Team and Pipeline
+Pipeline
+Jeru's storyboards and design images are the reference for all asset creation.
+Environments: AI-generated from the 2D backgrounds, built manually, or a combination. The same three options apply to characters and props.
+Additional asset types: 2D sprites where appropriate; particle systems for blast effects; any further items identified in the storyboards.
+Delivery flow: Matt and Kris produce; Daniel integrates into the master project; Matt's spreadsheet carries owner and status for every item in Section 9.
+Reference materials
+Lord Lyrical Pitch Sequence
+STYLY sample
+Transport intro concept video
+Jeru avatar assets
+3. Master Timeline
+4. Participants
+At entry, each participant is assigned one Root Key. All ten keys are different. The Root Key sets the colour tint of that participant's view of the dungeon, their vantage point, and their appearance to the others: a figure surrounded by a glow in their colour. With fewer than ten participants, unassigned keys go dark (Open Item 10).
+Group terms used in the sequence
+Cantors: E (The Blade) and G (The Balanced).
+Resonants: D (The Warrior) and C (The Foundation).
+Harmonist: F (The Healer).
+Whisper: B (The Shadow).
+Seeker, Architect, Discordant, Ancient: C#, F#, A#/Bb, A respectively.
+Character design notes (avatar assets)
+The Founders (F#, A, Lord Lyrical): dark skin, broad features. Cymatics geometry appears on the skin when the Root Key activates and shifts with it. Wall carvings respond faintly to their presence.
+The High Elves (E, G, F): luminescent. Glow intensifies on Root Key access. Steady, precise light.
+The Stone Choir (D, C): compact, dense build. Earth-toned skin with faint vibrational striations on the forearms and collarbone. Low, dense glow.
+Feral Choir, Pitch (B): wings folded under a cloak, hollow-boned build. Presence reads as a shimmer at the edge of perception; catches almost no light.
+Feral Choir, Prowl (C#): feline, low to the ground.
+Feral Choir, Howlers (A#/Bb): broad, wild build. Glow flickers unstably between crimson and black.
+5. Lord Lyrical (11th Presence)
+Control: none. Scripted character, present from 0:00 to 2:01, moving alongside the group.
+People: Founder. Base asset: Jeru avatar assets.
+Colour: continuous slow rotation through all 12 Root Key colours. Rotation accelerates at 0:59 (sphere pulse) and 1:21 (hand cycling, colour change every 0.5 s).
+Root Key: none. Dissonant attacks have nothing to lock onto (1:16).
+Actions: 0:21 spectrum ignition above the party. 0:34 counter call. 0:59 360 scan. 1:09 and 1:16 circling under fire. 1:21 Full Spectrum. 1:27 identifies the Discordant. 1:32 calls all ten up. 1:36 to 1:38 conducts The Word.
+Spoken lines: 0:34 and 1:32 (Open Item 6).
+6. Enemies
+6.1 Sonic Orcs (Percussion Horde)
+Root Key: D. Counter key: A.
+Count: eight visible on emergence, then twelve, then more behind. Pack formation.
+Build: massive, dense. Skin of overlapping dark resonance plates vibrating at a constant low frequency. Visible air disturbance around the body.
+Weapon: double-headed tuning fork club. Each impact emits a shockwave that cracks stone.
+Audio: subsonic grunts (felt, below hearing). Unison club strikes. Coordinated stomp producing a bass shockwave.
+Movement: percussive, continuous advance. Halts only for the unison stomp (0:47).
+Removal states: disintegration (0:39); seizure and drop (0:45); formation break and retreat into the dark region (0:50).
+6.2 Sound Dragon (Frequency Predator)
+Root Key: A#/Bb on the surface; E underneath, hidden. Counters: Anti-Frequency (Bb, the Discordant) opens the fracture; The Word (all ten keys) resolves it.
+Scale: fills the chamber. Concealed from 0:21 to 1:03 as the chamber itself: wings folded against the walls, chest forming the ceiling.
+Body: layered visible sound waves, rings of compressed air at scale. Scales shimmer and shift with internal frequency.
+Eyes: two. Cycle amber, red, black without settling.
+Wings: each beat emits a low-frequency shockwave that cracks walls and floor.
+Breath: focused beam of dissonant frequency tuned to the target's Root Key. Narrow tracking beam (1:09). Wide arc sweep covering half the chamber (1:14).
+Roar: felt first (chest, behind the eyes, base of the skull), then audible as a wall of dissonant frequency that cracks walls and splits the floor.
+States in order: concealed; reveal; narrow beam; sweep; scream and adapt; seizure and fracture; exposed; unravel and dissipate into the Well.
+7. Environments
+E1. Frequency Vortex (0:00 to 0:20)
+Spiralling tunnel. Cymatics geometry forms, rushes past, and dissolves in all 12 Root Key colours. Motion is forward and downward with spin. The other nine participants are visible in the tunnel with faint colour glows. At the bottom, the mouth of the Frequency Well: dark stone, carved cymatics, slow breathing motion.
+E2. The Frequency Well, main chamber / Chamber of the Root (0:21 to 2:01)
+Polished obsidian floor. Walls carved with cymatics patterns. Stone columns (three crack at 1:03). An unlit region ahead from which the Orcs emerge and into which they retreat. Identified as the Chamber of the Root at 0:59. Walls and ceiling are the concealed Dragon until 1:03; geometry after the Dragon detaches is unspecified (Open Item 7).
+Floor states: intact (0:21); fissured along straight percussion lines (0:26); repaired (0:52); fractured by the wingspan (1:03); split further by the roar (1:03 to 1:09); covered in ten-colour cymatics art (1:38 to end).
+Wall states: idle pulse (0:21); full activation for 2 s (0:59); slow wake (1:36); full bloom (1:38); art hold with single pulse (1:41); title assembly (1:51).
+8. The Sequence
+Scene 1. INT. FREQUENCY VORTEX. 0:00 to 0:20
+Music: eerie intro. No lyrics.
+Scene 2. INT. FREQUENCY WELL, MAIN CHAMBER. 0:21 to 1:03
+Verse 1. Sonic Orc encounter.
+Scene 3. THE BREAK. 1:03 to 1:09
+No lyrics. Music holds, eerie and ambient (Open Item 3). Four beats in six seconds; sub-timings to be set against the track.
+Scene 4. INT. CHAMBER OF THE ROOT. 1:09 to 1:51
+Verse 2. Dragon encounter.
+Scene 5. OUTRO AND TITLE. 1:51 to 2:01
+Title card text (TXT-01): LORD LYRICAL  /  THE RESONANT REALM  /  A VR Experience  |  Created by Jeru The Damaja  |  5th Yang LLC  |  Maximum Warp Entertainment
+9. Asset List (seed for the tracking spreadsheet)
+IDs match the Assets / VFX column in Section 8. Add owner, status, and storyboard reference columns in the spreadsheet.
+Environments
+Characters
+Props
+VFX and particle systems
+Audio and text
+10. Open Items and Source Discrepancies
+Slot 9 is named The Dissonant in the roster and The Discordant throughout the sequence. This plan uses Discordant.
+Slot 1 (D, deep amber) and Slot 10 (A, deep amber-gold) are near-identical colours. Confirm distinct values for the colour code system.
+Break audio (1:03 to 1:09) is described as an eerie ambient hold in the sequence and as six seconds of angelic choir in the production notes. Confirm.
+Chord Barrage (1:21) is fired by the Cantors using two keys. The source does not name the keys. This plan assumes E and G.
+Slot 4 (G) and Slot 10 (A) have no individual choreographed action. A is called as the Orc counter key at 0:34 but never executes; the Cantors take the front instead. Confirm whether to add beats or keep both as formation members until 1:32.
+Three in-world spoken lines (Lord Lyrical at 0:34 and 1:32, the Seeker at 1:23) fall during the vocal track. Decide delivery: recorded VO mixed under the song, spatial text or glyph, or cut.
+Chamber geometry after the Dragon detaches from the walls and ceiling at 1:03 is unspecified. Needs a storyboard frame.
+The 0:59 two-second wall activation reveals something filling the chamber. Confirm what is shown: Dragon silhouette or abstract geometry.
+Lord Lyrical's presence in the vortex (0:00 to 0:20) is not specified; the source describes him as always present. Confirm whether he appears in the descent.
+With fewer than ten participants, unassigned keys go dark. Confirm behaviour of The Word (1:38) and the final art (1:41 onward) when keys are missing.
+Sub-timings for the four Break beats (1:03 to 1:09) are not set. Set against the track.
+Title
+Lord Lyrical: The Resonant Realm (VR Dungeon Sequence)
+Format
+Multi-user, first-person VR art experience, fully choreographed to the track. No participant input, menus, lobby, or instructions.
+Runtime
+2:01
+Music
+Lord Lyrical, Jeru The Damaja. Full track, continuous from headset-on to end card. The track is the master clock for every event.
+Participants
+10 simultaneous participants, each assigned a unique Root Key. Lord Lyrical is an 11th, non-controlled presence.
+Creator / IP
+Jeru The Damaja (creator). 5th Yang LLC (IP owner). Maximum Warp Entertainment (credit).
+Engine
+Unity. Single master project.
+Platform reference
+STYLY sample.
+Name
+Role
+Responsibilities
+Jeru
+Talent, story, aesthetic lead
+Beat-by-beat story breakdown (complete). Environment and background storyboard. Action-point storyboard. Character design images. Key prop images. Avatar assets.
+Daniel
+Product owner
+Owns the master Unity project. Integrates all assets and components delivered by Matt and Kris.
+Matt
+Assets, support
+Generates and delivers assets and components to Daniel. Maintains the asset tracking spreadsheet (Section 9 is the seed list).
+Kris
+Assets, support
+Generates and delivers assets and components to Daniel.
+Section
+Timecode
+Duration
+Music
+Content
+Intro
+0:00 to 0:20
+20 s
+Eerie atmospheric intro. No lyrics.
+Transport vortex. Descent into the Well.
+Verse 1
+0:21 to 1:03
+42 s
+Vocals.
+Landing. Sonic Orc encounter. 360 scan reveals the Chamber of the Root.
+Break
+1:03 to 1:09
+6 s
+No lyrics. Ambient hold (see Open Item 3).
+Sound Dragon reveal.
+Verse 2
+1:09 to 1:51
+42 s
+Vocals.
+Dragon encounter. Anti-Frequency. The Word. Cymatics art hold.
+Outro
+1:51 to 2:01
+10 s
+Music fades. Intro theme returns faintly.
+Title assembles from the wall art. End.
+Slot
+Key
+Archetype
+People
+Colour
+Choreographed actions
+1
+D
+The Warrior
+Stone Choir (Dwarf)
+Deep amber
+Front-line charge, Amplitude Strike (0:42).
+2
+C
+The Foundation
+Stone Choir (Dwarf)
+Dark gold
+Front-line charge, Amplitude Strike (0:42).
+3
+E
+The Blade
+High Elves
+Electric blue
+Resonance Shatter (0:39). Chord Barrage (1:21).
+4
+G
+The Balanced
+High Elves
+Silver-green
+Chord Barrage (1:21), assumed second Cantor key (Open Item 4).
+5
+F
+The Healer
+High Elves
+Warm gold
+Resonant Field (0:47, 1:03 break, 1:10, 1:14).
+6
+B
+The Shadow
+Feral Choir: Pitch (avian)
+Deep indigo
+Infrasound Dread, 18 Hz (0:45). Hidden from before 0:26.
+7
+C#
+The Seeker
+Feral Choir: Prowl (feline)
+Pale cyan
+Sonar mapping (0:31). Wide scan (0:55). Deep sonar (1:23).
+8
+F#
+The Architect
+The Founders
+Crystalline white
+Floor rebuild (0:52).
+9
+A#/Bb
+The Discordant
+Feral Choir: Howlers
+Shifting crimson
+Cacophony (0:50). Anti-Frequency (1:30).
+10
+A
+The Ancient
+The Founders
+Deep amber-gold
+Named as the Orc counter key (0:34). No individual action choreographed (Open Item 5).
+All
+Amplitude rise (1:32). Ten-key lock (1:36). The Word (1:38).
+TC
+Cue
+Action
+Assets / VFX
+0:00
+Intro starts
+Headset on. Immediate motion: the participant spins forward and downward through the vortex. Cymatics geometry assembles and collapses around them in all 12 colours. The other nine participants are visible in the tunnel, each with a faint glow in their colour.
+ENV-01; CHR-01 to CHR-10 (faint glow); AUD-01
+0:00 to 0:20
+Intro continues
+The mouth of the Frequency Well is visible below: dark stone, carved cymatics, breathing. The descent runs the full 20 seconds.
+ENV-02
+0:20
+End of intro
+The Well pulls the group in. Transition to the main chamber.
+ENV-02 to ENV-03
+TC
+Cue
+Action
+Assets / VFX
+0:21
+V1 L1, first word
+All ten land on the obsidian floor at once. Cymatics rings spread from every pair of feet, ten colours overlapping. Wall patterns pulse: dim, bright, dim. Lord Lyrical's spectrum ignites above the party: 12 colours rotating slowly in a compass form.
+ENV-03; VFX-01; VFX-03 (pulse); VFX-04; CHR-11
+0:23
+V1 L2
+The party spreads through the chamber into formation. Each participant leaves a faint colour trail on the floor. Ambient tone shifts to the combined keys.
+VFX-02; AUD-01
+0:26
+V1 L3, on last word (fissures)
+The floor cracks from below. Unison club strikes, unseen. Shockwave through the chamber. Fissures run in straight lines from the dark region ahead to the party's feet. Sonic Orcs emerge: eight, twelve, more behind, advancing in percussion formation.
+VFX-05; VFX-06; CHR-12 (emerge, advance); PRP-01; AUD-02
+0:29
+V1 L4
+Ten colours overlap on the floor. Rings from every footstep. Chamber at full colour.
+VFX-01; VFX-02
+0:31
+V1 L5
+The Seeker (C#) fires sonar. Pale cyan pulses spread and map the Orc formation. A Root Key indicator blooms above each Orc in sequence: D, on every one.
+VFX-07; VFX-08; CHR-07
+0:34
+V1 L6
+Lord Lyrical calls the counter (in-world line: Key of A; Cantors to the front; everyone else follows the line). The counter-key glyph appears on the chamber walls in cymatics geometry, visible to all.
+VFX-09; AUD-03; CHR-11
+0:36
+V1 L7
+Hold for three seconds. Cantors (E, G) slide into the front position. Resonants (D, C) step up one stride behind. Orcs close the distance.
+CHR-01 to CHR-04 (formation); CHR-12 (advance)
+0:39
+V1 L8, on last word (mics)
+Resonance Shatter. The Blade (E) holds a sustained tone against the lead Orc's plate frequency until the plate structure fails. The Orc disintegrates from the inside out. Cymatics rings spread from the failure point and stagger every Orc in range.
+VFX-10; CHR-03; CHR-12 (disintegrate, stagger)
+0:42
+V1 L9
+Resonants (D, C) charge. Deep amber and dark gold trails across the fractured floor. Amplitude Strike on contact: each punch sends a wave through the Orc's body.
+VFX-11; VFX-02; CHR-01, CHR-02; CHR-12 (hit)
+0:45
+V1 L10
+The Whisper (B), unseen since before the Orcs emerged, delivers Infrasound Dread (18 Hz) from an unlocated position. Three Orcs at the edge of the formation seize and drop at once. No audible or visible source.
+VFX-12; CHR-06 (hidden); CHR-12 (seize, drop)
+0:47
+V1 L11
+Surviving Orcs stop advancing and stomp in unison, clubs driving into the stone. A bass shockwave rolls across the floor toward the party. The Harmonist (F) extends Resonant Field wide: warm gold washes over all ten and dampens the wave before it arrives.
+VFX-13; VFX-14; CHR-05; CHR-12 (stomp); AUD-02
+0:50
+V1 L12
+The Discordant (A#/Bb) steps forward and deploys Cacophony into the centre of the formation: a flood of competing, chaotic frequencies. The stomp collapses into noise. The Orcs break formation, retreat, and disappear into the dark region.
+VFX-15; CHR-09; CHR-12 (break, retreat)
+0:52
+V1 L13
+The Architect (F#) raises one hand. Fractured floor sections lift and realign under cymatics geometry. Floor restored. Party resets formation.
+VFX-16; CHR-08; ENV-03 (floor repaired)
+0:55
+V1 L14
+The party advances. The Seeker's sonar goes wide, mapping ahead. Pulses go out and return, twice. A pulse meets something too large to map. Sonar stops.
+VFX-07 (wide mode, abort); CHR-07
+0:59
+V1 L15
+Lord Lyrical raises both hands. Spectrum rotation accelerates. All 12 frequencies pulse outward from him in a sphere. Every cymatics pattern on every wall activates for exactly two seconds, showing the full geometry of the chamber: the Chamber of the Root, with a shape filling it (Open Item 8).
+VFX-18; VFX-03 (2 s activation); CHR-11; CHR-13 (concealed)
+1:01
+V1 L16
+The 360 pulse completes. Hold on the party through the end of the verse at 1:03.
+No new assets
+TC
+Cue
+Action
+Assets / VFX
+1:03
+Beat 1
+The chamber goes still. The ceiling moves. The walls and ceiling are the Dragon's folded wings and chest.
+CHR-13 (reveal start)
+Beat 2
+The wings open. No sound before impact. A low-frequency shockwave rolls outward as the wingspan fills the chamber. The floor fractures. Three columns crack. The Harmonist braces and extends the field.
+VFX-19; VFX-14; ENV-03 (floor fractured, columns cracked); CHR-05
+Beat 3
+Two eyes open: amber, red, black, cycling without settling.
+CHR-13 (eyes)
+Beat 4
+The roar. Felt first: chest, behind the eyes, base of the skull. Then the sound arrives as a wall of dissonant frequency. Walls crack further. Floor splits further.
+VFX-20; AUD-02; AUD-04
+1:09
+Break ends
+Verse 2 begins. Continue to Scene 4.
+TC
+Cue
+Action
+Assets / VFX
+1:09
+V2 L1, first word
+The Dragon attacks. Breath beam: narrow, precise, aimed at Lord Lyrical. The beam tracks him across the chamber. He circles, holding distance.
+VFX-21; CHR-13 (beam); CHR-11
+1:10
+V2 L2
+The Harmonist extends Resonant Field to maximum range. Warm gold floods the entire chamber and reaches every participant.
+VFX-14 (max range); CHR-05
+1:14
+V2 L3
+The Dragon escalates. Breath weapon sweeps a wide arc covering half the chamber. Multiple participants stagger. The Field catches the edge of the sweep. The Harmonist holds.
+VFX-22; CHR-13 (sweep); CHR-01 to CHR-10 (stagger); VFX-14
+1:16
+V2 L4
+Lord Lyrical moves through the breath wave unaffected (no Root Key for the dissonant frequency to lock onto). He circles the Dragon while the party recovers.
+CHR-11; VFX-22
+1:21
+V2 L5
+Full Spectrum. Lord Lyrical's hands cycle through all 12 frequencies, colour changing every half second. The Cantors fire Chord Barrage: two keys hit the Dragon's flanks at once; overlapping cymatics rings bloom across its scales. The Dragon screams (dissonance) and adapts.
+VFX-23; VFX-24; CHR-11; CHR-03, CHR-04; CHR-13 (scream, adapt)
+1:23
+V2 L6
+The Seeker goes silent and drops into deep sonar. For every participant, the chamber renders as pure waveforms: all sound visible as colour and moving geometry. Beneath the Dragon's surface frequency, a regular foundational pulse, the original signal. The Seeker announces it to the party (in-world line: Root Key E, The Blade).
+VFX-17; CHR-07; AUD-03
+1:27
+V2 L7
+Lord Lyrical maps the counter: E hidden under A#/Bb corruption; counter for E is Bb; the Discordant carries Bb. He looks at the Discordant.
+CHR-11; CHR-09
+1:30
+V2 L8
+The Discordant steps forward and fires Anti-Frequency: the exact inverse wave of Key E. It hits the Dragon's hidden Root Key. The Dragon seizes. The outer corruption layer cracks; a jagged fracture line spreads across its body; the original frequency shows beneath, like light through broken stone.
+VFX-25; CHR-09; CHR-13 (seize, fracture)
+1:32
+V2 L9
+Lord Lyrical turns to the group and calls all ten up (in-world line). Every participant's frequency rises to maximum amplitude at once, pure and sustained, pulled into formation by his conducting. Ten tones sustained, every colour at full intensity. Participants feel their own frequency as vibration. The Dragon, cracked open, faces the assembled party.
+VFX-26; AUD-03; AUD-04; CHR-01 to CHR-11; CHR-13 (exposed)
+1:36
+V2 L10
+Ten frequencies lock together. Lord Lyrical at the centre, conducting. Wall cymatics patterns begin activating slowly. Everything in the chamber goes completely still.
+VFX-27; VFX-03 (slow wake); CHR-11
+1:38
+V2 L11, on last word (unleashed)
+The Word fires: a single harmonic chord built from all ten Root Keys, conducted by Lord Lyrical, aimed at the Dragon's exposed Key E through the fracture. The corruption unravels from the inside out, peeling away in dark frequency sheets. The original E signature shows beneath: sharp, electric, clean. The Dragon's body cycles rapidly through its original colours to critical resonance. Every cymatics pattern on every surface (walls, floor, ceiling, every crack in every column) blooms into geometric frequency art in all ten party colours, overlapping and compounding. The Dragon's frequency completes its final wave and dissipates into the Well.
+VFX-28; VFX-29 (bloom); VFX-03 (full bloom); CHR-13 (unravel, dissipate); CHR-11
+1:41
+V2 L12
+The chamber holds the art: ten colours frozen in overlapping frequency geometry across every surface. Ten participants at the centre. The art pulses once, all ten colours blooming outward from the walls in a single wave, then holds.
+VFX-29 (pulse, hold)
+1:46 to 1:51
+V2 L13, four closing lines
+The art holds on every surface without fading. No new action.
+VFX-29 (hold)
+TC
+Cue
+Action
+Assets / VFX
+1:51
+Final lyric ends. Music fades.
+The eerie intro theme returns faintly. The carvings breathe (slow pulse).
+AUD-01; VFX-03 (breathe)
+1:51 to 2:01
+Fade
+The title assembles from the cymatics patterns still glowing on the walls. Each letter forms from frequency geometry arranging in real time, in all ten party colours.
+VFX-30; TXT-01
+2:01
+End
+Sequence ends on the title card.
+ID
+Category
+Asset
+States, variants, notes
+First use
+ENV-01
+Environment
+Frequency Vortex
+Spiral descent path. Cymatics geometry forming and dissolving. 12-colour palette. Source: transport intro concept video.
+0:00
+ENV-02
+Environment
+Well mouth
+Dark stone. Carved cymatics. Breathing animation. Seen from above during the descent.
+0:00
+ENV-03
+Environment
+Main chamber (Chamber of the Root)
+Obsidian floor, carved walls, columns, unlit region. Floor states: intact, fissured, repaired, fractured, art. Wall states: idle pulse, 2 s activation, slow wake, full bloom, art hold, title. Post-reveal geometry: Open Item 7.
+0:21
+ID
+Category
+Asset
+States, variants, notes
+First use
+CHR-01 to CHR-10
+Character
+Participant avatars, slots 1 to 10
+One per slot, design per Section 4. Per-slot glow colour. Footstep ring emitter, floor trail emitter, stagger, ability pose, amplitude-rise state, faint-glow vortex state. Slot 6 includes a hidden state.
+0:00
+CHR-11
+Character
+Lord Lyrical
+Base: Jeru avatar assets. 12-colour cycling shader (slow, accelerated, 0.5 s hand cycle). Poses: ignition, counter call, both-hands raise, circling, Full Spectrum, turn and call, conducting.
+0:00
+CHR-12
+Character
+Sonic Orc
+Resonance-plate shader with constant low-frequency vibration and air disturbance. Animations: emerge, advance, unison club strike, stomp, stagger, disintegrate, seize and drop, break and retreat. Minimum 12 on screen plus background ranks.
+0:26
+CHR-13
+Character
+Sound Dragon
+Layered sound-wave body shader. States: concealed (walls and ceiling), wing unfold, eyes, narrow beam, arc sweep, scream and adapt, seizure and fracture lines, exposed, unravel and dissipate.
+0:21 (concealed), 1:03 (reveal)
+ID
+Category
+Asset
+States, variants, notes
+First use
+PRP-01
+Prop
+Double-headed tuning fork club
+Orc weapon. Impact and stomp variants drive VFX-06 and VFX-13.
+0:26
+ID
+Category
+Asset
+States, variants, notes
+First use
+VFX-01
+VFX
+Footstep cymatics rings
+Ring burst per footstep on the obsidian floor, in the participant's colour. Ten-colour overlap at landing.
+0:21
+VFX-02
+VFX
+Floor colour trails
+Faint trail behind each moving participant. Stronger variant for the Resonant charge.
+0:23
+VFX-03
+VFX
+Wall pattern states
+Idle pulse (dim, bright, dim). 2 s full activation. Slow wake. Full ten-colour bloom. Breathe. Drives VFX-29 and VFX-30.
+0:21
+VFX-04
+VFX
+Spectrum compass
+Lord Lyrical's 12 colours rotating slowly above the party.
+0:21
+VFX-05
+VFX
+Floor fissures
+Straight-line cracks propagating from the unlit region to the party's feet.
+0:26
+VFX-06
+VFX
+Orc club-strike shockwave
+Unison strike wave through the chamber.
+0:26
+VFX-07
+VFX
+Seeker sonar pulse
+Pale cyan expanding pulses. Modes: formation map, wide scan, abort on oversized return.
+0:31
+VFX-08
+VFX
+Root Key indicator
+Key letter readout blooming above each enemy in sequence.
+0:31
+VFX-09
+VFX
+Counter-key wall glyph
+Single cymatics image on the chamber walls, visible to all participants.
+0:34
+VFX-10
+VFX
+Resonance Shatter
+Sustained tone from E to target. Plate failure. Disintegration from the inside out. Ring burst from the failure point with stagger radius.
+0:39
+VFX-11
+VFX
+Amplitude Strike
+Wave through the target body on punch contact.
+0:42
+VFX-12
+VFX
+Infrasound Dread
+No visible source. Three targets seize and drop simultaneously.
+0:45
+VFX-13
+VFX
+Orc stomp shockwave
+Bass wave rolling across the floor toward the party.
+0:47
+VFX-14
+VFX
+Resonant Field
+Warm gold wash over participants. Variable radius: wide, braced, maximum (full chamber). Dampens incoming waves.
+0:47
+VFX-15
+VFX
+Cacophony
+Flood of competing chaotic frequencies into the formation centre. Collapses the stomp into noise.
+0:50
+VFX-16
+VFX
+Floor rebuild
+Fractured sections lift and realign under cymatics geometry.
+0:52
+VFX-17
+VFX
+Deep sonar render
+Full-chamber waveform view for every participant: all sound as colour and moving geometry. Hidden pulse visible beneath the Dragon's surface frequency.
+1:23
+VFX-18
+VFX
+360 sphere pulse
+All 12 frequencies pulsing outward from Lord Lyrical in a sphere. Triggers the 2 s wall activation.
+0:59
+VFX-19
+VFX
+Dragon wing shockwave
+Low-frequency wave as the wings open. Floor fracture. Three column cracks.
+1:03
+VFX-20
+VFX
+Dragon roar
+Felt component (haptics, low frequency), then dissonance wall. Further wall and floor cracking.
+1:03
+VFX-21
+VFX
+Dragon breath beam
+Narrow dissonant beam tracking Lord Lyrical.
+1:09
+VFX-22
+VFX
+Dragon breath sweep
+Wide arc covering half the chamber. Stagger on participants. Edge caught by VFX-14.
+1:14
+VFX-23
+VFX
+Full Spectrum hand cycle
+Lord Lyrical's hands cycling 12 colours at 0.5 s intervals.
+1:21
+VFX-24
+VFX
+Chord Barrage
+Two keys striking the Dragon's flanks simultaneously. Overlapping rings across the scales.
+1:21
+VFX-25
+VFX
+Anti-Frequency
+Inverse wave from the Discordant to the Dragon. Seizure. Jagged fracture line across the body with the original frequency visible beneath.
+1:30
+VFX-26
+VFX
+Amplitude rise
+All ten participant colours rise to maximum and sustain. Vibration on the participant (haptics if available).
+1:32
+VFX-27
+VFX
+Ten-key lock
+Ten frequencies locking into formation around Lord Lyrical. Full stillness.
+1:36
+VFX-28
+VFX
+The Word
+Ten-key chord through the fracture. Corruption peeling away in dark sheets. Original E signature. Rapid colour cycle to critical resonance. Dissipation into the Well.
+1:38
+VFX-29
+VFX
+Full-surface cymatics art
+Ten-colour bloom on walls, floor, ceiling, and every crack. Single outward pulse. Hold to end.
+1:38
+VFX-30
+VFX
+Title assembly
+Letters forming from wall patterns in real time, ten colours.
+1:51
+ID
+Category
+Asset
+States, variants, notes
+First use
+AUD-01
+Audio
+Track
+Full 2:01 track with cue markers at every timecode in Section 8. Master clock.
+0:00
+AUD-02
+Audio
+Low-frequency layers
+Orc grunts, unison strikes, stomp. Dragon wing beat and roar. Only if rendered outside the track.
+0:26
+AUD-03
+Audio
+In-world lines
+Lord Lyrical at 0:34 and 1:32. Seeker at 1:23. Delivery method: Open Item 6.
+0:34
+AUD-04
+Haptics
+Controller or vest haptics
+Optional. Landing, shockwaves, roar, amplitude rise.
+0:21
+TXT-01
+Text
+Title card
+LORD LYRICAL / THE RESONANT REALM / A VR Experience | Created by Jeru The Damaja | 5th Yang LLC | Maximum Warp Entertainment.
+1:51
