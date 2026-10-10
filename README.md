@@ -30,4 +30,4 @@ Build 43 networked and standalone APKs passed their recorded build/automated che
 
 Unity caches, Python environments, machine-local logs, signing secrets and generated build directories are excluded. Large source files use Git LFS. Third-party art, packages, music and likenesses retain their original ownership and licenses; publication does not grant additional redistribution rights.
 
-Current installable networked and standalone APKs: [Production 43 release](https://github.com/krispatl/lordlyrical/releases/tag/production-43).
+The current installable APKs remain in the original local delivery workspace. GitHub APK release publication is pending explicit approval; this repository contains the complete editable source and build instructions.
