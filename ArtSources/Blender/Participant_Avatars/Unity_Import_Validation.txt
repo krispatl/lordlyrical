@@ -1,0 +1,41 @@
+TEN ROOT KEY PARTICIPANTS - UNITY IMPORT
+PASS D_Warrior: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 17000 triangles
+  Avatar_Body_LOD1: 7000 triangles
+  Avatar_Body_LOD2: 3000 triangles
+PASS C_Foundation: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 16999 triangles
+  Avatar_Body_LOD1: 7000 triangles
+  Avatar_Body_LOD2: 3000 triangles
+PASS E_Blade: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 17000 triangles
+  Avatar_Body_LOD1: 6999 triangles
+  Avatar_Body_LOD2: 3000 triangles
+PASS G_Balanced: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 17000 triangles
+  Avatar_Body_LOD1: 7000 triangles
+  Avatar_Body_LOD2: 3000 triangles
+PASS F_Healer: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 17000 triangles
+  Avatar_Body_LOD1: 6999 triangles
+  Avatar_Body_LOD2: 3000 triangles
+PASS B_Shadow: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 17000 triangles
+  Avatar_Body_LOD1: 7000 triangles
+  Avatar_Body_LOD2: 2999 triangles
+PASS Cs_Seeker: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 17000 triangles
+  Avatar_Body_LOD1: 7000 triangles
+  Avatar_Body_LOD2: 3000 triangles
+PASS Fs_Architect: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 16999 triangles
+  Avatar_Body_LOD1: 6999 triangles
+  Avatar_Body_LOD2: 2999 triangles
+PASS Bb_Discordant: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 17000 triangles
+  Avatar_Body_LOD1: 7000 triangles
+  Avatar_Body_LOD2: 2999 triangles
+PASS A_Ancient: valid Humanoid, 6 skins, six clips, three LODs, separate hands
+  Avatar_Body_LOD0: 17000 triangles
+  Avatar_Body_LOD1: 7000 triangles
+  Avatar_Body_LOD2: 2999 triangles

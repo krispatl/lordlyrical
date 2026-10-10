@@ -1,0 +1,617 @@
+{
+  "name": "Chamber of the Root",
+  "source_stone": {
+    "id": "medieval_blocks_06",
+    "author": "Rob Tuytel",
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/medieval_blocks_06"
+  },
+  "dimensions_m": [
+    32,
+    40,
+    17
+  ],
+  "blender_axes": "X right, Y depth, Z up",
+  "well_center": [
+    0,
+    10,
+    0
+  ],
+  "materials": [
+    "CH_Stone",
+    "CH_Obsidian",
+    "CH_Titanium",
+    "CH_SilverInlay",
+    "CH_NicheStone",
+    "CH_EngravedGlyph",
+    "CH_BlueConduit",
+    "CH_WellSurface",
+    "CH_AmberAccent"
+  ],
+  "objects": [
+    {
+      "name": "CH_AisleVault_L_00",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_L_01",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_L_02",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_L_03",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_L_04",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_L_05",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_R_00",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_R_01",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_R_02",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_R_03",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_R_04",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_AisleVault_R_05",
+      "triangles": 588,
+      "vertices": 330,
+      "materials": 2
+    },
+    {
+      "name": "CH_ApsePortal",
+      "triangles": 9002,
+      "vertices": 4539,
+      "materials": 5
+    },
+    {
+      "name": "CH_ColumnBase_L_00",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_L_01",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_L_02",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_L_03",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_L_04",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_L_05",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_R_00",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_R_01",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_R_02",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_R_03",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_R_04",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnBase_R_05",
+      "triangles": 1360,
+      "vertices": 770,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnUpper_L_00",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnUpper_L_01",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnUpper_L_04",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnUpper_L_05",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnUpper_R_00",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnUpper_R_01",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnUpper_R_02",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnUpper_R_04",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_ColumnUpper_R_05",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_EntryPortal",
+      "triangles": 3120,
+      "vertices": 1578,
+      "materials": 4
+    },
+    {
+      "name": "CH_Floor_Obsidian",
+      "triangles": 3972,
+      "vertices": 2648,
+      "materials": 3
+    },
+    {
+      "name": "CH_FractureColumn_L_02",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_FractureColumn_L_03",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_FractureColumn_R_03",
+      "triangles": 1248,
+      "vertices": 716,
+      "materials": 3
+    },
+    {
+      "name": "CH_FrequencyWell_Rim",
+      "triangles": 7668,
+      "vertices": 3990,
+      "materials": 5
+    },
+    {
+      "name": "CH_FrequencyWell_Surface",
+      "triangles": 3976,
+      "vertices": 2047,
+      "materials": 2
+    },
+    {
+      "name": "CH_Gallery_L",
+      "triangles": 108,
+      "vertices": 66,
+      "materials": 2
+    },
+    {
+      "name": "CH_Gallery_R",
+      "triangles": 108,
+      "vertices": 66,
+      "materials": 2
+    },
+    {
+      "name": "CH_GlyphFloor_00",
+      "triangles": 1264,
+      "vertices": 686,
+      "materials": 2
+    },
+    {
+      "name": "CH_GlyphFloor_01",
+      "triangles": 1264,
+      "vertices": 686,
+      "materials": 2
+    },
+    {
+      "name": "CH_GlyphFloor_02",
+      "triangles": 1264,
+      "vertices": 686,
+      "materials": 2
+    },
+    {
+      "name": "CH_GlyphFloor_03",
+      "triangles": 1264,
+      "vertices": 686,
+      "materials": 2
+    },
+    {
+      "name": "CH_GlyphFloor_04",
+      "triangles": 1264,
+      "vertices": 686,
+      "materials": 2
+    },
+    {
+      "name": "CH_GlyphWall_L_00",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_L_01",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_L_02",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_L_03",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_L_04",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_L_05",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_R_00",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_R_01",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_R_02",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_R_03",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_R_04",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_GlyphWall_R_05",
+      "triangles": 50,
+      "vertices": 36,
+      "materials": 3
+    },
+    {
+      "name": "CH_ResonanceSconces",
+      "triangles": 1440,
+      "vertices": 924,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_L_00",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_L_01",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_L_02",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_L_03",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_L_04",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_R_00",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_R_01",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_R_02",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_R_03",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_RevealRib_R_04",
+      "triangles": 104,
+      "vertices": 56,
+      "materials": 2
+    },
+    {
+      "name": "CH_VaultRib_00",
+      "triangles": 2688,
+      "vertices": 1350,
+      "materials": 2
+    },
+    {
+      "name": "CH_VaultRib_01",
+      "triangles": 2688,
+      "vertices": 1350,
+      "materials": 2
+    },
+    {
+      "name": "CH_VaultRib_02",
+      "triangles": 2688,
+      "vertices": 1350,
+      "materials": 2
+    },
+    {
+      "name": "CH_VaultRib_03",
+      "triangles": 2688,
+      "vertices": 1350,
+      "materials": 2
+    },
+    {
+      "name": "CH_VaultRib_04",
+      "triangles": 2688,
+      "vertices": 1350,
+      "materials": 2
+    },
+    {
+      "name": "CH_VaultRib_05",
+      "triangles": 2688,
+      "vertices": 1350,
+      "materials": 2
+    },
+    {
+      "name": "CH_VaultRib_06",
+      "triangles": 2688,
+      "vertices": 1350,
+      "materials": 2
+    },
+    {
+      "name": "CH_VaultWeb_00",
+      "triangles": 1936,
+      "vertices": 1036,
+      "materials": 3
+    },
+    {
+      "name": "CH_VaultWeb_01",
+      "triangles": 1936,
+      "vertices": 1036,
+      "materials": 3
+    },
+    {
+      "name": "CH_VaultWeb_02",
+      "triangles": 1936,
+      "vertices": 1036,
+      "materials": 3
+    },
+    {
+      "name": "CH_VaultWeb_03",
+      "triangles": 1936,
+      "vertices": 1036,
+      "materials": 3
+    },
+    {
+      "name": "CH_VaultWeb_04",
+      "triangles": 1936,
+      "vertices": 1036,
+      "materials": 3
+    },
+    {
+      "name": "CH_VaultWeb_05",
+      "triangles": 1936,
+      "vertices": 1036,
+      "materials": 3
+    },
+    {
+      "name": "CH_VestibuleVault",
+      "triangles": 88,
+      "vertices": 90,
+      "materials": 1
+    },
+    {
+      "name": "CH_WallBay_L_00",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_L_01",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_L_02",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_L_03",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_L_04",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_L_05",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_R_00",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_R_01",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_R_02",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_R_03",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_R_04",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    },
+    {
+      "name": "CH_WallBay_R_05",
+      "triangles": 1945,
+      "vertices": 1007,
+      "materials": 4
+    }
+  ],
+  "triangles": 129566,
+  "vertices": 69912
+}

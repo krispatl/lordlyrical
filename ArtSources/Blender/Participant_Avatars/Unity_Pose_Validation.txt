@@ -1,0 +1,11 @@
+PARTICIPANT DEFORMATION, SEEK AND FIRST-PERSON VALIDATION
+PASS D_Warrior: ability displacement 0.6388m; repeat seek 0.000000m; raised hand 1.509m; tracked hand error 0.000000m; first-person isolation
+PASS C_Foundation: ability displacement 0.5929m; repeat seek 0.000000m; raised hand 1.475m; tracked hand error 0.000000m; first-person isolation
+PASS E_Blade: ability displacement 0.6974m; repeat seek 0.000000m; raised hand 1.794m; tracked hand error 0.000000m; first-person isolation
+PASS G_Balanced: ability displacement 0.7054m; repeat seek 0.000000m; raised hand 1.775m; tracked hand error 0.000001m; first-person isolation
+PASS F_Healer: ability displacement 0.6279m; repeat seek 0.000000m; raised hand 1.727m; tracked hand error 0.000000m; first-person isolation
+PASS B_Shadow: ability displacement 0.6630m; repeat seek 0.000000m; raised hand 1.691m; tracked hand error 0.000000m; first-person isolation
+PASS Cs_Seeker: ability displacement 0.6140m; repeat seek 0.000000m; raised hand 1.564m; tracked hand error 0.000001m; first-person isolation
+PASS Fs_Architect: ability displacement 0.9103m; repeat seek 0.000000m; raised hand 1.931m; tracked hand error 0.000000m; first-person isolation
+PASS Bb_Discordant: ability displacement 0.6124m; repeat seek 0.000000m; raised hand 1.835m; tracked hand error 0.000000m; first-person isolation
+PASS A_Ancient: ability displacement 0.7703m; repeat seek 0.000000m; raised hand 1.893m; tracked hand error 0.000000m; first-person isolation

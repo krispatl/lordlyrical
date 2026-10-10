@@ -1,0 +1,11 @@
+FINGER DEFORMATION AND TRACKING VALIDATION
+PASS D_Warrior: finger displacement 0.0732m; pose restored after tracking 0.000000m; remote wrist target error 0.0000m; XR targets unchanged
+PASS C_Foundation: finger displacement 0.0676m; pose restored after tracking 0.000000m; remote wrist target error 0.0000m; XR targets unchanged
+PASS E_Blade: finger displacement 0.0837m; pose restored after tracking 0.000000m; remote wrist target error 0.0000m; XR targets unchanged
+PASS G_Balanced: finger displacement 0.0836m; pose restored after tracking 0.000000m; remote wrist target error 0.0000m; XR targets unchanged
+PASS F_Healer: finger displacement 0.0779m; pose restored after tracking 0.000000m; remote wrist target error 0.0000m; XR targets unchanged
+PASS B_Shadow: finger displacement 0.0797m; pose restored after tracking 0.000000m; remote wrist target error 0.0000m; XR targets unchanged
+PASS Cs_Seeker: finger displacement 0.0721m; pose restored after tracking 0.000000m; remote wrist target error 0.0000m; XR targets unchanged
+PASS Fs_Architect: finger displacement 0.0890m; pose restored after tracking 0.000001m; remote wrist target error 0.0000m; XR targets unchanged
+PASS Bb_Discordant: finger displacement 0.0844m; pose restored after tracking 0.000000m; remote wrist target error 0.0000m; XR targets unchanged
+PASS A_Ancient: finger displacement 0.0827m; pose restored after tracking 0.000001m; remote wrist target error 0.0000m; XR targets unchanged

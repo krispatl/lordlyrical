@@ -1,0 +1,17 @@
+CHARACTER DETAIL AND CONTACT REVIEW
+PASS Jeru_Beard_Detail_Unity_LOD1: 66 facial shapes; world bounds centre delta 0.0017m
+PASS Jeru_Face_51Expressions_Unity_LOD1: 66 facial shapes; world bounds centre delta 0.0000m
+PASS Jeru_Mouth_Interior_Unity_LOD1: 66 facial shapes; world bounds centre delta 0.0000m
+PASS Jeru_Beard_Detail_Unity_LOD2: 66 facial shapes; world bounds centre delta 0.0020m
+PASS Jeru_Face_51Expressions_Unity_LOD2: 66 facial shapes; world bounds centre delta 0.0001m
+PASS Jeru_Mouth_Interior_Unity_LOD2: 66 facial shapes; world bounds centre delta 0.0001m
+PASS The Warrior: 3 hand LODs, articulated binding and first-person isolation
+PASS The Foundation: 3 hand LODs, articulated binding and first-person isolation
+PASS The Blade: 3 hand LODs, articulated binding and first-person isolation
+PASS The Balanced: 3 hand LODs, articulated binding and first-person isolation
+PASS The Healer: 3 hand LODs, articulated binding and first-person isolation
+PASS The Shadow: 3 hand LODs, articulated binding and first-person isolation
+PASS The Seeker: 3 hand LODs, articulated binding and first-person isolation
+PASS The Architect: 3 hand LODs, articulated binding and first-person isolation
+PASS The Discordant: 3 hand LODs, articulated binding and first-person isolation
+PASS The Ancient: 3 hand LODs, articulated binding and first-person isolation

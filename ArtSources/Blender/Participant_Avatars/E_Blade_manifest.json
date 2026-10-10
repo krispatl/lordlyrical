@@ -1,0 +1,223 @@
+{
+  "id": "E_Blade",
+  "name": "The Blade",
+  "key": "E",
+  "family": "High Elves",
+  "hex": "168DFF",
+  "height": 1.96,
+  "width": 0.87,
+  "gender": 0.3,
+  "age": 0.32,
+  "muscle": 0.48,
+  "weight": 0.4,
+  "skin": "young_african_female",
+  "design": "Swept ears and crest, narrow blue tabard, swept blade forearms",
+  "ability": "Resonance Shatter / Chord Barrage",
+  "slot": 2,
+  "bones": 53,
+  "meshes": [
+    {
+      "name": "Avatar_Body_LOD0",
+      "triangles": 17000,
+      "vertices": 8880,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Cymatic",
+      "triangles": 620,
+      "vertices": 336,
+      "maxInfluences": 1
+    },
+    {
+      "name": "Avatar_LeftHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_RightHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD1",
+      "triangles": 6999,
+      "vertices": 3851,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD2",
+      "triangles": 3000,
+      "vertices": 1792,
+      "maxInfluences": 4
+    }
+  ],
+  "materials": [
+    {
+      "name": "E_Blade_Skin",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "young_african_female.png"
+    },
+    {
+      "name": "E_Blade_Vestment",
+      "color": [
+        0.018470589071512222,
+        0.053470589220523834,
+        0.08699999749660492,
+        1.0
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.7200000286102295,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "E_Blade_Armor",
+      "color": [
+        0.14811764657497406,
+        0.24611765146255493,
+        0.3400000035762787,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.3400000035762787,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "E_Blade_Hair",
+      "color": [
+        0.02500000037252903,
+        0.02199999988079071,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Anatomical source E_Blade.low-poly",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "Shared_Eyes.png"
+    },
+    {
+      "name": "E_Blade_Trim",
+      "color": [
+        0.30760782957077026,
+        0.4569411873817444,
+        0.6000000238418579,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.30000001192092896,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "E_Blade_Cymatic",
+      "color": [
+        0.08627451211214066,
+        0.5529412031173706,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3199999928474426,
+      "emission": [
+        0.08627451211214066,
+        0.5529412031173706,
+        1.0,
+        1.0
+      ],
+      "strength": 2.0,
+      "texture": ""
+    }
+  ],
+  "clips": [
+    {
+      "name": "E_Blade_Idle",
+      "seconds": 3,
+      "loop": true
+    },
+    {
+      "name": "E_Blade_Walk",
+      "seconds": 1.2,
+      "loop": true
+    },
+    {
+      "name": "E_Blade_Ability",
+      "seconds": 3,
+      "loop": false
+    },
+    {
+      "name": "E_Blade_Stagger",
+      "seconds": 1,
+      "loop": false
+    },
+    {
+      "name": "E_Blade_Rise",
+      "seconds": 4,
+      "loop": false
+    },
+    {
+      "name": "E_Blade_Hands",
+      "seconds": 2,
+      "loop": true
+    }
+  ]
+}

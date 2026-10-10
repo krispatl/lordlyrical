@@ -1,0 +1,13 @@
+SONIC ORC SHOW INTEGRATION
+Configured prefab: Assets/LordLyricalOrc_Unity/Prefabs/Sonic_Orc.prefab
+PASS 21 s: 0 active authored Orcs; clips 
+PASS 31 s: 12 active authored Orcs; clips 1,1,1,1,1,1,1,1,1,1,1,1
+PASS 39.3 s: 12 active authored Orcs; clips 3,3,3,3,3,3,3,3,3,3,3,3
+PASS 40 s: 11 active authored Orcs; clips 1,1,1,1,1,1,1,1,1,1,1
+PASS 45.6 s: 11 active authored Orcs; clips 1,1,1,1,1,1,1,1,4,4,4
+PASS 47.5 s: 11 active authored Orcs; clips 2,2,2,2,2,2,2,2,4,4,4
+PASS 51 s: 11 active authored Orcs; clips 5,5,5,5,5,5,5,5,5,5,5
+PASS 54 s: 0 active authored Orcs; clips 
+PASS full-show repeated seek vertex error: 4.915125E-07 m
+PASS 31 s: 12 active authored Orcs; clips 1,1,1,1,1,1,1,1,1,1,1,1
+PASS existing core cue, clock, key and reconstruction tests; Jeru and authored chamber present.

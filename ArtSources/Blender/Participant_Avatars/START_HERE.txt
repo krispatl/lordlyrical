@@ -1,0 +1,65 @@
+INTEGRATED FINISHING UPDATE - 3 October 2026
+The current Unity prefabs now also have three hand LODs, closed first-person wrists, microdetail materials and completed show effects. The final integrated package and current validation are in ../LordLyrical_Finishing. The source anatomy remains a stylized authored game-character set; these are not photographic scans.
+
+LORD LYRICAL - TEN PARTICIPANT AVATARS
+3 October 2026 | Working rigged roster / first art pass
+
+OPEN AND REVIEW
+- LordLyrical_Ten_Avatars.blend: all ten characters in separate named collections, studio camera and lighting. Each rig has six retained actions.
+- Individual D_Warrior.blend through A_Ancient.blend files: editable character sources, with the original anatomical source hidden for further fitting.
+- Ten_Avatars_Roster.png: labeled Unity renders of all ten roles.
+- Ten_Avatars_Motion_Preview.mp4: eight-second Unity animation preview.
+- First_Person_Hands.png: actual first-person hand render.
+- ../LordLyrical_Ten_Avatars.unitypackage: portable URP character package.
+
+UNITY PROJECT
+C:\Users\kris\Documents\Codex\2026-10-03\als\outputs\LordLyrical
+Assets/LordLyricalAvatars_Unity/Scenes/ParticipantAvatarReview.unity
+Assets/LordLyricalAvatars_Unity/Prefabs contains the ten production-placement prefabs.
+The current project's Experience.participantModels and both network avatar prefabs are wired in slot order.
+
+ROSTER (ZERO-BASED UNITY SLOT)
+0  D    Warrior      Stone Choir   Amber         Amplitude Strike
+1  C    Foundation   Stone Choir   Dark gold     Amplitude Strike
+2  E    Blade        High Elves    Blue          Resonance Shatter / Chord Barrage
+3  G    Balanced     High Elves    Pale jade     Chord Barrage
+4  F    Healer       High Elves    Warm gold     Resonant Field
+5  B    Shadow       Pitch/avian   Indigo        Infrasound Dread
+6  C#   Seeker       Prowl/feline  Pale cyan     Sonar
+7  F#   Architect    Founders     Ice white     Floor Rebuild
+8  Bb   Discordant   Howlers      Crimson       Cacophony / Anti-Frequency
+9  A    Ancient      Founders     Gold          Harmonic Support
+Jeru remains the separate central character, outside these ten slots.
+
+RIG AND MATERIALS
+- Unity Humanoid avatars, body and articulated finger bones: 53 bones per source rig; Seeker has three additional tail bones.
+- Four normalized skin influences per vertex maximum.
+- Six starter clips per role: Idle, Walk, Ability, Stagger, Rise, Hands. The ability pose varies by role. Sixty clips total.
+- Three BODY LODs at approximately 17,000 / 7,000 / 3,000 triangles. Hands and glyphs are additional; see Roster_Validation.json for exact totals. Hands now have separate distance LODs; first-person hands keep full detail.
+- Separate hand meshes use only hand/finger weights and have closed wrist boundaries, so first-person placement cannot stretch vertices toward the hidden forearms.
+- Separate cymatic geometry and glove materials support emission animation via MaterialPropertyBlock. Base skin, cloth, metal, trim and hair stay independently editable.
+- Material remapping is attached to FBX source material identifiers to survive later mesh updates.
+- Android texture import overrides use ASTC 6x6, maximum 1024 pixels; source textures are retained.
+
+SHOW AND TRACKING
+ParticipantAvatarPerformance samples clips at absolute times, holds the final Rise pose and supports nonchronological show seeks. Existing role positions, footstep/trail VFX and the music master clock remain in use. Shadow is hidden for its narrative interval, and all ten rise with the finale.
+The local viewer sees their tracked hands and does not see a duplicate cinematic head/body. Remote bodies use head/controller tracking outside the show; during the show the authored role actors perform the fixed choreography. The physical XR origin and tracking targets are never moved by avatar choreography. Controller orientation offsets are exposed as leftGripEuler/rightGripEuler for hardware fitting.
+Body/finger rig and synthetic hand tracking are verified in the Unity Editor. Real controllers and ten simultaneous headsets have NOT been tested in this pass.
+
+VALIDATION FILES
+- Unity_Import_Validation.txt: ten valid Humanoid avatars, imported clips and LODs.
+- Unity_Pose_Validation.txt: ability deformation, repeated seek, Rise holding, Shadow state and local visibility.
+- Unity_Tracking_Validation.txt: finger deformation, restoring poses after tracking, wrist target reach and unchanged physical tracking targets.
+- Show_Integration_Validation.txt: all ten roles in the full show, original cast present, repeated seek and existing core checks.
+- Dragon_Preservation_Validation.json: 55 original Unity dragon files and the original Blender source unchanged.
+- Roster_Validation.json: final Blender mesh/rig/clip inventory.
+
+SCOPE AND REMAINING POLISH
+These are stylized first-pass fantasy characters, not finished photorealistic scans. Clothes and accessories are mesh geometry with skinned deformation; no simulated cloth or participant facial blendshape system is included. Final sculpting/texturing, garment clearance under extreme retargeting, foot planting, acting, punch/weapon contacts, material batching and final art approval remain production polish. See the finishing report for newly completed LOD and integration work. Device frame rate, memory, stereo comfort and network acceptance remain unverified. See ASSET_ROADMAP.txt for the complete remaining list and recommended next asset.
+The existing dragon, Jeru, Orc and chamber were kept. Avatar work adds the roster and its integration.
+
+SOURCES / REBUILD
+MakeHuman/MPFB base anatomy, eyes and system skin assets; custom role armor, vestments, crowns, masks, feather mantle, tail, glyphs, rig adjustments and animations authored in Blender for this roster.
+The supplied MakeHuman system assets are CC0; the accompanying license is in the Unity asset folder under Licenses. MPFB's addon code is GPL and is not bundled in this package. No external generative model service or paid quota was used in this avatar pass.
+Source/build_avatars.py and Source/gallery.py reproduce the mesh/rig/export process with the installed Blender 5.2 and MPFB 2.0.17. Adjust ROOT and DATA paths when rebuilding elsewhere. Saved .blend and FBX files remain editable without running these scripts or the addon.
+Integration/ contains copies of the five project-specific integration files; Integration_Backup/ retains the pre-change versions. The updated portable Unity package contains the avatar folder plus its distance-hand models and detail textures, so it does not overwrite a different project's show code or existing cast.

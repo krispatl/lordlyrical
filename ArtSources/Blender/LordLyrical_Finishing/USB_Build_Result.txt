@@ -1,0 +1,2 @@
+Succeeded; errors=0; warnings=37; bytes=1731627118
+Separate application id com.fifthyang.lordlyrical.usbreview; USB reverse TCP 5555,5556,5557,8800. Production scene and settings retained.

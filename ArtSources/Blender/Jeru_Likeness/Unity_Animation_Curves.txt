@@ -1,0 +1,42 @@
+Jeru_Conduct blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Conduct blendShape.jawOpen 0 to 0 at 1.5=0
+Jeru_Conduct blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Conduct blendShape.jawOpen 0 to 0 at 1.5=0
+Jeru_Conduct blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Conduct blendShape.jawOpen 0 to 0 at 1.5=0
+Jeru_Conduct varying curves 73
+Jeru_Counter_Call blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Counter_Call blendShape.jawOpen 0 to 31.30854 at 1.5=23.32275
+Jeru_Counter_Call blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Counter_Call blendShape.jawOpen 0 to 31.30854 at 1.5=23.32275
+Jeru_Counter_Call blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Counter_Call blendShape.jawOpen 0 to 31.30854 at 1.5=23.32275
+Jeru_Counter_Call varying curves 85
+Jeru_Face_Calibration blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Face_Calibration blendShape.jawOpen 0 to 95.65976 at 1.5=99.68087
+Jeru_Face_Calibration blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Face_Calibration blendShape.jawOpen 0 to 95.65976 at 1.5=99.68087
+Jeru_Face_Calibration blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Face_Calibration blendShape.jawOpen 0 to 95.65976 at 1.5=99.68087
+Jeru_Face_Calibration varying curves 107
+Jeru_Idle blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Idle blendShape.jawOpen 0 to 0 at 1.5=0
+Jeru_Idle blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Idle blendShape.jawOpen 0 to 0 at 1.5=0
+Jeru_Idle blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Idle blendShape.jawOpen 0 to 0 at 1.5=0
+Jeru_Idle varying curves 66
+Jeru_Raise_The_Word blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Raise_The_Word blendShape.jawOpen 0 to 33.66689 at 1.5=21.54741
+Jeru_Raise_The_Word blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Raise_The_Word blendShape.jawOpen 0 to 33.66689 at 1.5=21.54741
+Jeru_Raise_The_Word blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Raise_The_Word blendShape.jawOpen 0 to 33.66689 at 1.5=21.54741
+Jeru_Raise_The_Word varying curves 85
+Jeru_Turn_To_Group blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Turn_To_Group blendShape.jawOpen 0 to 0 at 1.5=0
+Jeru_Turn_To_Group blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Turn_To_Group blendShape.jawOpen 0 to 0 at 1.5=0
+Jeru_Turn_To_Group blendShape.eyeBlinkLeft 0 to 100 at 1.5=0
+Jeru_Turn_To_Group blendShape.jawOpen 0 to 0 at 1.5=0
+Jeru_Turn_To_Group varying curves 78

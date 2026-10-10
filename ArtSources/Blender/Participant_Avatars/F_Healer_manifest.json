@@ -1,0 +1,223 @@
+{
+  "id": "F_Healer",
+  "name": "The Healer",
+  "key": "F",
+  "family": "High Elves",
+  "hex": "FFDC82",
+  "height": 1.84,
+  "width": 0.96,
+  "gender": 0.25,
+  "age": 0.5,
+  "muscle": 0.35,
+  "weight": 0.48,
+  "skin": "middleage_african_female",
+  "design": "Ivory-gold layered robe, open sun halo, winged collar and bracers",
+  "ability": "Resonant Field",
+  "slot": 4,
+  "bones": 53,
+  "meshes": [
+    {
+      "name": "Avatar_Body_LOD0",
+      "triangles": 17000,
+      "vertices": 8951,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Cymatic",
+      "triangles": 968,
+      "vertices": 508,
+      "maxInfluences": 1
+    },
+    {
+      "name": "Avatar_LeftHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_RightHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD1",
+      "triangles": 6999,
+      "vertices": 3909,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD2",
+      "triangles": 3000,
+      "vertices": 1846,
+      "maxInfluences": 4
+    }
+  ],
+  "materials": [
+    {
+      "name": "F_Healer_Skin",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "middleage_african_female.png"
+    },
+    {
+      "name": "F_Healer_Vestment",
+      "color": [
+        0.3799999952316284,
+        0.41999998688697815,
+        0.4000000059604645,
+        1.0
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.7200000286102295,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "F_Healer_Armor",
+      "color": [
+        0.5799999833106995,
+        0.5600000023841858,
+        0.41999998688697815,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.3400000035762787,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "F_Healer_Hair",
+      "color": [
+        0.02500000037252903,
+        0.02199999988079071,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Anatomical source F_Healer.low-poly",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "Shared_Eyes.png"
+    },
+    {
+      "name": "F_Healer_Trim",
+      "color": [
+        0.6000000238418579,
+        0.5560784339904785,
+        0.4431372582912445,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.30000001192092896,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "F_Healer_Cymatic",
+      "color": [
+        1.0,
+        0.8627451062202454,
+        0.5098039507865906,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3199999928474426,
+      "emission": [
+        1.0,
+        0.8627451062202454,
+        0.5098039507865906,
+        1.0
+      ],
+      "strength": 2.0,
+      "texture": ""
+    }
+  ],
+  "clips": [
+    {
+      "name": "F_Healer_Idle",
+      "seconds": 3,
+      "loop": true
+    },
+    {
+      "name": "F_Healer_Walk",
+      "seconds": 1.2,
+      "loop": true
+    },
+    {
+      "name": "F_Healer_Ability",
+      "seconds": 3,
+      "loop": false
+    },
+    {
+      "name": "F_Healer_Stagger",
+      "seconds": 1,
+      "loop": false
+    },
+    {
+      "name": "F_Healer_Rise",
+      "seconds": 4,
+      "loop": false
+    },
+    {
+      "name": "F_Healer_Hands",
+      "seconds": 2,
+      "loop": true
+    }
+  ]
+}

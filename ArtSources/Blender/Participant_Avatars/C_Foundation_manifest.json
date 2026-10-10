@@ -1,0 +1,223 @@
+{
+  "id": "C_Foundation",
+  "name": "The Foundation",
+  "key": "C",
+  "family": "Stone Choir",
+  "hex": "AF7F24",
+  "height": 1.42,
+  "width": 1.61,
+  "gender": 0.45,
+  "age": 0.67,
+  "muscle": 0.9,
+  "weight": 0.85,
+  "skin": "middleage_asian_female",
+  "design": "Heavy hexagonal mantle, shield shoulders, dark gold plated apron",
+  "ability": "Amplitude Strike",
+  "slot": 1,
+  "bones": 53,
+  "meshes": [
+    {
+      "name": "Avatar_Body_LOD0",
+      "triangles": 16999,
+      "vertices": 8945,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Cymatic",
+      "triangles": 608,
+      "vertices": 328,
+      "maxInfluences": 1
+    },
+    {
+      "name": "Avatar_LeftHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_RightHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD1",
+      "triangles": 7000,
+      "vertices": 3900,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD2",
+      "triangles": 3000,
+      "vertices": 1831,
+      "maxInfluences": 4
+    }
+  ],
+  "materials": [
+    {
+      "name": "C_Foundation_Skin",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "middleage_asian_female.png"
+    },
+    {
+      "name": "C_Foundation_Vestment",
+      "color": [
+        0.06347058713436127,
+        0.049352940171957016,
+        0.022588234394788742,
+        1.0
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.7200000286102295,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "C_Foundation_Armor",
+      "color": [
+        0.274117648601532,
+        0.23458823561668396,
+        0.15964706242084503,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.3400000035762787,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "C_Foundation_Hair",
+      "color": [
+        0.02500000037252903,
+        0.02199999988079071,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Anatomical source C_Foundation.low-poly",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "Shared_Eyes.png"
+    },
+    {
+      "name": "C_Foundation_Trim",
+      "color": [
+        0.4996078312397003,
+        0.43937253952026367,
+        0.325176477432251,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.30000001192092896,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "C_Foundation_Cymatic",
+      "color": [
+        0.686274528503418,
+        0.49803921580314636,
+        0.1411764770746231,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3199999928474426,
+      "emission": [
+        0.686274528503418,
+        0.49803921580314636,
+        0.1411764770746231,
+        1.0
+      ],
+      "strength": 2.0,
+      "texture": ""
+    }
+  ],
+  "clips": [
+    {
+      "name": "C_Foundation_Idle",
+      "seconds": 3,
+      "loop": true
+    },
+    {
+      "name": "C_Foundation_Walk",
+      "seconds": 1.2,
+      "loop": true
+    },
+    {
+      "name": "C_Foundation_Ability",
+      "seconds": 3,
+      "loop": false
+    },
+    {
+      "name": "C_Foundation_Stagger",
+      "seconds": 1,
+      "loop": false
+    },
+    {
+      "name": "C_Foundation_Rise",
+      "seconds": 4,
+      "loop": false
+    },
+    {
+      "name": "C_Foundation_Hands",
+      "seconds": 2,
+      "loop": true
+    }
+  ]
+}

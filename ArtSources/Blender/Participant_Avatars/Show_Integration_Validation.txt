@@ -1,0 +1,17 @@
+TEN AVATAR SHOW INTEGRATION
+PASS ten role prefabs bound to Experience and both network avatar prefabs
+PASS existing Jeru, Orc, dragon and chamber references preserved
+PASS 24 s: ten role rigs; clips 0,0,0,0,0,0,0,0,0,0; Shadow hidden False
+PASS 31 s: ten role rigs; clips 0,0,0,0,0,0,2,0,0,0; Shadow hidden True
+PASS 39.5 s: ten role rigs; clips 0,0,2,0,0,0,0,0,0,0; Shadow hidden True
+PASS 43.5 s: ten role rigs; clips 2,2,0,0,0,0,0,0,0,0; Shadow hidden True
+PASS 48 s: ten role rigs; clips 0,0,0,0,2,0,0,0,0,0; Shadow hidden True
+PASS 52.5 s: ten role rigs; clips 0,0,0,0,0,0,0,2,2,0; Shadow hidden False
+PASS 74.4 s: ten role rigs; clips 3,3,3,3,2,3,3,3,3,3; Shadow hidden False
+PASS 81.5 s: ten role rigs; clips 0,0,2,2,0,0,0,0,0,0; Shadow hidden False
+PASS 90.8 s: ten role rigs; clips 0,0,0,0,0,0,0,0,2,0; Shadow hidden False
+PASS 96.2 s: ten role rigs; clips 4,4,4,4,4,4,4,4,4,4; Shadow hidden False
+PASS 101 s: ten role rigs; clips 4,4,4,4,4,4,4,4,4,4; Shadow hidden False
+PASS repeated full-show seek error 0 metres
+PASS 31 s: ten role rigs; clips 0,0,0,0,0,0,2,0,0,0; Shadow hidden True
+PASS local cinematic duplicate hidden and existing core clock/cue/role tests

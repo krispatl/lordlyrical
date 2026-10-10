@@ -1,0 +1,342 @@
+[
+  {
+    "mesh": "Jeru_Hands_Neck_Unity_LOD1",
+    "triangles": 3302,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Eyes_Unity_LOD1",
+    "triangles": 80,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Tongue_Unity_LOD1",
+    "triangles": 210,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Teeth_Unity_LOD1",
+    "triangles": 3345,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Fedora_Removable_Unity_LOD1",
+    "triangles": 584,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Tailored_Underlayer_Unity_LOD1",
+    "triangles": 7028,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Shoes_Unity_LOD1",
+    "triangles": 1560,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Face_51Expressions_Unity_LOD1",
+    "triangles": 16155,
+    "blendshapes": 66
+  },
+  {
+    "mesh": "Jeru_Mouth_Interior_Unity_LOD1",
+    "triangles": 204,
+    "blendshapes": 66
+  },
+  {
+    "mesh": "Founder_Mantle_LOD1",
+    "triangles": 3158,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Founder_Silver_Trim_LOD1",
+    "triangles": 1322,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Founder_Cymatic_Lights_LOD1",
+    "triangles": 442,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Glasses_Removable_LOD1",
+    "triangles": 1052,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Beard_Detail_Unity_LOD1",
+    "triangles": 404,
+    "blendshapes": 66
+  },
+  {
+    "mesh": "Jeru_Hands_Neck_Unity_LOD2",
+    "triangles": 1404,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Eyes_Unity_LOD2",
+    "triangles": 33,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Tongue_Unity_LOD2",
+    "triangles": 88,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Teeth_Unity_LOD2",
+    "triangles": 1424,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Fedora_Removable_Unity_LOD2",
+    "triangles": 248,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Tailored_Underlayer_Unity_LOD2",
+    "triangles": 2991,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Shoes_Unity_LOD2",
+    "triangles": 663,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Face_51Expressions_Unity_LOD2",
+    "triangles": 6875,
+    "blendshapes": 66
+  },
+  {
+    "mesh": "Jeru_Mouth_Interior_Unity_LOD2",
+    "triangles": 86,
+    "blendshapes": 66
+  },
+  {
+    "mesh": "Founder_Mantle_LOD2",
+    "triangles": 1344,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Founder_Silver_Trim_LOD2",
+    "triangles": 562,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Founder_Cymatic_Lights_LOD2",
+    "triangles": 187,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Glasses_Removable_LOD2",
+    "triangles": 448,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Jeru_Beard_Detail_Unity_LOD2",
+    "triangles": 172,
+    "blendshapes": 66
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD1",
+    "triangles": 886,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_LeftHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  },
+  {
+    "mesh": "Avatar_RightHand_LOD2",
+    "triangles": 412,
+    "blendshapes": 0
+  }
+]

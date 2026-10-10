@@ -1,0 +1,78 @@
+SONIC ORC — LORD LYRICAL
+Rigged encounter asset, 3 October 2026
+
+The existing Sonic Orc from your Meshy workspace has been downloaded, rigged in
+Blender, finished with basalt/bronze armor and amber resonance channels, and
+connected to the twelve-Orc encounter in the open LordLyrical Unity project.
+The original horned armor silhouette is preserved. No replacement was generated.
+
+OPEN / IMPORT
+- LordLyrical_Sonic_Orc.blend: editable source with the original dense mesh hidden,
+  game meshes, materials, skeleton, optional IK controls, and six actions.
+- ../LordLyrical_Sonic_Orc.unitypackage: portable URP character package.
+- ../LordLyricalOrc_Unity/: complete Unity assets with meta files.
+- In the current project: Assets/LordLyricalOrc_Unity/Prefabs/Sonic_Orc.prefab
+- Unity review scene: Assets/LordLyricalOrc_Unity/Scenes/SonicOrcReview.unity
+- Sonic_Orc_Motion_Preview.mp4: eight-second preview rendered in Unity.
+- Sonic_Orcs_In_Chamber.png: the twelve authored Orcs in the chamber.
+- Source/Meshy_Sonic_Orc_Source.fbx: untouched downloaded source.
+
+RIG AND GEOMETRY
+Character height: 2.9 metres, including horns.
+53 body/finger bones plus two weapon socket bones; four optional hand/foot IK
+controls in Blender. IK constraints start at zero influence so FK actions remain
+editable. Enable the corresponding lowerarm/calf IK constraint to use its CTRL
+bone. The source has a bent-arm bind pose; Unity uses a valid Generic Avatar to
+preserve that pose and its authored animation. It is not a Humanoid-retargeted
+avatar or a facial performance rig.
+All vertices have skin weights; at most four influences per vertex.
+Body LODs: 28,000 / 12,000 / 5,000 triangles.
+Resonance channels: 1,472 additional triangles, sharing the same skeleton.
+Two material slots per visible character. One 2048px base-color atlas;
+Android import uses ASTC 6x6. Original source: 441,328 triangles.
+
+ANIMATIONS
+Orc_Idle: 3 seconds, looping.
+Orc_Advance: 1.2 seconds, looping, in place.
+Orc_Resonance_Strike: 2 seconds, one shot.
+Orc_Stagger: 1 second, one shot.
+Orc_Defeat: 2 seconds, held final pose.
+Orc_Retreat: 0.8 seconds, looping, in place.
+SonicOrcPerformance samples absolute time for synchronized show playback.
+It also exposes independent clip sampling and resonance/dissolve controls.
+The accompanying Animator controller provides the six states for normal use.
+
+CURRENT GAME CONNECTION
+Experience.asset now references the Sonic_Orc prefab in orcModel.
+OrcEncounterController preserves its materials and authored metre scale and
+attaches the existing tuning-fork prop to the left-hand socket. Existing entry,
+advance, shatter, falling, retreat, and disappearance timings are preserved.
+21s: no Orcs. 31s: twelve. 39.3s: stagger/dissolve. 40s: eleven. 45.6s: three
+slump. 47.5s: remaining Orcs strike. 51s: retreat. 54s: all hidden.
+Dragon, Jeru and chamber assets remain in the project. See Preservation_Check.json
+for the original dragon's file-hash verification.
+IntegrationBackup contains the controller before/after and the original config.
+The portable character package does not depend on the game's encounter classes;
+the current-project integration helper lives outside that package.
+
+VERIFIED
+- Blender: no unweighted vertices; four influence limit.
+- Optional IK endpoint errors below 0.002 mm in the sampled control test.
+- Unity: valid Generic Avatar, six imported clips, three LODs.
+- Strike moves the skinned surface by over one metre.
+- Repeated clip and full-show seeks produce zero measured vertex difference.
+- All twelve models instantiate with the expected material and hand socket.
+- Existing core cue, clock, key and reconstruction checks pass.
+- Unity renders were inspected; no current console errors were reported.
+
+REMAINING POLISH
+This is the first animated game asset pass. The movement is authored starter
+animation, not motion capture. Foot planting, weapon grip and extreme armor
+deformations can be polished further. Decimated topology preserves the source
+silhouette but is not a hand-retopologized sculpt. The helmet has no facial rig.
+The dissolve shader currently keeps the solid shadow/depth silhouette until the
+actor disappears. Headset frame time, stereo rendering and Android device build
+have not been profiled or validated; desktop checks do not establish PICO budgets.
+
+This completes the existing Orc asset pass. The ten participant-role avatars are
+separate from these encounter NPCs and remain the next character work.

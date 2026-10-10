@@ -1,0 +1,21 @@
+{
+  "candidate": 43,
+  "build": {
+    "development": false,
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 16,
+    "bytes": 1635471025
+  },
+  "offlineBuild": "Succeeded errors=0 warnings=14",
+  "apkSHA256": {
+    "LordLyrical-Production43-PICO.apk": "5673df4148c96274dfc7e609770af827968b437400cc105d9fd0d4844d71f45d",
+    "LordLyrical-OfflineDemo43-PICO.apk": "60bdc8919b22e72cbd65e54ccbf6d99247ab322e6300fd4d423f940f6e41f728"
+  },
+  "archive": "C:\\Users\\kris\\Documents\\Codex\\2026-10-03\\bui\\outputs\\LordLyrical_Animation_Polish\\LordLyrical_Production43_Unity_Project.zip",
+  "archiveSHA256": "e0528ab29c8e29f0350a367d2100bfd3e7f2507d11e8a8570f746000f424212e",
+  "sourceFilesVerified": 2354,
+  "crcPassed": true,
+  "headsetVisualAcceptance": false,
+  "physicalMultiHeadsetAcceptance": false
+}

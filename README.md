@@ -6,7 +6,7 @@ Full editable Unity project for the music-led PICO mixed-reality concert. This p
 
 Install Git with **Git LFS**. Clone the repository, then run `git lfs install` and `git lfs pull` in it. GitHub's automatic source ZIP does not reliably include the actual large assets; use a Git/LFS checkout. Add the repository root in Unity Hub using **Unity 6000.3.9f1** with Android Build Support (SDK/NDK/OpenJDK). Allow Unity to restore the pinned packages from `Packages/manifest.json` and `packages-lock.json`.
 
-Open `Assets/LordLyrical/Scenes/Experience.unity` for the networked show. `Assets/LordLyrical/Scenes/OfflineDemo.unity` is the standalone demo. All asset `.meta` files, project settings and source art are included. Historical MRGraffiti assets remain for reference; active Chroma Wall development is in the separate [Chroma repository](https://github.com/krispatl/chromawall).
+Open `Assets/LordLyrical/Scenes/Experience.unity` for the networked show. `Assets/LordLyrical/Scenes/OfflineDemo.unity` is the standalone demo. All asset `.meta` files, project settings and source art are included. Original Blender models/rigs and historical authoring scripts are in `ArtSources/Blender/`. Historical MRGraffiti assets remain for reference; active Chroma Wall development is in the separate [Chroma repository](https://github.com/krispatl/chromawall).
 
 ## Windows launcher
 
@@ -29,3 +29,5 @@ The pre-song opening is 17 seconds. The title dissolves, a three-second pause pr
 Build 43 networked and standalone APKs passed their recorded build/automated checks and were installed on PICO. Physical multiplayer choreography and worn-headset visual/frame-time acceptance remain separate from simulated transport checks. See `CURRENT_PRODUCTION_BUILD.txt`; older root reports describe earlier versions.
 
 Unity caches, Python environments, machine-local logs, signing secrets and generated build directories are excluded. Large source files use Git LFS. Third-party art, packages, music and likenesses retain their original ownership and licenses; publication does not grant additional redistribution rights.
+
+Current installable networked and standalone APKs: [Production 43 release](https://github.com/krispatl/lordlyrical/releases/tag/production-43).

@@ -1,0 +1,15 @@
+SONIC ORC UNITY VALIDATION
+PASS Generic avatar valid: True
+PASS six animation clips; two material slots per visible character; three body LODs
+PASS strike vertex movement: 1.063096 m
+PASS repeated seek vertex error: 0 m
+Sonic_Orc_LOD0: 28000 triangles, 55 skin bones
+Sonic_Orc_LOD1: 12000 triangles, 55 skin bones
+Sonic_Orc_LOD2: 5000 triangles, 55 skin bones
+Sonic_Orc_Resonance_Glyphs: 1472 triangles, 55 skin bones
+Orc_Advance: 1.2 s; 560 curves
+Orc_Defeat: 2 s; 560 curves
+Orc_Idle: 3 s; 560 curves
+Orc_Resonance_Strike: 2 s; 560 curves
+Orc_Retreat: 0.8000001 s; 560 curves
+Orc_Stagger: 1 s; 560 curves

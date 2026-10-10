@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Jeru_Idle",
+    "frames": [
+      1,
+      121
+    ],
+    "fps": 30,
+    "seconds": 4.0
+  },
+  {
+    "name": "Jeru_Conduct",
+    "frames": [
+      1,
+      121
+    ],
+    "fps": 30,
+    "seconds": 4.0
+  },
+  {
+    "name": "Jeru_Raise_The_Word",
+    "frames": [
+      1,
+      121
+    ],
+    "fps": 30,
+    "seconds": 4.0
+  },
+  {
+    "name": "Jeru_Counter_Call",
+    "frames": [
+      1,
+      91
+    ],
+    "fps": 30,
+    "seconds": 3.0
+  },
+  {
+    "name": "Jeru_Turn_To_Group",
+    "frames": [
+      1,
+      91
+    ],
+    "fps": 30,
+    "seconds": 3.0
+  },
+  {
+    "name": "Jeru_Face_Calibration",
+    "frames": [
+      1,
+      301
+    ],
+    "fps": 30,
+    "seconds": 10.0
+  }
+]

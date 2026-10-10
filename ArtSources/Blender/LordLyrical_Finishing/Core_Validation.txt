@@ -1,0 +1,9 @@
+PASS Ten unique Root Keys and typed role data
+PASS Every authored cue fired once during full 72 Hz sequence
+PASS Cue retiming maps continuous choreography without changing music time
+PASS 85-second late join skips historical transients and preserves future cues
+PASS Environment reconstruction, exact wall window, Dragon and title final state
+PASS NTP-style clock offset and outlier filtering
+PASS DSP suspend/restart clock reset and reacquisition
+PASS Atomic show snapshot serialization
+PASS Duplicate cue IDs rejected

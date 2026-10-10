@@ -1,0 +1,223 @@
+{
+  "id": "A_Ancient",
+  "name": "The Ancient",
+  "key": "A",
+  "family": "Founders",
+  "hex": "FFBA48",
+  "height": 1.97,
+  "width": 1.1,
+  "gender": 0.7,
+  "age": 0.92,
+  "muscle": 0.38,
+  "weight": 0.58,
+  "skin": "old_african_male",
+  "design": "Weathered gold vestments, nested resonance halo and long segmented beard",
+  "ability": "Harmonic Support",
+  "slot": 9,
+  "bones": 53,
+  "meshes": [
+    {
+      "name": "Avatar_Body_LOD0",
+      "triangles": 17000,
+      "vertices": 8955,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Cymatic",
+      "triangles": 980,
+      "vertices": 516,
+      "maxInfluences": 1
+    },
+    {
+      "name": "Avatar_LeftHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_RightHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD1",
+      "triangles": 7000,
+      "vertices": 3906,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD2",
+      "triangles": 2999,
+      "vertices": 1839,
+      "maxInfluences": 4
+    }
+  ],
+  "materials": [
+    {
+      "name": "A_Ancient_Skin",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "old_african_male.png"
+    },
+    {
+      "name": "A_Ancient_Vestment",
+      "color": [
+        0.08699999749660492,
+        0.06670588254928589,
+        0.033176470547914505,
+        1.0
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.7200000286102295,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "A_Ancient_Armor",
+      "color": [
+        0.3400000035762787,
+        0.2831764817237854,
+        0.18929411470890045,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.3400000035762787,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "A_Ancient_Hair",
+      "color": [
+        0.02500000037252903,
+        0.02199999988079071,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Anatomical source A_Ancient.low-poly",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "Shared_Eyes.png"
+    },
+    {
+      "name": "A_Ancient_Trim",
+      "color": [
+        0.6000000238418579,
+        0.5134117603302002,
+        0.37035295367240906,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.30000001192092896,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "A_Ancient_Cymatic",
+      "color": [
+        1.0,
+        0.729411780834198,
+        0.2823529541492462,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3199999928474426,
+      "emission": [
+        1.0,
+        0.729411780834198,
+        0.2823529541492462,
+        1.0
+      ],
+      "strength": 2.0,
+      "texture": ""
+    }
+  ],
+  "clips": [
+    {
+      "name": "A_Ancient_Idle",
+      "seconds": 3,
+      "loop": true
+    },
+    {
+      "name": "A_Ancient_Walk",
+      "seconds": 1.2,
+      "loop": true
+    },
+    {
+      "name": "A_Ancient_Ability",
+      "seconds": 3,
+      "loop": false
+    },
+    {
+      "name": "A_Ancient_Stagger",
+      "seconds": 1,
+      "loop": false
+    },
+    {
+      "name": "A_Ancient_Rise",
+      "seconds": 4,
+      "loop": false
+    },
+    {
+      "name": "A_Ancient_Hands",
+      "seconds": 2,
+      "loop": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+JERU FINAL UNITY IMPORT VALIDATION
+Avatar valid: True
+Humanoid: True
+Founder_Cymatic_Lights: 564 vertices; 0 shapes; 69 bones
+Founder_Mantle: 3372 vertices; 0 shapes; 69 bones
+Founder_Silver_Trim: 1459 vertices; 0 shapes; 69 bones
+Jeru_Beard_Detail_Unity: 2583 vertices; 66 shapes; 69 bones
+Jeru_Eyes_Unity: 96 vertices; 0 shapes; 69 bones
+Jeru_Face_51Expressions_Unity: 17405 vertices; 66 shapes; 69 bones
+Jeru_Fedora_Removable_Unity: 694 vertices; 0 shapes; 69 bones
+Jeru_Glasses_Removable: 1160 vertices; 0 shapes; 69 bones
+Jeru_Hands_Neck_Unity: 4080 vertices; 0 shapes; 69 bones
+Jeru_Mouth_Interior_Unity: 344 vertices; 66 shapes; 69 bones
+Jeru_Shoes_Unity: 1846 vertices; 0 shapes; 69 bones
+Jeru_Tailored_Underlayer_Unity: 8250 vertices; 0 shapes; 69 bones
+Jeru_Teeth_Unity: 4494 vertices; 0 shapes; 69 bones
+Jeru_Tongue_Unity: 253 vertices; 0 shapes; 69 bones
+Jeru_Conduct: 4s; 328 bindings; facial bindings 198
+Jeru_Counter_Call: 3s; 328 bindings; facial bindings 198
+Jeru_Face_Calibration: 10s; 328 bindings; facial bindings 198
+Jeru_Idle: 4s; 328 bindings; facial bindings 198
+Jeru_Raise_The_Word: 4s; 328 bindings; facial bindings 198
+Jeru_Turn_To_Group: 3s; 328 bindings; facial bindings 198
+Jaw and eyes preserve authored transform curves outside Humanoid facial retargeting. See Unity_Deformation_Validation.txt for sampled deformation assertions.

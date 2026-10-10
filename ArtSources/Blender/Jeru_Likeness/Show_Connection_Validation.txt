@@ -1,0 +1,8 @@
+Configured prefab: Assets/LordLyricalJeru_Unity/Prefabs/LordLyrical_Jeru.prefab
+PASS 0s: 42 skinned LOD representations; face bounds=Center: (0.00, 1.88, 4.94), Extents: (0.11, 0.21, 0.14); jaw=0
+PASS 21s: 42 skinned LOD representations; face bounds=Center: (0.00, 1.88, 4.94), Extents: (0.11, 0.21, 0.14); jaw=0
+PASS 59.5s: 42 skinned LOD representations; face bounds=Center: (0.00, 1.88, 4.94), Extents: (0.11, 0.21, 0.14); jaw=19.26814
+PASS 74s: 42 skinned LOD representations; face bounds=Center: (1.79, 1.88, 4.14), Extents: (0.11, 0.21, 0.14); jaw=0
+PASS 96s: 42 skinned LOD representations; face bounds=Center: (0.00, 1.88, 4.94), Extents: (0.11, 0.21, 0.14); jaw=0.01488891
+PASS 117s: 42 skinned LOD representations; face bounds=Center: (0.00, 1.88, 4.94), Extents: (0.11, 0.21, 0.14); jaw=0
+PASS 59.5s: 42 skinned LOD representations; face bounds=Center: (0.00, 1.88, 4.94), Extents: (0.11, 0.21, 0.14); jaw=19.26814

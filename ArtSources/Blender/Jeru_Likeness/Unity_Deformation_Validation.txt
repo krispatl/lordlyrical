@@ -1,0 +1,5 @@
+PASS blink weight: 100
+PASS jaw weight: 99.68087
+PASS facial vertex displacement: 0.04685856 metres
+PASS repeated seek error: 0 metres
+PASS raised left hand height: 1.552495 metres

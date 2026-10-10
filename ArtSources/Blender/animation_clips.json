@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Idle",
+    "action": "LL_Dragon_Idle",
+    "start": 1,
+    "end": 91,
+    "fps": 30,
+    "loop": true
+  },
+  {
+    "name": "Fly",
+    "action": "LL_Dragon_Fly",
+    "start": 1,
+    "end": 41,
+    "fps": 30,
+    "loop": true
+  },
+  {
+    "name": "Glide",
+    "action": "LL_Dragon_Glide",
+    "start": 1,
+    "end": 61,
+    "fps": 30,
+    "loop": true
+  },
+  {
+    "name": "Roar",
+    "action": "LL_Dragon_Roar",
+    "start": 1,
+    "end": 76,
+    "fps": 30,
+    "loop": false
+  },
+  {
+    "name": "Bite",
+    "action": "LL_Dragon_Bite",
+    "start": 1,
+    "end": 31,
+    "fps": 30,
+    "loop": false
+  }
+]

@@ -1,0 +1,68 @@
+LORD LYRICAL / JERU - FIRST RIGGED LIKENESS BUILD
+3 October 2026
+
+STATUS
+A fitted, textured and rigged Jeru character is authored in Blender and imported into the open LordLyrical Unity project. This is a first likeness review build, not final photoreal close-up art or a headset performance signoff.
+
+DELIVERABLES
+LordLyrical_Jeru_Working.blend: editable fitting, body, performance and export scenes.
+../LordLyricalJeru_Unity: FBX, textures, materials, prefab, review scene, animation controller and runtime sampling component.
+../LordLyrical_Jeru.unitypackage: portable character asset package.
+Jeru_Unity_Portrait.png and Jeru_Unity_FullBody.png: imported-character review renders.
+Jeru_Motion_Preview.mp4: eight-second Unity animation preview, including conducting, raised hands, blink and jaw tests.
+Jeru_Unity_Blink_Test.png, Jeru_Unity_Jaw_Test.png and Jeru_Unity_Raised_Hands.png: deformation checks.
+Unity_Import_Validation.txt, Unity_Deformation_Validation.txt and Blender_Validation.json: measured checks.
+
+BLENDER SCENES
+Jeru | Likeness reference studio: ten unchanged, packed reference photographs.
+Lord Lyrical | Jeru likeness: editable FaceBuilder head fitted to front, both three-quarter views and side profile. The profile with glasses is excluded from texture baking.
+Lord Lyrical | Body construction: parametric MPFB source body and clothing assets.
+Lord Lyrical | Performance character: editable character, 77-bone rig and separate costume pieces.
+Lord Lyrical | Unity export: combined game meshes and export rig.
+
+RIG AND COSTUME
+69 deform bones plus eight IK target/pole controls. The body includes spine, neck, head, shoulders, arms, hands, every finger, legs, feet and toes. Twelve mantle bones animate four draped panels. Arm and leg IK/FK properties are on LordLyrical_Rig: 0 uses FK, 1 uses the named CTRL target and pole. Both arms and legs passed target-reach checks within 0.02 mm in the tested poses.
+51 expression channels cover brows, lids, gaze, cheeks, nose, lips and jaw. Fifteen additional speech visemes are provided. Facial controls are rig custom properties; the head, mouth lining and beard carry corresponding blendshapes. Jaw, eyes and tongue also have bones. Separate teeth, tongue and a deforming oral cavity replace the photographed closed mouth surface. Unity jaw and eye bones retain authored animation rather than Humanoid facial retargeting.
+Fedora and glasses are removable meshes. The tailored underlayer, dark mantle, violet lining, silver edging and cymatic seams use separate materials. The twelve-part clasp and seams can cycle colour through JeruPerformance.SetSpectrum without tinting the skin.
+
+ANIMATION CLIPS, 30 FPS
+Jeru_Idle - 4 seconds
+Jeru_Conduct - 4 seconds
+Jeru_Raise_The_Word - 4 seconds
+Jeru_Counter_Call - 3 seconds
+Jeru_Turn_To_Group - 3 seconds
+Jeru_Face_Calibration - 10 seconds
+
+UNITY
+Project: C:\Users\kris\Documents\Codex\2026-10-03\als\outputs\LordLyrical
+Prefab: Assets/LordLyricalJeru_Unity/Prefabs/LordLyrical_Jeru.prefab
+Review scene: Assets/LordLyricalJeru_Unity/Scenes/JeruCharacterReview.unity
+Unity reports a valid Humanoid avatar. The FBX imports 66 facial shapes on the face, beard and mouth lining. All six clips include facial animation curves. Delivery: 14 skinned renderers and approximately 82,683 triangles before Unity vertex splitting.
+JeruPerformance samples animation from absolute show time, supports named facial/viseme weights, and changes only cymatic emission. Experience.asset references the prefab. LordLyricalController and its call in ResonantWorld use the rigged character while keeping the spectrum compass, movement and timing. Earlier versions of those files are in IntegrationBackup.
+The prefab includes one unshadowed portrait light for the chamber. Skin, eyes and beard materials disable received shadows to avoid artifacts with photographed detail in the mobile setup. Headset lighting and performance need measured review.
+
+MEASURED CHECKS
+All Blender mesh vertices have skin weights. Both hand and foot IK target checks passed.
+Unity Humanoid avatar: valid.
+Unity blink reaches 100; jaw calibration reaches approximately 99.68.
+Maximum-opening jaw test moves face vertices approximately 4.69 cm.
+Sampling the same facial time after seeking elsewhere produces zero measured vertex difference.
+Raised-hand height is approximately 1.55 m on the source character, before the game's 1.22 scale.
+Dragon preservation: 55 Unity files compared by SHA-256, zero changes; original dragon .blend unchanged.
+
+REVIEW LIMITS / NEXT ART PASS
+The photos support a recognizable first fitting, not a scan. Baked daylight remains in the skin texture. Full-body proportions, covered scalp and hidden mouth anatomy are approximations. Next polish: neutral-light skin colour, eyes/cornea, beard detail, cloth folds, hat shape and extreme-expression correctives. Combined expression limits and every pose combination have not been exhaustively validated.
+No LOD set, headset benchmark, production cloth simulation, dedicated walking cycle or final audio lip-sync alignment has been delivered. The existing circular show movement remains staged root movement. Those are remaining production tasks, not claimed complete here.
+
+TOOLS AND SOURCES
+Blender 5.2.0 LTS; KeenTools FaceBuilder 2026.3.1; MPFB 2.0.17; Unity 6000.3.9f1 / URP.
+The user approved installation, KeenTools EULA acceptance and the free FaceBuilder trial. Installation and activation succeeded; no paid purchase was made. The mesh, rig, FBX and Unity character remain ordinary editable assets. Continued FaceBuilder fitting after the trial may require a licence.
+Reference photos: supplied project files, copied unchanged, with SHA-256 manifest in References.
+https://keentools.io/products/facebuilder-for-blender
+MakeHuman/MPFB base body and system assets are CC0; the GPL add-on code licence does not apply to generated character assets.
+https://static.makehumancommunity.org/about/license.html
+https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html
+Used system meshes/textures: body, eyes, teeth_base, tongue01, fedora01, male_elegantsuit01 and shoes01. These were fitted/recoloured and combined with the custom head, mantle, glasses, rig additions and motions.
+
+NEXT CHARACTERS
+The ten participant avatars remain next, one at a time. Preserve and optimize the EXISTING Meshy Sonic Orc rather than generating a replacement. The verified Orc is still in the user's Meshy workspace; its export and rigging were not completed in this Jeru pass.

@@ -1,0 +1,41 @@
+LORD LYRICAL - FINAL INTEGRATION VERIFICATION
+3 October 2026
+
+ASSETS IMPLEMENTED AND CONNECTED
+Gothic chamber and animatable glyph surfaces; preserved cybernetic dragon; Jeru body/finger/facial rig; existing Meshy Orc rig; ten participant avatars and first-person hands; authored tuning-fork club and vortex; role effects, dragon reactions/dissolve, Word/lock/finale/title; quiet spatial accent audio and cue haptics.
+Ten participant roles have 60 starter clips total. Jeru has 66 facial shapes and three mesh LODs, including facial-shape relay. Body and hand LODs are present on participants. This is an integrated authored game-art pass, not a certified photoreal scan or final venue acceptance.
+
+RECORDED VOICE
+User requested slots for later recordings. Four slots are present and silent: Jeru counter-call at 34 s; Seeker deep-sonar at 83 s; Jeru identify-discordant at 87 s; Jeru amplitude-rise at 92 s. No new spoken performance was generated. Each slot supports a clip; Jeru slots also support timed facial curves.
+
+EXECUTED CHECKS
+PASS full Unity show: 26 checkpoints, reverse seek, reset, finite transforms, unchanged dragon scale, material dissolve, eleven-letter title, four empty voice slots; peak 35 pooled ribbons.
+PASS all six Jeru distance facial meshes: 66 retained shapes, matching binding and world bounds; all ten hand LOD groups and first-person visibility.
+PASS twelve authored Orcs, hand-mounted weapon sockets, three mesh LODs, timed appearance/defeat and repeat-seek vertex error below 0.000001 m.
+PASS nine existing Unity core check groups and eleven Python authority tests.
+PASS ten simulated clients over the real local NetSync transport: two complete 121-second runs, disconnect at 78 s/rejoin at 85 s, stable slots/epoch, completion and reset. This was not ten physical headsets.
+PASS built Windows player: two complete runs, one forced process disconnect/restart, recovery and reset to Ready. Resolution 1280x720; one desktop client.
+  Run 1: mean 71.69 FPS; minimum telemetry sample 65.27 FPS; max reported music-clock drift 3.008 ms; maximum reported memory 264.17 MB.
+  Run 2: mean 71.85 FPS; minimum telemetry sample 68.72 FPS; max reported music-clock drift 3.539 ms; maximum reported memory 264.53 MB.
+PASS all 37 built-player cues fired once in order on the uninterrupted run; maximum scheduling error 20.8 ms.
+These are desktop telemetry and scheduling measurements, not headset GPU timings, audio-output latency or venue synchronization certification.
+PASS production PICO Android build: zero build errors, 15 warnings. Actual APK 210,786,567 bytes.
+PASS separate USB review Android build: zero build errors, 15 warnings. Actual APK 210,328,311 bytes. Installed as com.fifthyang.lordlyrical.usbreview; the existing production application was retained.
+PENDING physical headset playback: connected PICO remained asleep. No running review-app process or headset playback/performance acceptance was recorded. Haptic strength, stereo legibility, controller alignment, and audience comfort need an awake-device/venue review.
+
+PRESERVATION
+All 55 original dragon Unity asset files and the original Blender file are unchanged. Encounter effects use runtime material copies. Production app id/product name and the normal Experience scene were preserved during the separate USB build.
+
+DELIVERABLES
+Complete_Show_Preview.mp4: 121 seconds, editor-rendered at 12 source frames/s and encoded at 24 fps with the existing master track. It is an art/timing preview, not a real-time headset recording.
+Player_Checkpoints/: six captures from the actual final Windows player.
+../LordLyrical_Complete_Art.unitypackage: integrated assets plus show code; requires the project dependencies listed in START_HERE.txt.
+../LordLyrical_Ten_Avatars.unitypackage: refreshed standalone avatar content, including distance hands and their detail textures.
+LordLyrical_Complete_Unity_Project.zip: Assets, Packages, ProjectSettings, Tools and launch/config documents. Unity restores packages on first open; Library and machine environments are excluded.
+Builds/LordLyrical-Desktop.zip: Windows player and all required player data; run the venue authority from the project before launching.
+Builds/LordLyrical-PICO.apk: production-network Android build.
+Builds/LordLyrical-PICO-USB-Review.apk: separate localhost/USB review app. ADB reverse ports 5555, 5556, 5557 and 8800 are required for the current USB setup.
+
+REMAINING ART AND ACCEPTANCE
+Provide final Jeru/Seeker recordings and author their final lip-sync curves. Review Jeru close-up likeness, skin/eyes/beard and facial correctives against the actual person; this pass does not claim lifelike identity capture. Participant costumes and acting remain stylized game art and need artistic approval. Test extreme retargeted poses and garment clearance if additional motions are introduced. Complete physical PICO and ten-headset venue profiling, stereo/contact/comfort review and haptic calibration.
+No production deployment or store release was performed.

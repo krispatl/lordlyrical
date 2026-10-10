@@ -85,3 +85,4 @@
 "Assets/TirgamesAssets/PBRStageEquipment/Textures/StageBase01.png" filter=lfs diff=lfs merge=lfs -text
 "Assets/TirgamesAssets/PBRStageEquipment/Textures/StageBase01_Metallic.png" filter=lfs diff=lfs merge=lfs -text
 "Assets/TirgamesAssets/PBRStageEquipment/Textures/StageBase01_NM.png" filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text

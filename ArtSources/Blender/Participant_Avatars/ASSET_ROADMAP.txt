@@ -1,0 +1,41 @@
+SUPERSEDED BY THE INTEGRATED FINISHING PASS
+The asset groups below have now been implemented in the current Unity project. See ../LordLyrical_Finishing/START_HERE.txt and FINAL_VERIFICATION.txt for current deliverables and remaining acceptance checks. This older planning list is retained as history.
+
+LORD LYRICAL - REMAINING ASSET LIST
+Updated 3 October 2026 after the ten-avatar pass.
+
+BUILT AND CONNECTED, WITH FIRST-PASS ART
+- Main Gothic Chamber of the Root: carved architecture, well, animated glyph materials, damaged/repaired states and dragon reveal.
+- Existing cybernetic dragon: retained, rigged, and used in the architecture reveal. Its files were not replaced.
+- Lord Lyrical / Jeru: likeness fitting, body/finger rig, facial shapes and show gestures.
+- Existing Meshy Sonic Orc: rig, three LODs, starter motions, twelve actors in the show.
+- Ten participant roles: Warrior D, Foundation C, Blade E, Balanced G, Healer F, Shadow B, Seeker C#, Architect F#, Discordant Bb, Ancient A. Distinct silhouettes/colors, Humanoid/finger rigs, six starter clips, body LODs, first-person hands, timeline cues.
+- Existing master track, cue scheduler, multiplayer scaffolding, procedural VFX, spatial impact accents, title card and optional haptic hooks.
+These are working versions. Their existence does not mean the production art, animation or headset acceptance pass is finished.
+
+NEXT ASSETS TO CHOOSE, ONE AT A TIME
+1. PRP-01: DOUBLE-HEADED TUNING-FORK CLUB. Recommended next modeling task. Replace the current procedural club with an authored hero prop: resonating fork heads, grip, material channels, collision mesh and LODs. Attach it to the existing Orc hand sockets and refine strike/stomp contact.
+2. ENV-01: FREQUENCY VORTEX / ARRIVAL. The procedural tunnel exists; build the finished descent forms, forming/dissolving cymatics, well-mouth arrival transition and final lighting.
+3. PARTICIPANT ABILITY EFFECTS. Finish the production appearance of sonar and key readouts, Resonance Shatter, Amplitude Strike, Infrasound Dread, Resonant Field, Cacophony, floor repair, Chord Barrage and Anti-Frequency. Timeline prototypes exist. Add clean origin/contact alignment with the new hands and enemies.
+4. DRAGON EFFECTS AND REACTION ANIMATIONS. Keep the current dragon. Finish sound-wave surfaces, beam/sweep/roar, scream/adaptation, seizure/fracture, exposed original E, corruption peeling and dissolution into the Well. Preserve the architecture unfold.
+5. THE WORD / TEN-KEY LOCK / CYMATICS FINALE. Finish the combined ten-color lock, full chamber bloom, sustained surface art and wall-pattern-to-title letter assembly. Current shaders and title text are starting implementations.
+
+FINISHING WORK ON EXISTING CHARACTERS
+- Jeru: close-up likeness/skin/eyes/beard and garment refinement, expression correctives, gait/foot planting, LODs, final conducting and call timing, lip-sync to confirmed audio.
+- Participants: sculpt and texture refinement beyond this stylized first pass; garments/armor clearance during extreme retargeting; stronger acting and punch contacts; additional hand/cloth LOD optimization; optional facial rigs if close-up dialogue is required.
+- Orc: weapon grip, foot planting, emerge/stomp/seize-and-drop motions, resonance-plate breakup and matching shadow/depth dissolve. Source silhouette is preserved.
+- Dragon: polish the preserved prototype's deformations and all final encounter motions; do not replace it.
+
+AUDIO AND HAPTICS
+- AUD-01 master track is already the timing authority.
+- AUD-02 grunts, wing beats, roar and detailed impact layers only where not already carried in the master track; current extra audio is a synthesized impact accent.
+- AUD-03 confirm delivery of Jeru's calls and the Seeker's line, then supply missing recordings and facial timing. The current spatial text is a fallback, not final voice delivery.
+- AUD-04 controller/vest patterns require real-device calibration. Existing optional hooks are not a verified hardware mix.
+
+FINAL ACCEPTANCE
+- PICO stereo/headset review, 72 Hz GPU/CPU/memory profiling and texture/material/LOD budgets.
+- Test all ten clients, role assignment, join/reconnect, seeking, network hand tracking and actual controller orientation offsets.
+- Check every authored animation against garments, floor, weapon sockets and VFX contacts.
+- Verify stereo readability, physical boundaries and comfort in the complete 121-second show.
+
+Source: the project's PRODUCTION_PLAN_SOURCE.txt asset list plus the current Unity implementation and saved character/chamber validation reports. This list distinguishes existing prototypes from new final-art work.

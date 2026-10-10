@@ -1,0 +1,223 @@
+{
+  "id": "Bb_Discordant",
+  "name": "The Discordant",
+  "key": "Bb",
+  "family": "Howlers",
+  "hex": "F02F62",
+  "height": 1.88,
+  "width": 1.18,
+  "gender": 0.75,
+  "age": 0.47,
+  "muscle": 0.8,
+  "weight": 0.6,
+  "skin": "middleage_african_male",
+  "design": "Curved horns, howler muzzle, asymmetric serrated crimson mantle",
+  "ability": "Cacophony / Anti-Frequency",
+  "slot": 8,
+  "bones": 53,
+  "meshes": [
+    {
+      "name": "Avatar_Body_LOD0",
+      "triangles": 17000,
+      "vertices": 8940,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Cymatic",
+      "triangles": 620,
+      "vertices": 336,
+      "maxInfluences": 1
+    },
+    {
+      "name": "Avatar_LeftHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_RightHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD1",
+      "triangles": 7000,
+      "vertices": 3889,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD2",
+      "triangles": 2999,
+      "vertices": 1817,
+      "maxInfluences": 4
+    }
+  ],
+  "materials": [
+    {
+      "name": "Bb_Discordant_Skin",
+      "color": [
+        1.0,
+        0.949999988079071,
+        0.8500000238418579,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "middleage_african_male.png"
+    },
+    {
+      "name": "Bb_Discordant_Vestment",
+      "color": [
+        0.08258823305368423,
+        0.025823529809713364,
+        0.04082353040575981,
+        1.0
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.7200000286102295,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Bb_Discordant_Armor",
+      "color": [
+        0.32764706015586853,
+        0.16870588064193726,
+        0.21070587635040283,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.3400000035762787,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Bb_Discordant_Hair",
+      "color": [
+        0.02500000037252903,
+        0.02199999988079071,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Anatomical source Bb_Discordant.low-poly",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "Shared_Eyes.png"
+    },
+    {
+      "name": "Bb_Discordant_Trim",
+      "color": [
+        0.5811764597892761,
+        0.33898040652275085,
+        0.40298038721084595,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.30000001192092896,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Bb_Discordant_Cymatic",
+      "color": [
+        0.9411764740943909,
+        0.18431372940540314,
+        0.3843137323856354,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3199999928474426,
+      "emission": [
+        0.9411764740943909,
+        0.18431372940540314,
+        0.3843137323856354,
+        1.0
+      ],
+      "strength": 2.0,
+      "texture": ""
+    }
+  ],
+  "clips": [
+    {
+      "name": "Bb_Discordant_Idle",
+      "seconds": 3,
+      "loop": true
+    },
+    {
+      "name": "Bb_Discordant_Walk",
+      "seconds": 1.2,
+      "loop": true
+    },
+    {
+      "name": "Bb_Discordant_Ability",
+      "seconds": 3,
+      "loop": false
+    },
+    {
+      "name": "Bb_Discordant_Stagger",
+      "seconds": 1,
+      "loop": false
+    },
+    {
+      "name": "Bb_Discordant_Rise",
+      "seconds": 4,
+      "loop": false
+    },
+    {
+      "name": "Bb_Discordant_Hands",
+      "seconds": 2,
+      "loop": true
+    }
+  ]
+}

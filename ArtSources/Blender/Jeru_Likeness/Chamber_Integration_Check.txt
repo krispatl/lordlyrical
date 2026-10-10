@@ -1,0 +1,11 @@
+PASS authored chamber and current dragon integration at 0 seconds; original procedural dragon inactive.
+PASS authored chamber and current dragon integration at 21 seconds; original procedural dragon inactive.
+PASS authored chamber and current dragon integration at 59.5 seconds; original procedural dragon inactive.
+PASS authored chamber and current dragon integration at 66 seconds; original procedural dragon inactive.
+PASS authored chamber and current dragon integration at 105 seconds; original procedural dragon inactive.
+PASS authored chamber and current dragon integration at 31 seconds; original procedural dragon inactive.
+PASS authored chamber and current dragon integration at 74 seconds; original procedural dragon inactive.
+PASS authored chamber and current dragon integration at 0 seconds; original procedural dragon inactive.
+PASS authored chamber and current dragon integration at 66 seconds; original procedural dragon inactive.
+PASS authored chamber and current dragon integration at 117 seconds; original procedural dragon inactive.
+PASS existing core cue, clock, key and reconstruction tests.

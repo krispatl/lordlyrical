@@ -1,0 +1,223 @@
+{
+  "id": "B_Shadow",
+  "name": "The Shadow",
+  "key": "B",
+  "family": "Pitch / avian",
+  "hex": "6754DE",
+  "height": 1.82,
+  "width": 0.9,
+  "gender": 0.55,
+  "age": 0.45,
+  "muscle": 0.5,
+  "weight": 0.39,
+  "skin": "young_african_male",
+  "design": "Raven mask, folded feather mantle and long indigo flight feathers",
+  "ability": "Infrasound Dread",
+  "slot": 5,
+  "bones": 53,
+  "meshes": [
+    {
+      "name": "Avatar_Body_LOD0",
+      "triangles": 17000,
+      "vertices": 8972,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Cymatic",
+      "triangles": 632,
+      "vertices": 344,
+      "maxInfluences": 1
+    },
+    {
+      "name": "Avatar_LeftHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_RightHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD1",
+      "triangles": 7000,
+      "vertices": 3929,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD2",
+      "triangles": 2999,
+      "vertices": 1860,
+      "maxInfluences": 4
+    }
+  ],
+  "materials": [
+    {
+      "name": "B_Shadow_Skin",
+      "color": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "young_african_male.png"
+    },
+    {
+      "name": "B_Shadow_Vestment",
+      "color": [
+        0.04229411855340004,
+        0.03670588135719299,
+        0.07729411870241165,
+        1.0
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.7200000286102295,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "B_Shadow_Armor",
+      "color": [
+        0.21482352912425995,
+        0.19917647540569305,
+        0.3128235340118408,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.3400000035762787,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "B_Shadow_Hair",
+      "color": [
+        0.02500000037252903,
+        0.02199999988079071,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Anatomical source B_Shadow.low-poly",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "Shared_Eyes.png"
+    },
+    {
+      "name": "B_Shadow_Trim",
+      "color": [
+        0.40925490856170654,
+        0.3854117691516876,
+        0.5585882067680359,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.30000001192092896,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "B_Shadow_Cymatic",
+      "color": [
+        0.40392157435417175,
+        0.3294117748737335,
+        0.8705882430076599,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3199999928474426,
+      "emission": [
+        0.40392157435417175,
+        0.3294117748737335,
+        0.8705882430076599,
+        1.0
+      ],
+      "strength": 2.0,
+      "texture": ""
+    }
+  ],
+  "clips": [
+    {
+      "name": "B_Shadow_Idle",
+      "seconds": 3,
+      "loop": true
+    },
+    {
+      "name": "B_Shadow_Walk",
+      "seconds": 1.2,
+      "loop": true
+    },
+    {
+      "name": "B_Shadow_Ability",
+      "seconds": 3,
+      "loop": false
+    },
+    {
+      "name": "B_Shadow_Stagger",
+      "seconds": 1,
+      "loop": false
+    },
+    {
+      "name": "B_Shadow_Rise",
+      "seconds": 4,
+      "loop": false
+    },
+    {
+      "name": "B_Shadow_Hands",
+      "seconds": 2,
+      "loop": true
+    }
+  ]
+}

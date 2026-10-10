@@ -1,0 +1,38 @@
+[
+  {
+    "name": "RitualFootfall",
+    "duration": 0.7,
+    "source": "Original deterministic synthesis; no sampled voice or recording",
+    "peak": 0.7
+  },
+  {
+    "name": "TuningForkImpact",
+    "duration": 1.5,
+    "source": "Original deterministic synthesis; no sampled voice or recording",
+    "peak": 0.7
+  },
+  {
+    "name": "GlassResonance",
+    "duration": 1.7,
+    "source": "Original deterministic synthesis; no sampled voice or recording",
+    "peak": 0.7
+  },
+  {
+    "name": "WingPressure",
+    "duration": 1.4,
+    "source": "Original deterministic synthesis; no sampled voice or recording",
+    "peak": 0.7
+  },
+  {
+    "name": "DragonHarmonicGrowl",
+    "duration": 2.8,
+    "source": "Original deterministic synthesis; no sampled voice or recording",
+    "peak": 0.7
+  },
+  {
+    "name": "WordChorus",
+    "duration": 2.4,
+    "source": "Original deterministic synthesis; no sampled voice or recording",
+    "peak": 0.7
+  }
+]

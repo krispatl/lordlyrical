@@ -1,0 +1,6 @@
+t=0 animator initialized=True jaw=0 blink=0
+t=0.5 animator initialized=True jaw=0 blink=100
+t=1.5 animator initialized=True jaw=99.68087 blink=0
+t=8.5 animator initialized=True jaw=44.85638 blink=0
+t=1.5 animator initialized=True jaw=99.68087 blink=0
+Raised left hand world=(0.46, 1.55, -0.29)

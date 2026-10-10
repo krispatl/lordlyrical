@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Orc_Idle",
+    "seconds": 3,
+    "loop": true
+  },
+  {
+    "name": "Orc_Advance",
+    "seconds": 1.2,
+    "loop": true
+  },
+  {
+    "name": "Orc_Resonance_Strike",
+    "seconds": 2,
+    "loop": false
+  },
+  {
+    "name": "Orc_Stagger",
+    "seconds": 1,
+    "loop": false
+  },
+  {
+    "name": "Orc_Defeat",
+    "seconds": 2,
+    "loop": false
+  },
+  {
+    "name": "Orc_Retreat",
+    "seconds": 0.8,
+    "loop": true
+  }
+]
