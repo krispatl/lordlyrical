@@ -1,0 +1,223 @@
+{
+  "id": "Cs_Seeker",
+  "name": "The Seeker",
+  "key": "C#",
+  "family": "Prowl / feline",
+  "hex": "A3F5FF",
+  "height": 1.69,
+  "width": 0.91,
+  "gender": 0.3,
+  "age": 0.38,
+  "muscle": 0.54,
+  "weight": 0.41,
+  "skin": "young_asian_female",
+  "design": "Feline face guard and ears, articulated tail, short asymmetric scout sash",
+  "ability": "Sonar",
+  "slot": 6,
+  "bones": 56,
+  "meshes": [
+    {
+      "name": "Avatar_Body_LOD0",
+      "triangles": 17000,
+      "vertices": 8887,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Cymatic",
+      "triangles": 664,
+      "vertices": 366,
+      "maxInfluences": 1
+    },
+    {
+      "name": "Avatar_LeftHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_RightHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD1",
+      "triangles": 7000,
+      "vertices": 3856,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD2",
+      "triangles": 3000,
+      "vertices": 1793,
+      "maxInfluences": 4
+    }
+  ],
+  "materials": [
+    {
+      "name": "Cs_Seeker_Skin",
+      "color": [
+        1.0,
+        0.949999988079071,
+        0.8500000238418579,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "young_asian_female.png"
+    },
+    {
+      "name": "Cs_Seeker_Vestment",
+      "color": [
+        0.05994117632508278,
+        0.08405882120132446,
+        0.08699999749660492,
+        1.0
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.7200000286102295,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Cs_Seeker_Armor",
+      "color": [
+        0.2642352879047394,
+        0.33176469802856445,
+        0.3400000035762787,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.3400000035762787,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Cs_Seeker_Hair",
+      "color": [
+        0.02500000037252903,
+        0.02199999988079071,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Anatomical source Cs_Seeker.low-poly",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "Shared_Eyes.png"
+    },
+    {
+      "name": "Cs_Seeker_Trim",
+      "color": [
+        0.48454901576042175,
+        0.5874509811401367,
+        0.6000000238418579,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.30000001192092896,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Cs_Seeker_Cymatic",
+      "color": [
+        0.6392157077789307,
+        0.9607843160629272,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3199999928474426,
+      "emission": [
+        0.6392157077789307,
+        0.9607843160629272,
+        1.0,
+        1.0
+      ],
+      "strength": 2.0,
+      "texture": ""
+    }
+  ],
+  "clips": [
+    {
+      "name": "Cs_Seeker_Idle",
+      "seconds": 3,
+      "loop": true
+    },
+    {
+      "name": "Cs_Seeker_Walk",
+      "seconds": 1.2,
+      "loop": true
+    },
+    {
+      "name": "Cs_Seeker_Ability",
+      "seconds": 3,
+      "loop": false
+    },
+    {
+      "name": "Cs_Seeker_Stagger",
+      "seconds": 1,
+      "loop": false
+    },
+    {
+      "name": "Cs_Seeker_Rise",
+      "seconds": 4,
+      "loop": false
+    },
+    {
+      "name": "Cs_Seeker_Hands",
+      "seconds": 2,
+      "loop": true
+    }
+  ]
+}

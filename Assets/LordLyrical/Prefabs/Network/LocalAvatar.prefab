@@ -170,3 +170,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7910b2cb4bd862a49b8a06448bf8a263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LordLyrical.NetworkRoleAvatar
+  participantModels:
+  - {fileID: 2639684857836634175, guid: e4698d9e6d543c5428c7a5d361fa6fe8, type: 3}
+  - {fileID: 6452456701813853462, guid: 00f68f3c4061fc843875005312792b47, type: 3}
+  - {fileID: 267554936082382114, guid: 99e5d020376ed5c4f873975c48ab1551, type: 3}
+  - {fileID: 2104917741146738997, guid: d572f68d407c01244bcb75d7a8812830, type: 3}
+  - {fileID: 1813052486226544571, guid: 08797b8ecb3aed54dab75109138bc905, type: 3}
+  - {fileID: 6354169765093650227, guid: ffb28fb5864deb54d8eb2ca9a2745cdf, type: 3}
+  - {fileID: 8121446659752498187, guid: fcabdd446e7d6814da4f4b26ba673bd8, type: 3}
+  - {fileID: 3122557181263783516, guid: 369aea41063225c41b1ba336c8c5f08b, type: 3}
+  - {fileID: 6671423630433047766, guid: 2378d64b2e568094caa34bd6e5f0e83f, type: 3}
+  - {fileID: 8184633813609383324, guid: 6109799dd8114af4ebfd16c3b11f451f, type: 3}

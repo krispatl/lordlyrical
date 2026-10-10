@@ -1,0 +1,25 @@
+{
+  "source": "Original procedural synthesis for Lord Lyrical; no external samples",
+  "generator": "Tools/generate_arrival_audio.py",
+  "seed": 183941,
+  "clips": {
+    "LightningDescent": {
+      "seconds": 1.2,
+      "peak": 0.78,
+      "rms": 0.128901310195356,
+      "clippedSamples": 0
+    },
+    "LightningLanding": {
+      "seconds": 1.4,
+      "peak": 0.78,
+      "rms": 0.07433843304485967,
+      "clippedSamples": 0
+    },
+    "ArrivalThunder": {
+      "seconds": 3.2,
+      "peak": 0.78,
+      "rms": 0.09946346464006046,
+      "clippedSamples": 0
+    }
+  }
+}

@@ -101,21 +101,38 @@ namespace LordLyrical.Editor
             UnityEditor.XR.OpenXR.Features.FeatureHelpers.RefreshFeatures(BuildTargetGroup.Android);
             var openxr=OpenXRSettings.GetSettingsForBuildTargetGroup(BuildTargetGroup.Android);openxr.renderMode=OpenXRSettings.RenderMode.SinglePassInstanced;
             var features=openxr.GetFeatures<OpenXRFeature>();bool pico=false;
-            foreach(var f in features){string n=f.GetType().Name;bool enable=n=="PICOFeature"||n=="OpenXRExtensions"||n=="PICO4ControllerProfile"||n=="PICONeo3ControllerProfile"||n=="PICO4UltraControllerProfile"||n=="DisplayRefreshRateFeature"||n=="OpenXRCompositionLayersFeature";f.enabled=enable;if(n=="PICOFeature")pico=true;EditorUtility.SetDirty(f);}
+            foreach(var f in features){string n=f.GetType().Name;bool enable=n=="PICOFeature"||n=="OpenXRExtensions"||n=="PICO4ControllerProfile"||n=="PICONeo3ControllerProfile"||n=="PICO4UltraControllerProfile"||n=="DisplayRefreshRateFeature"||n=="OpenXRCompositionLayersFeature"||n=="PassthroughFeature"||n=="FoveationFeature"||n=="HandTracking"||n=="PICOSpatialMesh"||n=="PICOSceneCapture";f.enabled=enable;if(n=="PICOFeature")pico=true;EditorUtility.SetDirty(f);}
             if(!pico)throw new Exception("PICO Support feature not discovered");
-            var picoConfig=Unity.XR.OpenXR.Features.PICOSupport.PICOProjectSetting.GetProjectConfig();picoConfig.displayFrequency=Unity.XR.OpenXR.Features.PICOSupport.SystemDisplayFrequency.RefreshRate72;EditorUtility.SetDirty(picoConfig);
+            var roomMesh=openxr.GetFeature<Unity.XR.OpenXR.Features.PICOSupport.PICOSpatialMesh>();
+            if(roomMesh){roomMesh.LOD=Unity.XR.PXR.PxrMeshLod.Low;EditorUtility.SetDirty(roomMesh);}
+            // The authored scene also runs in desktop XR. Unity's composition validation
+            // checks the selected editor platform even when BuildPlayer targets Android.
+            UnityEditor.XR.OpenXR.Features.FeatureHelpers.RefreshFeatures(BuildTargetGroup.Standalone);
+            var desktop=OpenXRSettings.GetSettingsForBuildTargetGroup(BuildTargetGroup.Standalone);
+            var desktopComposition=desktop?.GetFeature<UnityEngine.XR.OpenXR.Features.CompositionLayers.OpenXRCompositionLayersFeature>();
+            if(desktopComposition){desktopComposition.enabled=true;EditorUtility.SetDirty(desktopComposition);EditorUtility.SetDirty(desktop);}
+
+            var picoConfig=Unity.XR.OpenXR.Features.PICOSupport.PICOProjectSetting.GetProjectConfig();picoConfig.isHandTracking=true;picoConfig.highFrequencyHand=true;picoConfig.handTrackingSupportType=Unity.XR.PXR.HandTrackingSupport.HandsOnly;picoConfig.displayFrequency=Unity.XR.OpenXR.Features.PICOSupport.SystemDisplayFrequency.RefreshRate72;picoConfig.foveationEnable=true;picoConfig.foveatedRenderingMode=FoveationFeature.FoveatedRenderingMode.FixedFoveatedRendering;picoConfig.foveatedRenderingLevel=FoveationFeature.FoveatedRenderingLevel.Medium;EditorUtility.SetDirty(picoConfig);
             var platform=Unity.XR.PXR.PXR_PlatformSetting.Instance;if(platform.appID==null)platform.appID=string.Empty;EditorUtility.SetDirty(platform);
             EditorUtility.SetDirty(settings);EditorUtility.SetDirty(xr);EditorUtility.SetDirty(xr.Manager);EditorUtility.SetDirty(openxr);AssetDatabase.SaveAssets();
         }
         [MenuItem("Lord Lyrical/Build PICO APK")]
-        public static void BuildPico()
+        public static void BuildPico()=>BuildPicoVariant(false);
+        [MenuItem("Lord Lyrical/Build PICO Diagnostic APK")]
+        public static void BuildPicoDiagnostic()=>BuildPicoVariant(true);
+        static void BuildPicoVariant(bool diagnostic)
         {
+            // Persist the authored experience before Unity opens its build-time save prompt.
+            // Unrelated open scenes retain their own save decisions.
+            var experience = UnityEngine.SceneManagement.SceneManager.GetSceneByPath(Root+"/Scenes/Experience.unity");
+            if (experience.IsValid() && experience.isLoaded && experience.isDirty && !EditorSceneManager.SaveScene(experience))
+                throw new IOException("Could not save the authored Experience scene before building.");
             ConfigureAndroid();Directory.CreateDirectory("Builds");
-            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{Root+"/Scenes/Experience.unity"},locationPathName="Builds/LordLyrical-PICO.apk",target=BuildTarget.Android,options=BuildOptions.Development});
-            File.WriteAllText("Builds/build-result.json",JsonUtility.ToJson(new BuildEvidence{result=report.summary.result.ToString(),errors=(int)report.summary.totalErrors,warnings=(int)report.summary.totalWarnings,bytes=(long)report.summary.totalSize},true));
+            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{Root+"/Scenes/Experience.unity"},locationPathName="Builds/LordLyrical-PICO.apk",target=BuildTarget.Android,options=diagnostic?BuildOptions.Development:BuildOptions.None});
+            File.WriteAllText("Builds/build-result.json",JsonUtility.ToJson(new BuildEvidence{development=diagnostic,result=report.summary.result.ToString(),errors=(int)report.summary.totalErrors,warnings=(int)report.summary.totalWarnings,bytes=(long)report.summary.totalSize},true));
             if(report.summary.result!=BuildResult.Succeeded)throw new Exception("PICO build failed: "+report.summary.result);
         }
-        [Serializable] class BuildEvidence{public string result;public int errors,warnings;public long bytes;}
+        [Serializable] class BuildEvidence{public bool development;public string result;public int errors,warnings;public long bytes;}
         [MenuItem("Lord Lyrical/Build Desktop Test Player")]
         public static void BuildDesktop()
         {PlayerSettings.SetScriptingBackend(NamedBuildTarget.Standalone,ScriptingImplementation.Mono2x);Directory.CreateDirectory("Builds/Desktop");var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{Root+"/Scenes/Experience.unity"},locationPathName="Builds/Desktop/LordLyrical.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Desktop build failed");}

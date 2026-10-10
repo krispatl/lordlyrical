@@ -32,8 +32,8 @@ namespace LordLyrical
     [Serializable] public class ShowSnapshot
     {
         public string bootId,phase,mode,sdk;public int revision,runId,authorityClientNo,protocol;
-        public double epoch,duration;
-        public bool IsValid=>!string.IsNullOrEmpty(bootId)&&protocol==8&&sdk=="0.17.4"&&duration==121&&
+        public double epoch,duration,openingDuration;
+        public bool IsValid=>!string.IsNullOrEmpty(bootId)&&protocol==8&&sdk=="0.17.4"&&duration==121&&Math.Abs(openingDuration-17)<.001&&
                              !double.IsNaN(epoch)&&!double.IsInfinity(epoch)&&Enum.TryParse<SessionPhase>(phase,out _);
     }
     [Serializable] public class ParticipantRecord { public int slot,clientNo;public string deviceId,key;public bool connected; }

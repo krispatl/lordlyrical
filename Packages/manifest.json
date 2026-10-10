@@ -47,7 +47,10 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
-    "com.gamelovers.mcp-unity": "https://github.com/CoderGamester/mcp-unity.git#bbfb1c0681519ced5b357ce7cc3c1ee68c9dc64e"
+    "com.gamelovers.mcp-unity": "https://github.com/CoderGamester/mcp-unity.git#bbfb1c0681519ced5b357ce7cc3c1ee68c9dc64e",
+    "com.unity.xr.compositionlayers": "2.2.0",
+    "com.unity.xr.openxr": "1.15.1",
+    "com.unity.xr.hands": "1.7.3"
   },
   "scopedRegistries": [
     {
@@ -71,4 +74,3 @@
     }
   ]
 }
-

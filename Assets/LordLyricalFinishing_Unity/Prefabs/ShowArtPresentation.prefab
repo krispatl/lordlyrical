@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4841519573676907738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6940792442764446052}
+  - component: {fileID: 3243752731453877402}
+  - component: {fileID: 8871958460649271140}
+  - component: {fileID: 1018740043359957250}
+  m_Layer: 0
+  m_Name: ShowArtPresentation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6940792442764446052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4841519573676907738}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3243752731453877402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4841519573676907738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cfd1cada3ae4f644bab2adbc80840ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LordLyrical.ShowArtPresentation
+  vortexPrefab: {fileID: 9043253774510038468, guid: 8eaf2ca3f2af2e44ba16fb94c272a371, type: 3}
+  filamentMaterial: {fileID: 2100000, guid: 8640fbdd6e44dfa439035f06a25514c1, type: 2}
+  quality: 1
+--- !u!114 &8871958460649271140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4841519573676907738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4736255c1eaf44d9174ee0e50a3dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LordLyrical.CinematicParticleDirector
+  sparksMaterial: {fileID: 2100000, guid: 7962ec1c23065cb4f9b89904b7771c80, type: 2}
+  plumeMaterial: {fileID: 2100000, guid: 4e87df450b8446346bc6866c9e0edb0f, type: 2}
+  energyMaterial: {fileID: 2100000, guid: d643c77ef276a3c41b5be886722d93f2, type: 2}
+  flareMaterial: {fileID: 2100000, guid: 2b19c479422694e48addd32584cc5b16, type: 2}
+  debrisMaterial: {fileID: 2100000, guid: 38c34ccbf35d3a54799537c19ffb548a, type: 2}
+  waveMaterial: {fileID: 2100000, guid: 8801d7cd14a66bf4ab2c68a8410a1cfe, type: 2}
+  shieldMaterial: {fileID: 2100000, guid: 518e01400dabda948bcc137da2fd4cd8, type: 2}
+  vortexMaterial: {fileID: 2100000, guid: 5808d9ccd7e79c542a804aa29f914ca2, type: 2}
+  quality: 1
+--- !u!114 &1018740043359957250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4841519573676907738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3f4c1acf8df4f44906468bf39e03e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LordLyrical.CinematicLook
+  profile: {fileID: 11400000, guid: d72ab421b9e10e643a56f0bb03d6daf8, type: 2}

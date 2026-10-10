@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-03",
+  "manufacturer": "Pico",
+  "model": "A9210",
+  "androidApi": 34,
+  "package": "com.fifthyang.lordlyrical",
+  "version": "1.0",
+  "apkSha256": "5cf5d5b11d85da8d749a23abded4202f5d446c2db0eb3fcc6d644b3fac906303",
+  "install": "Success",
+  "activityLaunch": "ok",
+  "processAlive": true,
+  "headsetWakefulness": "Asleep",
+  "venueJoinVerified": false,
+  "fullHeadsetPlaybackTested": false
+}

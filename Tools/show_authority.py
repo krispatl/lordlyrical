@@ -16,11 +16,19 @@ from styly_netsync.client import net_sync_manager
 KEYS = ['D', 'C', 'E', 'G', 'F', 'B', 'C#', 'F#', 'Bb', 'A']
 DURATION = 121.0
 
+def wire_roster(records):
+    """Keep the complete, atomic ten-person roster below NetSync's 1024-byte variable limit."""
+    value=json.dumps({'v':2,'p':[{'s':p['slot'],'c':p['clientNo'],'d':p['deviceId'],'a':int(p['connected'])} for p in records]},separators=(',',':'))
+    if len(value.encode('utf-8'))>1024:
+        raise ValueError('Roster exceeds NetSync variable capacity; refusing a truncated assignment')
+    return value
+
 class Registry:
     def __init__(self):
         self.slots = [None] * 10
         self.seen = {}
         self.clients = {}
+        self.aligned = {}
 
     def join(self, device, client, now):
         if not device or len(device) > 256:
@@ -38,7 +46,7 @@ class Registry:
 
     def records(self, now):
         return [dict(slot=i, deviceId=d or '', clientNo=self.clients.get(d, 0),
-                     key=KEYS[i], connected=bool(d and now-self.seen.get(d, -999) < 6))
+                     key=KEYS[i], connected=bool(d and now-self.seen.get(d, -999) < 6), aligned=self.aligned.get(d,False))
                 for i, d in enumerate(self.slots)]
 
     def clear_absent(self, now):
@@ -47,7 +55,7 @@ class Registry:
                 self.slots[i] = None
 
 class ShowAuthority:
-    def __init__(self, manager, mode='Adaptive', countdown=5.0):
+    def __init__(self, manager, mode='Adaptive', countdown=17.0):
         self.net = manager
         self.registry = Registry()
         self.boot = str(uuid.uuid4())
@@ -65,7 +73,7 @@ class ShowAuthority:
 
     def snapshot(self):
         return dict(bootId=self.boot, revision=self.revision, runId=self.run,
-                    phase=self.phase, epoch=self.epoch, duration=DURATION, mode=self.mode,
+                    phase=self.phase, epoch=self.epoch, duration=DURATION, openingDuration=self.countdown, mode=self.mode,
                     authorityClientNo=self.net.client_no or 0, protocol=8, sdk='0.17.4')
 
     def publish(self):
@@ -84,6 +92,7 @@ class ShowAuthority:
             device=self.net.get_device_id_from_client_no(sender)
             if device:
                 slot=self.registry.join(device, sender, now)
+                self.registry.aligned[device]=bool(args and args[0]=="aligned")
                 self.net.set_client_variable(sender, 'll.slot', str(slot))
                 self.net.rpc('ll.assignment', [str(slot), self.boot], [sender])
                 if slot < 0:
@@ -105,6 +114,9 @@ class ShowAuthority:
                 raise ValueError('Full Cast requires ten connected physical participants')
             if count<1:
                 raise ValueError('At least one participant is required')
+            unaligned=[r['slot']+1 for r in self.registry.records(now) if r['connected'] and not r['aligned']]
+            if unaligned:
+                raise ValueError('Align connected headsets on the shared floor mark before starting: '+', '.join(map(str,unaligned)))
             self.run+=1
             self.epoch=now+self.countdown
             self.phase='Countdown'
@@ -149,7 +161,7 @@ class ShowAuthority:
         if self.phase=='Running' and now-self.epoch>=DURATION:
             self.phase='Complete'
             self.publish()
-        roster=json.dumps({'participants':self.registry.records(now)},separators=(',',':'))
+        roster=wire_roster(self.registry.records(now))
         if roster!=self.last_roster or now-self.last_publish>2:
             self.net.set_global_variable('ll.roster',roster)
             self.last_roster=roster
@@ -200,7 +212,7 @@ def main():
     parser.add_argument('--room',default='lord-lyrical')
     parser.add_argument('--operator-port',type=int,default=8810)
     parser.add_argument('--mode',choices=['Adaptive','FullCast'],default='Adaptive')
-    parser.add_argument('--countdown',type=float,default=5.0)
+    parser.add_argument('--countdown',type=float,default=17.0)
     args=parser.parse_args()
     if not math.isfinite(args.countdown) or not 1<=args.countdown<=60:
         parser.error('--countdown must be between 1 and 60 seconds')

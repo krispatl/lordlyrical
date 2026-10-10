@@ -1,0 +1,17 @@
+HEADSET REVIEW CAPTURE - CANDIDATE 11
+This read-only operator companion records the next wearer-operated run and reports frame rate for the opening, Orc combat, dragon/walk, crescendo and finale.
+
+From the Unity project folder, use the existing Python environment:
+.venv\Scripts\python.exe Tools\capture_headset_review.py --version 11 --slot 0
+
+The recorder waits up to ten minutes. Then use the existing operator: align the physical headset at the shared floor mark and start the show. New recordings and reports are written under Evidence/HeadsetReviews. Change --slot for another zero-based headset slot. Each invocation covers one participant; a ten-headset rehearsal requires evidence for the full cast.
+
+This tool only reads the local authority status. It does not send start/reset commands, change calibration, or keep the headset awake. Each recording has a unique filename. It stops after the ending, on a changed run, or when fresh telemetry disappears.
+
+The report separates current build, continuous capture, native opening state and per-sequence frame rate. Ready-only data, repeated stale messages, mixed runs and older versions do not pass capture coverage. Frame-rate samples arrive about every two seconds; these are not individual frame timings. Brief arrival phases can fall between samples.
+
+Record the wearer's real-room visibility and visual-comfort observations separately. Neither telemetry nor headset video can confirm the passthrough camera image. No overall artistic or performance acceptance is generated automatically.
+
+The tool was checked against preserved versions 7 and 10 evidence. Version 11 keeps the existing frame-rate results unchanged and additionally reports effects quality, particle count, CPU/render thread marker times, draw calls and triangles where available. Unavailable counters remain unknown; a missing GPU time is never treated as zero. Thread markers include waits and do not measure pure CPU work.
+
+For comparisons, keep firmware, build type, effects quality, viewpoint and headset thermal state consistent. Historical version 10 recordings do not contain an effects-quality reading, and its resumed process had previously entered a low-memory fallback. Do not attribute differences from that recording solely to version 11 optimizations.

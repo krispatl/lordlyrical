@@ -1,0 +1,38 @@
+LORD LYRICAL CONCERT PASS — FINAL VALIDATION
+4 October 2026
+
+OWNED ASSETS
+Unity Package Manager returned 518 owned products. SALSA LipSync Suite and selected PBR Stage Equipment assets were imported and integrated. No purchases were made. Owned_Assets.tsv and Owned_Asset_Review.txt record the inventory and choices.
+
+PRESERVATION
+Preservation_Validation.json: 55 original CyberDragon Unity files compared unchanged; original Blender source fingerprint retained; master MP3, cue table and four empty voice slots unchanged.
+The obsolete procedural Sound Dragon construction path was removed. Runtime telemetry counted one retained dragon owner throughout the full desktop show.
+
+EDITOR
+Concert_Validation.txt: audio event/seek handling, Orc pursuit/attack/guard/dodge/damage/cooldown/defeat, flank commitment, performer-obstacle navigation, SALSA mappings, shader checks and 11 rendered checkpoints passed.
+
+DESKTOP — COMPLETE 121-SECOND SHOW
+Desktop_Concert_Playback.json, run 40, passed. Real desktop rendering at 1280x720 with scripted pulse/guard actions; this is not a headset performance benchmark.
+Mean FPS: 71.941994; minimum: 69.288544; 10th percentile: 71.977852.
+Maximum music-clock drift: 3.225909 ms. Maximum reported memory: 283.927478 MB.
+Score: 412; successful guards: 4; received strikes: 0. Final score persisted through completion and minor audio-clock corrections.
+Facial viseme activity peaked at 75.8699. Dragon owners: exactly 1.
+Desktop_Frames contains captured desktop frames, including network test captures; Concert_*.png are editor preview checkpoints.
+
+NETWORK — UNITY HOST AND SDK PEER
+Peer_Interaction_Validation.json, run 42, passed.
+Remote valid pulse changed host score; duplicate sequence, wrong participant slot and stale run were rejected; the next valid action was accepted. Snapshot included 12 Orcs.
+This verifies one Unity host with one SDK peer, not ten simultaneous headsets or every reconnect case.
+
+ANDROID BUILD AND INSTALL
+Final USB review build completed 01:05:59 local time: Succeeded, errors=0, warnings=36.
+APK payload: 248,249,311 bytes before packaging. Unity's report also lists a larger build size; the APK file length is the distributable size.
+ADB streamed install returned Success. Installed package com.fifthyang.lordlyrical.usbreview, versionName=1.0, versionCode=1, lastUpdateTime=2026-10-04 01:08:01.
+Device: PA94Y0MGL2100037G (PICO). TCP reverse mappings 5555, 5556, 5557 and 8800 verified.
+Device reported mWakefulness=Asleep. The final build is installed for later review; no worn-headset playback result is claimed.
+Build logs include Unity package shader precision warnings and unsupported simulation-only shader warnings. The successful compile does not replace device visual verification.
+
+REMAINING EXPERIENCE REVIEW
+Review headset visibility/comfort, physical controller mapping, sustained device FPS and ten-person networking in the actual play space.
+SALSA uses approximately vocal-gated amplitude from the master. There is no isolated vocal stem or verified phoneme alignment.
+The inherited character art and motion library require further sculpting, animation and art direction to meet the requested cinematic ambition. This delivery does not certify Fortnite-scale production quality.

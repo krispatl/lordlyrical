@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c142a3c8cb82740a2e3b951aa4f1c4, type: 3}
+  m_Name: ShowVoiceSlots
+  m_EditorClassIdentifier: Assembly-CSharp::LordLyrical.VoiceCueLibrary
+  entries:
+  - cueId: counter-call
+    actor: Jeru
+    recordingDirection: 34 s. Key of A. Cantors to the front. Follow the line. Confirm
+      final wording with Jeru; no recording supplied.
+    slot: -1
+    recording: {fileID: 0}
+    facialPerformance: {fileID: 0}
+    gain: 0.65
+  - cueId: deep-sonar
+    actor: Seeker
+    recordingDirection: 83 s. Discover the dragon's original root key E. The Blade.
+      Recording pending.
+    slot: 6
+    recording: {fileID: 0}
+    facialPerformance: {fileID: 0}
+    gain: 0.65
+  - cueId: identify-discordant
+    actor: Jeru
+    recordingDirection: '87 s. Address the Discordant: expose E beneath Bb. Recording
+      pending.'
+    slot: -1
+    recording: {fileID: 0}
+    facialPerformance: {fileID: 0}
+    gain: 0.65
+  - cueId: amplitude-rise
+    actor: Jeru
+    recordingDirection: 92 s. All ten. One frequency. Recording pending.
+    slot: -1
+    recording: {fileID: 0}
+    facialPerformance: {fileID: 0}
+    gain: 0.65

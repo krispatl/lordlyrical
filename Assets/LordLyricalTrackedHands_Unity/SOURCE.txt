@@ -1,0 +1,2 @@
+Hand meshes copied unchanged from Unity XR Hands1.7.3 HandVisualizer sample, Models/LeftHand.fbx and RightHand.fbx. Original author: Unity Technologies. Distributed in this Unity project under the accompanying Unity Package Distribution License.
+Source package: com.unity.xr.hands1.7.3.

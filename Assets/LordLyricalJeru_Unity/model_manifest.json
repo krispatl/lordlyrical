@@ -1,0 +1,416 @@
+{
+  "status": "First rigged likeness review build; close-up polish and headset profiling pending",
+  "materials": [
+    {
+      "name": "Jeru_Body_Source.body",
+      "color": [
+        0.65,
+        0.47,
+        0.32,
+        1
+      ],
+      "roughness": 0.5099999904632568,
+      "metallic": 0.0,
+      "texture": "middleage_lightskinned_male_diffuse.png",
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Jeru_Body_Source.low-poly",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "texture": "brown_eye.png",
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Jeru_Body_Source.tongue01",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "texture": "tongue01_diffuse.png",
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Jeru_Body_Source.teeth_base",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "texture": "teeth.png",
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Jeru_Navy_Felt",
+      "color": [
+        0.016,
+        0.025,
+        0.05,
+        1
+      ],
+      "roughness": 0.8199999928474426,
+      "metallic": 0.0,
+      "texture": "",
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Founder_Tailored_Plum",
+      "color": [
+        0.03400000184774399,
+        0.02199999988079071,
+        0.04699999839067459,
+        1.0
+      ],
+      "roughness": 0.6800000071525574,
+      "metallic": 0.0,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Founder_Polished_Leather",
+      "color": [
+        0.01899999938905239,
+        0.014999999664723873,
+        0.019999999552965164,
+        1.0
+      ],
+      "roughness": 0.3100000023841858,
+      "metallic": 0.0,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Jeru_Photo_Skin",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.5400000214576721,
+      "metallic": 0.0,
+      "texture": "Jeru_Head_FaceBuilder_baked_tex.png",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Jeru_Neck_Scalp",
+      "color": [
+        0.20999999344348907,
+        0.10400000214576721,
+        0.05000000074505806,
+        1.0
+      ],
+      "roughness": 0.6499999761581421,
+      "metallic": 0.0,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Jeru_Oral_Mucosa",
+      "color": [
+        0.02800000086426735,
+        0.003000000026077032,
+        0.004999999888241291,
+        1.0
+      ],
+      "roughness": 0.3799999952316284,
+      "metallic": 0.0,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Founder_Obsidian_Brocade",
+      "color": [
+        0.010999999940395355,
+        0.014999999664723873,
+        0.026000000536441803,
+        1.0
+      ],
+      "roughness": 0.7200000286102295,
+      "metallic": 0.0,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Founder_Deep_Violet_Lining",
+      "color": [
+        0.04500000178813934,
+        0.014000000432133675,
+        0.07100000232458115,
+        1.0
+      ],
+      "roughness": 0.6299999952316284,
+      "metallic": 0.0,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Founder_Antique_Silver",
+      "color": [
+        0.33000001311302185,
+        0.3700000047683716,
+        0.4000000059604645,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.8299999833106995,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Founder_Cymatic_Channels",
+      "color": [
+        0.02800000086426735,
+        0.28999999165534973,
+        0.47999998927116394,
+        1.0
+      ],
+      "roughness": 0.3799999952316284,
+      "metallic": 0.44999998807907104,
+      "texture": "",
+      "emission": [
+        0.02800000086426735,
+        0.28999999165534973,
+        0.47999998927116394,
+        1.0
+      ],
+      "emissionStrength": 1.2999999523162842
+    },
+    {
+      "name": "Jeru_Black_Acetate",
+      "color": [
+        0.00800000037997961,
+        0.009999999776482582,
+        0.01600000075995922,
+        1.0
+      ],
+      "roughness": 0.23000000417232513,
+      "metallic": 0.15000000596046448,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Jeru_Beard_Charcoal",
+      "color": [
+        0.024000000208616257,
+        0.01899999938905239,
+        0.01600000075995922,
+        1.0
+      ],
+      "roughness": 0.8600000143051147,
+      "metallic": 0.0,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    },
+    {
+      "name": "Jeru_Beard_Silver",
+      "color": [
+        0.18000000715255737,
+        0.17000000178813934,
+        0.15000000596046448,
+        1.0
+      ],
+      "roughness": 0.8799999952316284,
+      "metallic": 0.0,
+      "texture": "",
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0
+    }
+  ],
+  "boneCount": 77,
+  "deformBones": 69,
+  "meshes": [
+    {
+      "name": "Jeru_Hands_Neck_Unity",
+      "vertices": 3623,
+      "triangles": 7028,
+      "blendshapes": 0
+    },
+    {
+      "name": "Jeru_Eyes_Unity",
+      "vertices": 96,
+      "triangles": 172,
+      "blendshapes": 0
+    },
+    {
+      "name": "Jeru_Tongue_Unity",
+      "vertices": 226,
+      "triangles": 448,
+      "blendshapes": 0
+    },
+    {
+      "name": "Jeru_Teeth_Unity",
+      "vertices": 3868,
+      "triangles": 7120,
+      "blendshapes": 0
+    },
+    {
+      "name": "Jeru_Fedora_Removable_Unity",
+      "vertices": 634,
+      "triangles": 1244,
+      "blendshapes": 0
+    },
+    {
+      "name": "Jeru_Tailored_Underlayer_Unity",
+      "vertices": 7613,
+      "triangles": 14956,
+      "blendshapes": 0
+    },
+    {
+      "name": "Jeru_Shoes_Unity",
+      "vertices": 1722,
+      "triangles": 3320,
+      "blendshapes": 0
+    },
+    {
+      "name": "Jeru_Face_51Expressions_Unity",
+      "vertices": 18024,
+      "triangles": 34376,
+      "blendshapes": 66
+    },
+    {
+      "name": "Jeru_Mouth_Interior_Unity",
+      "vertices": 264,
+      "triangles": 438,
+      "blendshapes": 66
+    },
+    {
+      "name": "Founder_Mantle",
+      "vertices": 3372,
+      "triangles": 6720,
+      "blendshapes": 0
+    },
+    {
+      "name": "Founder_Silver_Trim",
+      "vertices": 1459,
+      "triangles": 2816,
+      "blendshapes": 0
+    },
+    {
+      "name": "Founder_Cymatic_Lights",
+      "vertices": 564,
+      "triangles": 944,
+      "blendshapes": 0
+    },
+    {
+      "name": "Jeru_Glasses_Removable",
+      "vertices": 1160,
+      "triangles": 2240,
+      "blendshapes": 0
+    },
+    {
+      "name": "Jeru_Beard_Detail_Unity",
+      "vertices": 2583,
+      "triangles": 861,
+      "blendshapes": 66
+    }
+  ]
+}

@@ -5,10 +5,12 @@ namespace LordLyrical
     public class AudioMasterClock:MonoBehaviour
     {
         public AudioSource source;
+        // Leave headroom for decoded MP3 peaks and the spatial accent bus.
+        public const float MasterGain=.9f;
         public double TimeSeconds{get;private set;}public double DriftSeconds{get;private set;}
         public bool Scheduled{get;private set;}
         double dspStart,seekTime,lastCheck;bool finished;
-        public void Stop(){if(source!=null){source.Stop();source.pitch=1;source.volume=1;}TimeSeconds=0;Scheduled=false;finished=false;}
+        public void Stop(){if(source!=null){source.Stop();source.pitch=1;source.volume=MasterGain;}TimeSeconds=0;Scheduled=false;finished=false;}
         public void Schedule(double showTime)
         {
             Stop();if(source==null||source.clip==null)return;
@@ -34,7 +36,7 @@ namespace LordLyrical
                 // Avoid sample-buffer stepping in visual time while following accumulated pitch correction.
                 seekTime=sampleTime;dspStart=dsp;lastCheck=dsp;
             }
-            source.volume=target>120?(float)Math.Clamp(121-target,0,1):1;
+            source.volume=MasterGain*(target>120?(float)Math.Clamp(121-target,0,1):1);
             if(target>=121){source.Stop();TimeSeconds=121;finished=true;}
         }
     }

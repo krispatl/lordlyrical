@@ -1,0 +1,14 @@
+{
+  "source": "Original procedural volume integration and seeded multiscale noise",
+  "plumeFrames": 64,
+  "atlasResolution": 1024,
+  "frameResolution": 128,
+  "raySteps": 40,
+  "seed": 44107,
+  "maps": [
+    "Energy_Flow_RGBA.png",
+    "Optical_Flare.png",
+    "Spark_Core.png",
+    "Volumetric_Plume_8x8.png"
+  ]
+}

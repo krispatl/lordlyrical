@@ -1,0 +1,223 @@
+{
+  "id": "D_Warrior",
+  "name": "The Warrior",
+  "key": "D",
+  "family": "Stone Choir",
+  "hex": "E88A20",
+  "height": 1.48,
+  "width": 1.46,
+  "gender": 0.85,
+  "age": 0.62,
+  "muscle": 0.88,
+  "weight": 0.7,
+  "skin": "middleage_african_male",
+  "design": "Granite lamellar armor, broad amber gauntlets, split beard and low crested helm",
+  "ability": "Amplitude Strike",
+  "slot": 0,
+  "bones": 53,
+  "meshes": [
+    {
+      "name": "Avatar_Body_LOD0",
+      "triangles": 17000,
+      "vertices": 8934,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Cymatic",
+      "triangles": 596,
+      "vertices": 320,
+      "maxInfluences": 1
+    },
+    {
+      "name": "Avatar_LeftHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_RightHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD1",
+      "triangles": 7000,
+      "vertices": 3899,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD2",
+      "triangles": 3000,
+      "vertices": 1814,
+      "maxInfluences": 4
+    }
+  ],
+  "materials": [
+    {
+      "name": "D_Warrior_Skin",
+      "color": [
+        1.0,
+        0.949999988079071,
+        0.8500000238418579,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "middleage_african_male.png"
+    },
+    {
+      "name": "D_Warrior_Vestment",
+      "color": [
+        0.08023529499769211,
+        0.05258823558688164,
+        0.02141176536679268,
+        1.0
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.7200000286102295,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "D_Warrior_Armor",
+      "color": [
+        0.32105880975723267,
+        0.24364705383777618,
+        0.1563529372215271,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.3400000035762787,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "D_Warrior_Hair",
+      "color": [
+        0.02500000037252903,
+        0.02199999988079071,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Anatomical source D_Warrior.low-poly",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "Shared_Eyes.png"
+    },
+    {
+      "name": "D_Warrior_Trim",
+      "color": [
+        0.5711372494697571,
+        0.45317646861076355,
+        0.32015687227249146,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.30000001192092896,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "D_Warrior_Cymatic",
+      "color": [
+        0.9098039269447327,
+        0.5411764979362488,
+        0.125490203499794,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3199999928474426,
+      "emission": [
+        0.9098039269447327,
+        0.5411764979362488,
+        0.125490203499794,
+        1.0
+      ],
+      "strength": 2.0,
+      "texture": ""
+    }
+  ],
+  "clips": [
+    {
+      "name": "D_Warrior_Idle",
+      "seconds": 3,
+      "loop": true
+    },
+    {
+      "name": "D_Warrior_Walk",
+      "seconds": 1.2,
+      "loop": true
+    },
+    {
+      "name": "D_Warrior_Ability",
+      "seconds": 3,
+      "loop": false
+    },
+    {
+      "name": "D_Warrior_Stagger",
+      "seconds": 1,
+      "loop": false
+    },
+    {
+      "name": "D_Warrior_Rise",
+      "seconds": 4,
+      "loop": false
+    },
+    {
+      "name": "D_Warrior_Hands",
+      "seconds": 2,
+      "loop": true
+    }
+  ]
+}

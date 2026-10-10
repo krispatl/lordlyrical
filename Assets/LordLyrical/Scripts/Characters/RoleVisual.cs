@@ -1,13 +1,18 @@
 using UnityEngine;
+using LordLyrical.Characters;
 namespace LordLyrical
 {
     public class RoleVisual
     {
-        public Transform root,head,leftArm,rightArm;public Material material;readonly int slot;readonly Vector3 home;
-        public RoleVisual(Transform parent,int index)
+        public Transform root,head,leftArm,rightArm;public Material material;readonly int slot;readonly Vector3 home;readonly ParticipantAvatarPerformance authored;
+        public bool HasParticipant=>!Application.isPlaying||NetworkRoleAvatar.HasTrackedBody(slot);
+        public Vector3 Position=>NetworkRoleAvatar.TryGetHead(slot,out var p)?new Vector3(p.x,0,p.z):root.position;
+        public RoleVisual(Transform parent,int index,GameObject prefab=null)
         {
             slot=index;var role=RootKeys.Slots[index];home=role.spawn;
-            root=ResonantGeometry.Node(role.archetype,parent,home);material=ResonantGeometry.Material(role.archetype,role.color);
+            root=ResonantGeometry.Node(role.archetype,parent,home);
+            if(prefab!=null){var instance=Object.Instantiate(prefab,root);authored=instance.GetComponent<ParticipantAvatarPerformance>();if(authored!=null)return;Object.Destroy(instance);}
+            material=ResonantGeometry.Material(role.archetype,role.color);
             bool stone=role.faction==Faction.StoneChoir;float h=stone?1.3f:1.75f,w=stone?.48f:.3f;
             var body=ResonantGeometry.Lathe(new[]{0f,.15f,.55f,.9f,1f},new[]{w*.5f,w*.95f,w*.65f,w*1.3f,w*.3f});
             ResonantGeometry.MeshObject("Cymatic vestment",root,body,material,Vector3.up*.25f,new Vector3(1,h,1));
@@ -26,9 +31,17 @@ namespace LordLyrical
             for(int k=0;k<(stone?3:2);k++)ResonantGeometry.MeshObject("Root halo",root,ResonantGeometry.Ring(.6f+k*.12f,.015f,48),material,new Vector3(0,.015f+k*.012f,0),Vector3.one);
             if(role.faction==Faction.Founders)ResonantGeometry.MeshObject("Founder mantle",root,ResonantGeometry.Ring(.6f,.08f,8),material,Vector3.up*1.6f,Vector3.one).transform.localRotation=Quaternion.Euler(75,0,0);
         }
+        public Vector3 Hand(bool left=false)
+        {
+            if(NetworkRoleAvatar.TryGetHand(slot,left,out var tracked))return tracked;
+            if(authored&&authored.animator){var hand=authored.animator.GetBoneTransform(left?HumanBodyBones.LeftHand:HumanBodyBones.RightHand);if(hand)return hand.position;}
+            return root.position+new Vector3(left?-.4f:.4f,1.4f,.25f);
+        }
         public void Render(ShowFrame frame,bool occupied,bool local)
         {
-            float t=(float)frame.time;root.gameObject.SetActive(!local);
+            float t=(float)frame.time;root.gameObject.SetActive(!Application.isPlaying&&!local);
+            if(Application.isPlaying){root.position=Position;return;}
+            if(authored!=null){root.localPosition=CinematicPosition(slot,t);root.localRotation=Quaternion.Euler(0,-home.x*5,0);if(root.gameObject.activeInHierarchy)authored.SampleShow(t,frame.amplitude*(occupied?1.4f:.75f));return;}
             bool charge=(slot<2&&t>=42&&t<47),cantor=(slot==2||slot==3)&&t>=34&&t<50;
             float dz=charge?Mathf.Sin(Mathf.Clamp01((t-42)/4)*Mathf.PI)*2:cantor?1.2f:0;
             root.localPosition=CinematicPosition(slot,t);

@@ -46,7 +46,7 @@ namespace LordLyrical
                 beams[i].widthMultiplier=firing?.09f:.06f;
             }
             bool breath=t>=69&&t<81;beams[10].enabled=breath;beams[11].enabled=breath&&t>=74;
-            if(breath){Vector3 end=t<74?lord+Vector3.up*1.5f:new Vector3(Mathf.Sin((t-74)*.6f)*10,1,-3);for(int b=10;b<12;b++){beams[b].widthMultiplier=t<74?.2f:1.1f;for(int j=0;j<24;j++){float u=j/23f;beams[b].SetPosition(j,Vector3.Lerp(mouth,end,u)+Vector3.up*Mathf.Sin(u*40-t*9)*.08f);}}}
+            if(breath){Vector3 end=DragonBreath.Target(t,lord);for(int b=10;b<12;b++){block.Clear();block.SetFloat("_Gain",DragonBreath.Strength(t)*(b==11?DragonBreath.SweepBlend(t):1));beams[b].SetPropertyBlock(block);beams[b].widthMultiplier=Mathf.Lerp(.2f,1.1f,DragonBreath.SweepBlend(t));for(int j=0;j<24;j++){float u=j/23f;beams[b].SetPosition(j,Vector3.Lerp(mouth,end,u)+Vector3.up*Mathf.Sin(u*40-t*9)*.08f*Mathf.Sin(u*Mathf.PI));}}}
             for(int i=0;i<10;i++){word[i].gameObject.SetActive(firing);if(!firing)continue;float age=t-98;word[i].localPosition=Vector3.Lerp(new Vector3(0,2,3),heart,Mathf.Clamp01(age+i*.025f));word[i].localScale=Vector3.one*(.5f+i*.18f+age);word[i].localRotation=Quaternion.Euler(90,i*18,0);}
         }
     }

@@ -20,9 +20,9 @@
     "Two full start, completion and reset cycles; no protocol mismatch"
   ],
   "clock_roundtrip_ms": {
-    "samples": 2441,
-    "max": 140.00000013038516,
-    "mean": 36.03932819974375
+    "samples": 2440,
+    "max": 109.99999986961484,
+    "mean": 36.104098214103736
   },
   "passed": true
 }

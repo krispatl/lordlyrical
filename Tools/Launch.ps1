@@ -16,14 +16,18 @@ if($Mode -eq 'BuildPico') {
     if($buildProcess.ExitCode -ne 0){throw 'Build failed. See Logs/PICO-build.log. Close this project in Unity before a batch build.'}
     Write-Host 'APK: Builds/LordLyrical-PICO.apk';exit
 }
+$serverInstalled=Test-Path -LiteralPath (Join-Path $projectRoot '.venv/Scripts/styly-netsync-server.exe')
+if(!$serverInstalled){
 $uvCommand=Get-Command uv -ErrorAction SilentlyContinue
 $uvExe=if($uvCommand){$uvCommand.Source}else{Join-Path $env:USERPROFILE '.local\bin\uv.exe'}
 if(!(Test-Path -LiteralPath $uvExe)){throw 'Install uv from https://docs.astral.sh/uv/getting-started/installation/ and run again.'}
 if(!(Test-Path .venv/Scripts/python.exe)){& $uvExe venv --python 3.11 .venv;if($LASTEXITCODE){throw 'Python environment setup failed'}}
 & $uvExe pip install --python .venv/Scripts/python.exe styly-netsync-server==0.17.4
 if($LASTEXITCODE){throw 'NetSync installation failed'}
+}
 if($Mode -eq 'Simulator') { & .venv/Scripts/styly-netsync-simulator.exe --clients 10 --room official-load-test --transform-send-rate 20;exit }
 try {$existing=Invoke-RestMethod http://127.0.0.1:8810/status -TimeoutSec 2} catch {$existing=$null}
+if($existing -and $existing.sdk -eq '0.17.4' -and $existing.openingDuration -ne 17){throw 'The running authority uses an older opening. Stop it with Tools/Launch.ps1 -Mode Stop, then launch Server again.'}
 if($existing -and $existing.sdk -eq '0.17.4'){if(!$NoBrowser){Start-Process http://127.0.0.1:8810};Write-Host 'Existing venue authority is available.';exit}
 $serverExe=Join-Path $projectRoot '.venv\Scripts\styly-netsync-server.exe'
 $configText=Get-Content -LiteralPath 'Assets/LordLyrical/ScriptableObjects/Experience.asset' -Raw

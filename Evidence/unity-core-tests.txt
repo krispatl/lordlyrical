@@ -6,4 +6,5 @@ PASS Environment reconstruction, exact wall window, Dragon and title final state
 PASS NTP-style clock offset and outlier filtering
 PASS DSP suspend/restart clock reset and reacquisition
 PASS Atomic show snapshot serialization
+PASS Reject authority with an incompatible opening duration
 PASS Duplicate cue IDs rejected

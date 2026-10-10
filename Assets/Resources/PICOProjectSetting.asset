@@ -15,14 +15,14 @@ MonoBehaviour:
   useContentProtect: 0
   isEyeTracking: 0
   MRSafeguard: 0
-  isHandTracking: 0
+  isHandTracking: 1
   isEyeTrackingCalibration: 0
-  highFrequencyHand: 0
+  highFrequencyHand: 1
   displayFrequency: 72
   contentProtectFlags: 0
-  foveationEnable: 0
+  foveationEnable: 1
   foveatedRenderingMode: 0
-  foveatedRenderingLevel: 0
+  foveatedRenderingLevel: 2
   isSubsampledEnabled: 0
-  handTrackingSupportType: 0
+  handTrackingSupportType: 1
   systemSplashScreen: {fileID: 0}

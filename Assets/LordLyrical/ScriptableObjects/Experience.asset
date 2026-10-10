@@ -24,11 +24,26 @@ MonoBehaviour:
   requiredParticipants: 10
   targetRefreshRate: 72
   vfxQuality: 1
-  countdownDuration: 5
+  countdownDuration: 17
   sequenceDuration: 121
   track: {fileID: 8300000, guid: a0bc8accf091a5b478f0c65bb883028b, type: 3}
   cueJson: {fileID: 4900000, guid: 33fbf8be76d2fab4eafb9591a5dcc43d, type: 3}
-  orcModel: {fileID: 0}
-  dragonModel: {fileID: 0}
-  lordModel: {fileID: 0}
+  orcModel: {fileID: 8588306474045085065, guid: 9a9d3bf92ccb8ea42b75fa2f07c3c415, type: 3}
+  dragonModel: {fileID: 7586028436348186932, guid: 33b516ed543b9094ea25361158fd7d73, type: 3}
+  lordModel: {fileID: 5827014284481932440, guid: 5f02bdd740301fa4d9969421c9a6f9ea, type: 3}
+  chamberModel: {fileID: 3168350388608678160, guid: 4a29186d6fb76b5409fe388c7981f80e, type: 3}
+  finishingModel: {fileID: 4841519573676907738, guid: f6cb5bfa42399e545a2ccd5af9f504ae, type: 3}
+  orcWeapon: {fileID: 3071911015904132588, guid: fc3d36ab2416ab447b3837083bea8d0c, type: 3}
+  voiceCues: {fileID: 11400000, guid: 5e3aa624cee338649ae48381da861d4b, type: 2}
+  participantModels:
+  - {fileID: 2639684857836634175, guid: e4698d9e6d543c5428c7a5d361fa6fe8, type: 3}
+  - {fileID: 6452456701813853462, guid: 00f68f3c4061fc843875005312792b47, type: 3}
+  - {fileID: 267554936082382114, guid: 99e5d020376ed5c4f873975c48ab1551, type: 3}
+  - {fileID: 2104917741146738997, guid: d572f68d407c01244bcb75d7a8812830, type: 3}
+  - {fileID: 1813052486226544571, guid: 08797b8ecb3aed54dab75109138bc905, type: 3}
+  - {fileID: 6354169765093650227, guid: ffb28fb5864deb54d8eb2ca9a2745cdf, type: 3}
+  - {fileID: 8121446659752498187, guid: fcabdd446e7d6814da4f4b26ba673bd8, type: 3}
+  - {fileID: 3122557181263783516, guid: 369aea41063225c41b1ba336c8c5f08b, type: 3}
+  - {fileID: 6671423630433047766, guid: 2378d64b2e568094caa34bd6e5f0e83f, type: 3}
+  - {fileID: 8184633813609383324, guid: 6109799dd8114af4ebfd16c3b11f451f, type: 3}
   lordPortrait: {fileID: 2800000, guid: 603b62afd43ee144e93ea94ce2214791, type: 3}

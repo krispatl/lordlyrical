@@ -1,0 +1,223 @@
+{
+  "id": "G_Balanced",
+  "name": "The Balanced",
+  "key": "G",
+  "family": "High Elves",
+  "hex": "A0D5BC",
+  "height": 1.9,
+  "width": 0.95,
+  "gender": 0.65,
+  "age": 0.4,
+  "muscle": 0.44,
+  "weight": 0.43,
+  "skin": "young_asian_male",
+  "design": "Symmetrical crescent shoulders, jade-silver surcoat and twin circular seals",
+  "ability": "Chord Barrage",
+  "slot": 3,
+  "bones": 53,
+  "meshes": [
+    {
+      "name": "Avatar_Body_LOD0",
+      "triangles": 17000,
+      "vertices": 8952,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Cymatic",
+      "triangles": 632,
+      "vertices": 344,
+      "maxInfluences": 1
+    },
+    {
+      "name": "Avatar_LeftHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_RightHand",
+      "triangles": 3170,
+      "vertices": 1587,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD1",
+      "triangles": 7000,
+      "vertices": 3912,
+      "maxInfluences": 4
+    },
+    {
+      "name": "Avatar_Body_LOD2",
+      "triangles": 3000,
+      "vertices": 1835,
+      "maxInfluences": 4
+    }
+  ],
+  "materials": [
+    {
+      "name": "G_Balanced_Skin",
+      "color": [
+        1.0,
+        0.949999988079071,
+        0.8500000238418579,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "young_asian_male.png"
+    },
+    {
+      "name": "G_Balanced_Vestment",
+      "color": [
+        0.05905882269144058,
+        0.07464706152677536,
+        0.06729412078857422,
+        1.0
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.7200000286102295,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "G_Balanced_Armor",
+      "color": [
+        0.2617647051811218,
+        0.30541175603866577,
+        0.28482353687286377,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.3400000035762787,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "G_Balanced_Hair",
+      "color": [
+        0.02500000037252903,
+        0.02199999988079071,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "Anatomical source G_Balanced.low-poly",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": "Shared_Eyes.png"
+    },
+    {
+      "name": "G_Balanced_Trim",
+      "color": [
+        0.4807843267917633,
+        0.5472941398620605,
+        0.5159215927124023,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.30000001192092896,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "strength": 0.0,
+      "texture": ""
+    },
+    {
+      "name": "G_Balanced_Cymatic",
+      "color": [
+        0.6274510025978088,
+        0.8352941274642944,
+        0.7372549176216125,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.3199999928474426,
+      "emission": [
+        0.6274510025978088,
+        0.8352941274642944,
+        0.7372549176216125,
+        1.0
+      ],
+      "strength": 2.0,
+      "texture": ""
+    }
+  ],
+  "clips": [
+    {
+      "name": "G_Balanced_Idle",
+      "seconds": 3,
+      "loop": true
+    },
+    {
+      "name": "G_Balanced_Walk",
+      "seconds": 1.2,
+      "loop": true
+    },
+    {
+      "name": "G_Balanced_Ability",
+      "seconds": 3,
+      "loop": false
+    },
+    {
+      "name": "G_Balanced_Stagger",
+      "seconds": 1,
+      "loop": false
+    },
+    {
+      "name": "G_Balanced_Rise",
+      "seconds": 4,
+      "loop": false
+    },
+    {
+      "name": "G_Balanced_Hands",
+      "seconds": 2,
+      "loop": true
+    }
+  ]
+}

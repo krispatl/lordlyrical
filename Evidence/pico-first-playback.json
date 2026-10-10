@@ -1,0 +1,19 @@
+{
+  "phase": "Running",
+  "showTime": 28.281000000191852,
+  "headsetTelemetry": {
+    "fps": 71.97661590576172,
+    "battery": 0.5099999904632568,
+    "driftMs": 0.44937402288880435,
+    "rttMs": 0.0,
+    "memoryMb": 121.07873916625977,
+    "time": 26.95413605442179,
+    "phase": "Running",
+    "cue": "orc-emerge",
+    "error": "",
+    "received": 1600862.546
+  },
+  "connection": "USB ADB reverse",
+  "headsetWiFi": "192.168.144.24",
+  "computerLAN": "192.168.1.21"
+}

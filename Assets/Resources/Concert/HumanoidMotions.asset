@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2a42166c0d0d242bd7119aaa08951b, type: 3}
+  m_Name: HumanoidMotions
+  m_EditorClassIdentifier: Assembly-CSharp::LordLyrical.Characters.HumanoidMotionLibrary
+  idle: {fileID: -2576967968662016515, guid: 56fd86b76fc74d24d83522069f5deb9b, type: 3}
+  turnLeft: {fileID: 3094330708855449807, guid: 6f466407f9f035f4fbf426e686e6444b, type: 3}
+  turnRight: {fileID: 3094330708855449807, guid: 0e7376aa8f8f38e4fb138892f92fe2e6, type: 3}
+  walk:
+  - {fileID: 3094330708855449807, guid: c133e3c197c12e04a9dd23bd0966910f, type: 3}
+  - {fileID: 3094330708855449807, guid: dd9cde7e792f5f946b091935d7903296, type: 3}
+  - {fileID: 3094330708855449807, guid: 2cd37dc84c089ac4981cd6d36abd33eb, type: 3}
+  - {fileID: 3094330708855449807, guid: 55d43189338018e4c9e0c2ce1f608563, type: 3}
+  - {fileID: 3094330708855449807, guid: f1f1135ca9cfa8c47bf81718bb0d6873, type: 3}
+  - {fileID: 3094330708855449807, guid: 5dcc71b9770f2554e8fd3ea0d6c1e1f4, type: 3}
+  - {fileID: 3094330708855449807, guid: b702e254d5e77904da0429cfcbc77709, type: 3}
+  - {fileID: 3094330708855449807, guid: 3a4cf5e04ded562489d1c3b2da8c2d7a, type: 3}
+  run:
+  - {fileID: 3094330708855449807, guid: 6deac83e30d8acd4cbb8c7d8a11545bd, type: 3}
+  - {fileID: 3094330708855449807, guid: 152af2cd00aaae34e816ebb8deb4b68e, type: 3}
+  - {fileID: 3094330708855449807, guid: 846fff649819bcf49b933d00ef6f703f, type: 3}
+  - {fileID: 3094330708855449807, guid: ca7bf50d255ff5749a3a9ff602076af8, type: 3}
+  - {fileID: 3094330708855449807, guid: a8e6c7cf678a13541a726c2ae9ec00e3, type: 3}
+  - {fileID: 3094330708855449807, guid: 02fe127be7c987640bef36b78efaf2cf, type: 3}
+  - {fileID: 3094330708855449807, guid: 9f9dbe8815370164d8a2214328af4f13, type: 3}
+  - {fileID: 3094330708855449807, guid: 2d491dc6ab8cc5045919954fe2601203, type: 3}
+  walkStride: 1.52
+  runStride: 2.28
